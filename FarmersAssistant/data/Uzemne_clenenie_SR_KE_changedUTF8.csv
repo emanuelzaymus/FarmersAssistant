@@ -1,0 +1,462 @@
+p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
+1;526509;  Gelnica;801;Gelnica;800;Košický
+2;526541;  Helcmanovce;801;Gelnica;800;Košický
+3;526550;  Henclová;801;Gelnica;800;Košický
+4;543144;  Hrišovce;801;Gelnica;800;Košický
+5;543187;  Jaklovce;801;Gelnica;800;Košický
+6;543233;  Kluknava;801;Gelnica;800;Košický
+7;543241;  Kojšov;801;Gelnica;800;Košický
+8;543322;  Margecany;801;Gelnica;800;Košický
+9;543365;  Mníšek nad Hnilcom;801;Gelnica;800;Košický
+10;543373;  Nálepkovo;801;Gelnica;800;Košický
+11;543497;  Prakovce;801;Gelnica;800;Košický
+12;543501;  Richnava;801;Gelnica;800;Košický
+13;543551;  Smolnícka Huta;801;Gelnica;800;Košický
+14;543560;  Smolník;801;Gelnica;800;Košický
+15;543632;  Stará Voda;801;Gelnica;800;Košický
+16;543659;  Švedlár;801;Gelnica;800;Košický
+17;543683;  Úhorná;801;Gelnica;800;Košický
+18;543705;  Veľký Folkmar;801;Gelnica;800;Košický
+19;526631;  Závadka;801;Gelnica;800;Košický
+20;526649;  Žakarovce;801;Gelnica;800;Košický
+21;599891;  Košice - Džungľa;802;Košice I;800;Košický
+22;598119;  Košice - Kavečany;802;Košice I;800;Košický
+23;598151;  Košice - Sever;802;Košice I;800;Košický
+24;599875;  Košice - Sídlisko Ťahanovce;802;Košice I;800;Košický
+25;598186;  Košice - Staré Mesto;802;Košice I;800;Košický
+26;598127;  Košice - Ťahanovce;802;Košice I;800;Košický
+27;598194;  Košice - Lorinčík;803;Košice II;800;Košický
+28;599972;  Košice - Luník IX;803;Košice II;800;Košický
+29;598216;  Košice - Myslava;803;Košice II;800;Košický
+30;598208;  Košice - Pereš;803;Košice II;800;Košický
+31;599859;  Košice - Poľov;803;Košice II;800;Košický
+32;599883;  Košice - Sídlisko KVP;803;Košice II;800;Košický
+33;599841;  Košice - Šaca;803;Košice II;800;Košický
+34;598224;  Košice - Západ;803;Košice II;800;Košický
+35;598682;  Košice - Dargovských hrdinov;804;Košice III;800;Košický
+36;599018;  Košice - Košická Nová Ves;804;Košice III;800;Košický
+37;599093;  Košice - Barca;805;Košice IV;800;Košický
+38;599824;  Košice - Juh;805;Košice IV;800;Košický
+39;599794;  Košice - Krásna;805;Košice IV;800;Košický
+40;599816;  Košice - Nad jazerom;805;Košice IV;800;Košický
+41;599786;  Košice - Šebastovce;805;Košice IV;800;Košický
+42;599913;  Košice - Vyšné Opátske;805;Košice IV;800;Košický
+43;521141;  Bačkovík;806;Košice - okolie;800;Košický
+44;521159;  Baška;806;Košice - okolie;800;Košický
+45;521167;  Belža;806;Košice - okolie;800;Košický
+46;521175;  Beniakovce;806;Košice - okolie;800;Košický
+47;521183;  Bidovce;806;Košice - okolie;800;Košický
+48;521191;  Blažice;806;Košice - okolie;800;Košický
+49;559831;  Bočiar;806;Košice - okolie;800;Košický
+50;521205;  Bohdanovce;806;Košice - okolie;800;Košický
+51;521213;  Boliarov;806;Košice - okolie;800;Košický
+52;521221;  Budimír;806;Košice - okolie;800;Košický
+53;521248;  Bukovec;806;Košice - okolie;800;Košický
+54;521256;  Bunetice;806;Košice - okolie;800;Košický
+55;521264;  Buzica;806;Košice - okolie;800;Košický
+56;521272;  Cestice;806;Košice - okolie;800;Košický
+57;521281;  Čakanovce;806;Košice - okolie;800;Košický
+58;521299;  Čaňa;806;Košice - okolie;800;Košický
+59;521302;  Čečejovce;806;Košice - okolie;800;Košický
+60;521311;  Čižatice;806;Košice - okolie;800;Košický
+61;521329;  Debraď;806;Košice - okolie;800;Košický
+62;521337;  Drienovec;806;Košice - okolie;800;Košický
+63;521345;  Družstevná pri Hornáde;806;Košice - okolie;800;Košický
+64;521353;  Ďurďošík;806;Košice - okolie;800;Košický
+65;521361;  Ďurkov;806;Košice - okolie;800;Košický
+66;559873;  Dvorníky - Včeláre;806;Košice - okolie;800;Košický
+67;521370;  Geča;806;Košice - okolie;800;Košický
+68;521388;  Gyňov;806;Košice - okolie;800;Košický
+69;521396;  Hačava;806;Košice - okolie;800;Košický
+70;518123;  Háj;806;Košice - okolie;800;Košický
+71;521400;  Haniska;806;Košice - okolie;800;Košický
+72;521418;  Herľany;806;Košice - okolie;800;Košický
+73;521426;  Hodkovce;806;Košice - okolie;800;Košický
+74;518107;  Hosťovce;806;Košice - okolie;800;Košický
+75;521442;  Hrašovík;806;Košice - okolie;800;Košický
+76;521469;  Hýľov;806;Košice - okolie;800;Košický
+77;599310;  Chorváty;806;Košice - okolie;800;Košický
+78;521477;  Chrastné;806;Košice - okolie;800;Košický
+79;521485;  Janík;806;Košice - okolie;800;Košický
+80;521493;  Jasov;806;Košice - okolie;800;Košický
+81;521507;  Kalša;806;Košice - okolie;800;Košický
+82;521523;  Kecerovce;806;Košice - okolie;800;Košický
+83;521540;  Kecerovský Lipovec;806;Košice - okolie;800;Košický
+84;559687;  Kechnec;806;Košice - okolie;800;Košický
+85;521558;  Kokšov - Bakša;806;Košice - okolie;800;Košický
+86;521566;  Komárovce;806;Košice - okolie;800;Košický
+87;582514;  Kostoľany nad Hornádom;806;Košice - okolie;800;Košický
+88;521574;  Košická Belá;806;Košice - okolie;800;Košický
+89;521582;  Košická Polianka;806;Košice - okolie;800;Košický
+90;521591;  Košické Oľšany;806;Košice - okolie;800;Košický
+91;521604;  Košický Klečenov;806;Košice - okolie;800;Košický
+92;521612;  Kráľovce;806;Košice - okolie;800;Košický
+93;521639;  Kysak;806;Košice - okolie;800;Košický
+94;521655;  Malá Ida;806;Košice - okolie;800;Košický
+95;521663;  Malá Lodina;806;Košice - okolie;800;Košický
+96;521671;  Medzev;806;Košice - okolie;800;Košický
+97;580252;  Milhosť;806;Košice - okolie;800;Košický
+98;521680;  Mokrance;806;Košice - okolie;800;Košický
+99;521698;  Moldava nad Bodvou;806;Košice - okolie;800;Košický
+100;521701;  Mudrovce;806;Košice - okolie;800;Košický
+101;518140;  Nižná Hutka;806;Košice - okolie;800;Košický
+102;521728;  Nižná Kamenica;806;Košice - okolie;800;Košický
+103;521736;  Nižná Myšľa;806;Košice - okolie;800;Košický
+104;521744;  Nižný Čaj;806;Košice - okolie;800;Košický
+105;521752;  Nižný Klátov;806;Košice - okolie;800;Košický
+106;521761;  Nižný Lánec;806;Košice - okolie;800;Košický
+107;521795;  Nová Polhora;806;Košice - okolie;800;Košický
+108;521787;  Nováčany;806;Košice - okolie;800;Košický
+109;521809;  Nový Salaš;806;Košice - okolie;800;Košický
+110;521817;  Obišovce;806;Košice - okolie;800;Košický
+111;521825;  Olšovany;806;Košice - okolie;800;Košický
+112;521833;  Opátka;806;Košice - okolie;800;Košický
+113;521841;  Opiná;806;Košice - okolie;800;Košický
+114;521850;  Paňovce;806;Košice - okolie;800;Košický
+115;521868;  Peder;806;Košice - okolie;800;Košický
+116;521876;  Perín - Chym;806;Košice - okolie;800;Košický
+117;521884;  Ploské;806;Košice - okolie;800;Košický
+118;521892;  Poproč;806;Košice - okolie;800;Košický
+119;521906;  Rákoš;806;Košice - okolie;800;Košický
+120;521914;  Rankovce;806;Košice - okolie;800;Košický
+121;521922;  Rešica;806;Košice - okolie;800;Košický
+122;521931;  Rozhanovce;806;Košice - okolie;800;Košický
+123;521949;  Rudník;806;Košice - okolie;800;Košický
+124;521957;  Ruskov;806;Košice - okolie;800;Košický
+125;521965;  Sady nad Torysou;806;Košice - okolie;800;Košický
+126;521973;  Seňa;806;Košice - okolie;800;Košický
+127;521981;  Skároš;806;Košice - okolie;800;Košický
+128;518115;  Slančík;806;Košice - okolie;800;Košický
+129;522007;  Slanec;806;Košice - okolie;800;Košický
+130;522015;  Slanská Huta;806;Košice - okolie;800;Košický
+131;522023;  Slanské Nové Mesto;806;Košice - okolie;800;Košický
+132;522031;  Sokoľ;806;Košice - okolie;800;Košický
+133;559865;  Sokoľany;806;Košice - okolie;800;Košický
+134;522040;  Svinica;806;Košice - okolie;800;Košický
+135;522066;  Šemša;806;Košice - okolie;800;Košický
+136;522074;  Štós;806;Košice - okolie;800;Košický
+137;522082;  Trebejov;806;Košice - okolie;800;Košický
+138;522091;  Trsťany;806;Košice - okolie;800;Košický
+139;522104;  Trstené pri Hornáde;806;Košice - okolie;800;Košický
+140;559784;  Turňa nad Bodvou;806;Košice - okolie;800;Košický
+141;521779;  Turnianska Nová Ves;806;Košice - okolie;800;Košický
+142;522121;  Vajkovce;806;Košice - okolie;800;Košický
+143;522139;  Valaliky;806;Košice - okolie;800;Košický
+144;522147;  Veľká Ida;806;Košice - okolie;800;Košický
+145;522155;  Veľká Lodina;806;Košice - okolie;800;Košický
+146;522163;  Vtáčkovce;806;Košice - okolie;800;Košický
+147;522171;  Vyšná Hutka;806;Košice - okolie;800;Košický
+148;522180;  Vyšná Kamenica;806;Košice - okolie;800;Košický
+149;522198;  Vyšná Myšľa;806;Košice - okolie;800;Košický
+150;522201;  Vyšný Čaj;806;Košice - okolie;800;Košický
+151;522210;  Vyšný Klátov;806;Košice - okolie;800;Košický
+152;582093;  Vyšný Medzev;806;Košice - okolie;800;Košický
+153;559881;  Zádiel;806;Košice - okolie;800;Košický
+154;522244;  Zlatá Idka;806;Košice - okolie;800;Košický
+155;522252;  Žarnov;806;Košice - okolie;800;Košický
+156;522261;  Ždaňa;806;Košice - okolie;800;Košický
+157;522287;  Bajany;807;Michalovce;800;Košický
+158;522295;  Bánovce nad Ondavou;807;Michalovce;800;Košický
+159;528137;  Beša;807;Michalovce;800;Košický
+160;522368;  Bracovce;807;Michalovce;800;Košický
+161;513857;  Budince;807;Michalovce;800;Košický
+162;522376;  Budkovce;807;Michalovce;800;Košický
+163;522392;  Čečehov;807;Michalovce;800;Košický
+164;528277;  Čičarovce;807;Michalovce;800;Košický
+165;528307;  Čierne Pole;807;Michalovce;800;Košický
+166;528331;  Drahňov;807;Michalovce;800;Košický
+167;522406;  Dúbravka;807;Michalovce;800;Košický
+168;522414;  Falkušovce;807;Michalovce;800;Košický
+169;522431;  Hatalov;807;Michalovce;800;Košický
+170;522449;  Hažín;807;Michalovce;800;Košický
+171;522465;  Hnojné;807;Michalovce;800;Košický
+172;522481;  Horovce;807;Michalovce;800;Košický
+173;522511;  Iňačovce;807;Michalovce;800;Košický
+174;528391;  Ižkovce;807;Michalovce;800;Košický
+175;522546;  Jastrabie pri Michalovciach;807;Michalovce;800;Košický
+176;522562;  Jovsa;807;Michalovce;800;Košický
+177;522571;  Kačanov;807;Michalovce;800;Košický
+178;522589;  Kaluža;807;Michalovce;800;Košický
+179;528404;  Kapušianske Kľačany;807;Michalovce;800;Košický
+180;522597;  Klokočov;807;Michalovce;800;Košický
+181;522651;  Krásnovce;807;Michalovce;800;Košický
+182;528463;  Krišovská Liesková;807;Michalovce;800;Košický
+183;522686;  Kusín;807;Michalovce;800;Košický
+184;522694;  Lastomír;807;Michalovce;800;Košický
+185;522708;  Laškovce;807;Michalovce;800;Košický
+186;522724;  Lesné;807;Michalovce;800;Košický
+187;522732;  Ložín;807;Michalovce;800;Košický
+188;522741;  Lúčky;807;Michalovce;800;Košický
+189;522759;  Malčice;807;Michalovce;800;Košický
+190;522767;  Malé Raškovce;807;Michalovce;800;Košický
+191;522783;  Markovce;807;Michalovce;800;Košický
+192;528579;  Maťovské Vojkovce;807;Michalovce;800;Košický
+193;522279;  Michalovce;807;Michalovce;800;Košický
+194;522791;  Moravany;807;Michalovce;800;Košický
+195;522805;  Nacina Ves;807;Michalovce;800;Košický
+196;528633;  Oborín;807;Michalovce;800;Košický
+197;522848;  Oreské;807;Michalovce;800;Košický
+198;522864;  Palín;807;Michalovce;800;Košický
+199;522872;  Pavlovce nad Uhom;807;Michalovce;800;Košický
+200;522881;  Petrikovce;807;Michalovce;800;Košický
+201;522902;  Petrovce nad Laborcom;807;Michalovce;800;Košický
+202;522945;  Poruba pod Vihorlatom;807;Michalovce;800;Košický
+203;522961;  Pozdišovce;807;Michalovce;800;Košický
+204;528692;  Ptrukša;807;Michalovce;800;Košický
+205;522988;  Pusté Čemerné;807;Michalovce;800;Košický
+206;522996;  Rakovec nad Ondavou;807;Michalovce;800;Košický
+207;528714;  Ruská;807;Michalovce;800;Košický
+208;523054;  Senné;807;Michalovce;800;Košický
+209;523062;  Slavkovce;807;Michalovce;800;Košický
+210;523071;  Sliepkovce;807;Michalovce;800;Košický
+211;523097;  Staré;807;Michalovce;800;Košický
+212;523101;  Strážske;807;Michalovce;800;Košický
+213;523119;  Stretava;807;Michalovce;800;Košický
+214;523127;  Stretavka;807;Michalovce;800;Košický
+215;523135;  Suché;807;Michalovce;800;Košický
+216;523151;  Šamudovce;807;Michalovce;800;Košický
+217;523186;  Trhovište;807;Michalovce;800;Košický
+218;523194;  Trnava pri Laborci;807;Michalovce;800;Košický
+219;523208;  Tušice;807;Michalovce;800;Košický
+220;523216;  Tušická Nová Ves;807;Michalovce;800;Košický
+221;543853;  Veľké Kapušany;807;Michalovce;800;Košický
+222;543870;  Veľké Raškovce;807;Michalovce;800;Košický
+223;543888;  Veľké Slemence;807;Michalovce;800;Košický
+224;523259;  Vinné;807;Michalovce;800;Košický
+225;543942;  Vojany;807;Michalovce;800;Košický
+226;523275;  Voľa;807;Michalovce;800;Košický
+227;523283;  Vŕbnica;807;Michalovce;800;Košický
+228;523291;  Vysoká nad Uhom;807;Michalovce;800;Košický
+229;523241;  Zalužice;807;Michalovce;800;Košický
+230;523348;  Závadka;807;Michalovce;800;Košický
+231;523356;  Zbudza;807;Michalovce;800;Košický
+232;523364;  Zemplínska Široká;807;Michalovce;800;Košický
+233;522635;  Zemplínske Kopčany;807;Michalovce;800;Košický
+234;523372;  Žbince;807;Michalovce;800;Košický
+235;525537;  Ardovo;808;Rožňava;800;Košický
+236;525545;  Betliar;808;Rožňava;800;Košický
+237;525553;  Bohúňovo;808;Rožňava;800;Košický
+238;525561;  Bôrka;808;Rožňava;800;Košický
+239;525570;  Brdárka;808;Rožňava;800;Košický
+240;514578;  Bretka;808;Rožňava;800;Košický
+241;560022;  Brzotín;808;Rožňava;800;Košický
+242;525596;  Čierna Lehota;808;Rožňava;800;Košický
+243;525600;  Čoltovo;808;Rožňava;800;Košický
+244;560031;  Čučma;808;Rožňava;800;Košický
+245;525618;  Dedinky;808;Rožňava;800;Košický
+246;525626;  Dlhá Ves;808;Rožňava;800;Košický
+247;525634;  Dobšiná;808;Rožňava;800;Košický
+248;525642;  Drnava;808;Rožňava;800;Košický
+249;525651;  Gemerská Hôrka;808;Rožňava;800;Košický
+250;514748;  Gemerská Panica;808;Rožňava;800;Košický
+251;525669;  Gemerská Poloma;808;Rožňava;800;Košický
+252;525693;  Gočaltovo;808;Rožňava;800;Košický
+253;525707;  Gočovo;808;Rožňava;800;Košický
+254;525715;  Hanková;808;Rožňava;800;Košický
+255;525723;  Henckovce;808;Rožňava;800;Košický
+256;525731;  Honce;808;Rožňava;800;Košický
+257;525740;  Hrhov;808;Rožňava;800;Košický
+258;525758;  Hrušov;808;Rožňava;800;Košický
+259;525782;  Jablonov nad Turňou;808;Rožňava;800;Košický
+260;560049;  Jovice;808;Rožňava;800;Košický
+261;525821;  Kečovo;808;Rožňava;800;Košický
+262;525839;  Kobeliarovo;808;Rožňava;800;Košický
+263;525847;  Koceľovce;808;Rožňava;800;Košický
+264;525855;  Kováčová;808;Rožňava;800;Košický
+265;525863;  Krásnohorská Dlhá Lúka;808;Rožňava;800;Košický
+266;525871;  Krásnohorské Podhradie;808;Rožňava;800;Košický
+267;560065;  Kružná;808;Rožňava;800;Košický
+268;525898;  Kunova Teplica;808;Rožňava;800;Košický
+269;525910;  Lipovník;808;Rožňava;800;Košický
+270;525936;  Lúčka;808;Rožňava;800;Košický
+271;525952;  Markuška;808;Rožňava;800;Košický
+272;525961;  Meliata;808;Rožňava;800;Košický
+273;526045;  Nižná Slaná;808;Rožňava;800;Košický
+274;526053;  Ochtiná;808;Rožňava;800;Košický
+275;526061;  Pača;808;Rožňava;800;Košický
+276;526070;  Pašková;808;Rožňava;800;Košický
+277;526088;  Petrovo;808;Rožňava;800;Košický
+278;526096;  Plešivec;808;Rožňava;800;Košický
+279;526126;  Rakovnica;808;Rožňava;800;Košický
+280;526134;  Rejdová;808;Rožňava;800;Košický
+281;526177;  Rochovce;808;Rožňava;800;Košický
+282;526185;  Roštár;808;Rožňava;800;Košický
+283;526193;  Rozložná;808;Rožňava;800;Košický
+284;525529;  Rožňava;808;Rožňava;800;Košický
+285;526207;  Rožňavské Bystré;808;Rožňava;800;Košický
+286;526215;  Rudná;808;Rožňava;800;Košický
+287;526223;  Silica;808;Rožňava;800;Košický
+288;526231;  Silická Brezová;808;Rožňava;800;Košický
+289;526240;  Silická Jablonica;808;Rožňava;800;Košický
+290;526266;  Slavec;808;Rožňava;800;Košický
+291;526274;  Slavoška;808;Rožňava;800;Košický
+292;526282;  Slavošovce;808;Rožňava;800;Košický
+293;526291;  Stratená;808;Rožňava;800;Košický
+294;526312;  Štítnik;808;Rožňava;800;Košický
+295;526339;  Vlachovo;808;Rožňava;800;Košický
+296;526347;  Vyšná Slaná;808;Rožňava;800;Košický
+297;522309;  Baškovce;809;Sobrance;800;Košický
+298;522317;  Beňatina;809;Sobrance;800;Košický
+299;522325;  Bežovce;809;Sobrance;800;Košický
+300;522333;  Blatná Polianka;809;Sobrance;800;Košický
+301;522341;  Blatné Remety;809;Sobrance;800;Košický
+302;522350;  Blatné Revištia;809;Sobrance;800;Košický
+303;522384;  Bunkovce;809;Sobrance;800;Košický
+304;522422;  Fekišovce;809;Sobrance;800;Košický
+305;522457;  Hlivištia;809;Sobrance;800;Košický
+306;522473;  Horňa;809;Sobrance;800;Košický
+307;522490;  Husák;809;Sobrance;800;Košický
+308;522503;  Choňkovce;809;Sobrance;800;Košický
+309;522520;  Inovce;809;Sobrance;800;Košický
+310;522538;  Jasenov;809;Sobrance;800;Košický
+311;522554;  Jenkovce;809;Sobrance;800;Košický
+312;522601;  Kolibabovce;809;Sobrance;800;Košický
+313;522627;  Koňuš;809;Sobrance;800;Košický
+314;522643;  Koromľa;809;Sobrance;800;Košický
+315;522660;  Krčava;809;Sobrance;800;Košický
+316;522678;  Kristy;809;Sobrance;800;Košický
+317;522716;  Lekárovce;809;Sobrance;800;Košický
+318;522813;  Nižná Rybnica;809;Sobrance;800;Košický
+319;522821;  Nižné Nemecké;809;Sobrance;800;Košický
+320;522830;  Orechová;809;Sobrance;800;Košický
+321;522856;  Ostrov;809;Sobrance;800;Košický
+322;522899;  Petrovce;809;Sobrance;800;Košický
+323;522911;  Pinkovce;809;Sobrance;800;Košický
+324;522929;  Podhoroď;809;Sobrance;800;Košický
+325;522937;  Porostov;809;Sobrance;800;Košický
+326;522953;  Porúbka;809;Sobrance;800;Košický
+327;522970;  Priekopa;809;Sobrance;800;Košický
+328;523003;  Remetské Hámre;809;Sobrance;800;Košický
+329;523011;  Ruská Bystrá;809;Sobrance;800;Košický
+330;523020;  Ruskovce;809;Sobrance;800;Košický
+331;523038;  Ruský Hrabovec;809;Sobrance;800;Košický
+332;523046;  Sejkov;809;Sobrance;800;Košický
+333;523089;  Sobrance;809;Sobrance;800;Košický
+334;523143;  Svätuš;809;Sobrance;800;Košický
+335;523160;  Tašuľa;809;Sobrance;800;Košický
+336;523178;  Tibava;809;Sobrance;800;Košický
+337;523224;  Úbrež;809;Sobrance;800;Košický
+338;523232;  Veľké Revištia;809;Sobrance;800;Košický
+339;523267;  Vojnatina;809;Sobrance;800;Košický
+340;523305;  Vyšná Rybnica;809;Sobrance;800;Košický
+341;523313;  Vyšné Nemecké;809;Sobrance;800;Košický
+342;523321;  Vyšné Remety;809;Sobrance;800;Košický
+343;523330;  Záhor;809;Sobrance;800;Košický
+344;526363;  Arnutovce;810;Spišská Nová Ves;800;Košický
+345;526398;  Betlanovce;810;Spišská Nová Ves;800;Košický
+346;526436;  Bystrany;810;Spišská Nová Ves;800;Košický
+347;526444;  Danišovce;810;Spišská Nová Ves;800;Košický
+348;526533;  Harichovce;810;Spišská Nová Ves;800;Košický
+349;526568;  Hincovce;810;Spišská Nová Ves;800;Košický
+350;526576;  Hnilčík;810;Spišská Nová Ves;800;Košický
+351;526584;  Hnilec;810;Spišská Nová Ves;800;Košický
+352;526592;  Hrabušice;810;Spišská Nová Ves;800;Košický
+353;543152;  Chrasť nad Hornádom;810;Spišská Nová Ves;800;Košický
+354;543161;  Iliašovce;810;Spišská Nová Ves;800;Košický
+355;543195;  Jamník;810;Spišská Nová Ves;800;Košický
+356;543209;  Kaľava;810;Spišská Nová Ves;800;Košický
+357;543250;  Kolinovce;810;Spišská Nová Ves;800;Košický
+358;543268;  Krompachy;810;Spišská Nová Ves;800;Košický
+359;543284;  Letanovce;810;Spišská Nová Ves;800;Košický
+360;543306;  Lieskovany;810;Spišská Nová Ves;800;Košický
+361;543331;  Markušovce;810;Spišská Nová Ves;800;Košický
+362;543349;  Matejovce nad Hornádom;810;Spišská Nová Ves;800;Košický
+363;543357;  Mlynky;810;Spišská Nová Ves;800;Košický
+364;543403;  Odorín;810;Spišská Nová Ves;800;Košický
+365;543411;  Olcnava;810;Spišská Nová Ves;800;Košický
+366;543438;  Oľšavka;810;Spišská Nová Ves;800;Košický
+367;543489;  Poráč;810;Spišská Nová Ves;800;Košický
+368;543519;  Rudňany;810;Spišská Nová Ves;800;Košický
+369;543527;  Slatvina;810;Spišská Nová Ves;800;Košický
+370;543535;  Slovinky;810;Spišská Nová Ves;800;Košický
+371;560154;  Smižany;810;Spišská Nová Ves;800;Košický
+372;526355;  Spišská Nová Ves;810;Spišská Nová Ves;800;Košický
+373;543586;  Spišské Tomášovce;810;Spišská Nová Ves;800;Košický
+374;543594;  Spišské Vlachy;810;Spišská Nová Ves;800;Košický
+375;543616;  Spišský Hrušov;810;Spišská Nová Ves;800;Košický
+376;543667;  Teplička;810;Spišská Nová Ves;800;Košický
+377;543713;  Vítkovce;810;Spišská Nová Ves;800;Košický
+378;543721;  Vojkovce;810;Spišská Nová Ves;800;Košický
+379;526657;  Žehra;810;Spišská Nová Ves;800;Košický
+380;528102;  Bačka;811;Trebišov;800;Košický
+381;528111;  Bačkov;811;Trebišov;800;Košický
+382;528129;  Bara;811;Trebišov;800;Košický
+383;528145;  Biel;811;Trebišov;800;Košický
+384;528161;  Boľ;811;Trebišov;800;Košický
+385;528170;  Borša;811;Trebišov;800;Košický
+386;528188;  Boťany;811;Trebišov;800;Košický
+387;528200;  Brehov;811;Trebišov;800;Košický
+388;528218;  Brezina;811;Trebišov;800;Košický
+389;528226;  Byšta;811;Trebišov;800;Košický
+390;528234;  Cejkov;811;Trebišov;800;Košický
+391;528242;  Čeľovce;811;Trebišov;800;Košický
+392;528251;  Čerhov;811;Trebišov;800;Košický
+393;528269;  Černochov;811;Trebišov;800;Košický
+394;528285;  Čierna;811;Trebišov;800;Košický
+395;528293;  Čierna nad Tisou;811;Trebišov;800;Košický
+396;528315;  Dargov;811;Trebišov;800;Košický
+397;528323;  Dobrá;811;Trebišov;800;Košický
+398;528340;  Dvorianky;811;Trebišov;800;Košický
+399;528358;  Egreš;811;Trebišov;800;Košický
+400;528366;  Hraň;811;Trebišov;800;Košický
+401;528374;  Hrčeľ;811;Trebišov;800;Košický
+402;528382;  Hriadky;811;Trebišov;800;Košický
+403;528412;  Kašov;811;Trebišov;800;Košický
+404;528421;  Kazimír;811;Trebišov;800;Košický
+405;513831;  Klin nad Bodrogom;811;Trebišov;800;Košický
+406;528439;  Kožuchov;811;Trebišov;800;Košický
+407;528447;  Kráľovský Chlmec;811;Trebišov;800;Košický
+408;528455;  Kravany;811;Trebišov;800;Košický
+409;528471;  Kuzmice;811;Trebišov;800;Košický
+410;528480;  Kysta;811;Trebišov;800;Košický
+411;528498;  Ladmovce;811;Trebišov;800;Košický
+412;528501;  Lastovce;811;Trebišov;800;Košický
+413;528510;  Leles;811;Trebišov;800;Košický
+414;528528;  Luhyňa;811;Trebišov;800;Košický
+415;513792;  Malá Tŕňa;811;Trebišov;800;Košický
+416;528536;  Malé Ozorovce;811;Trebišov;800;Košický
+417;528544;  Malé Trakany;811;Trebišov;800;Košický
+418;528552;  Malý Horeš;811;Trebišov;800;Košický
+419;528561;  Malý Kamenec;811;Trebišov;800;Košický
+420;528587;  Michaľany;811;Trebišov;800;Košický
+421;528609;  Nižný Žipov;811;Trebišov;800;Košický
+422;528617;  Novosad;811;Trebišov;800;Košický
+423;528625;  Nový Ruskov;811;Trebišov;800;Košický
+424;528676;  Parchovany;811;Trebišov;800;Košický
+425;528641;  Plechotice;811;Trebišov;800;Košický
+426;528668;  Poľany;811;Trebišov;800;Košický
+427;528684;  Pribeník;811;Trebišov;800;Košický
+428;528706;  Rad;811;Trebišov;800;Košický
+429;528722;  Sečovce;811;Trebišov;800;Košický
+430;543730;  Sirník;811;Trebišov;800;Košický
+431;543748;  Slivník;811;Trebišov;800;Košický
+432;543756;  Slovenské Nové Mesto;811;Trebišov;800;Košický
+433;543764;  Soľnička;811;Trebišov;800;Košický
+434;543772;  Somotor;811;Trebišov;800;Košický
+435;513849;  Stanča;811;Trebišov;800;Košický
+436;543781;  Stankovce;811;Trebišov;800;Košický
+437;543799;  Strážne;811;Trebišov;800;Košický
+438;543802;  Streda nad Bodrogom;811;Trebišov;800;Košický
+439;528153;  Svätá Mária;811;Trebišov;800;Košický
+440;528650;  Svätuše;811;Trebišov;800;Košický
+441;543811;  Svinice;811;Trebišov;800;Košický
+442;528099;  Trebišov;811;Trebišov;800;Košický
+443;543829;  Trnávka;811;Trebišov;800;Košický
+444;543845;  Veľaty;811;Trebišov;800;Košický
+445;513806;  Veľká Tŕňa;811;Trebišov;800;Košický
+446;543861;  Veľké Ozorovce;811;Trebišov;800;Košický
+447;543896;  Veľké Trakany;811;Trebišov;800;Košický
+448;543900;  Veľký Horeš;811;Trebišov;800;Košický
+449;543918;  Veľký Kamenec;811;Trebišov;800;Košický
+450;543926;  Viničky;811;Trebišov;800;Košický
+451;543934;  Višňov;811;Trebišov;800;Košický
+452;543951;  Vojčice;811;Trebišov;800;Košický
+453;543969;  Vojka;811;Trebišov;800;Košický
+454;543977;  Zatín;811;Trebišov;800;Košický
+455;543985;  Zbehňov;811;Trebišov;800;Košický
+456;543993;  Zemplín;811;Trebišov;800;Košický
+457;544001;  Zemplínska Nová Ves;811;Trebišov;800;Košický
+458;544019;  Zemplínska Teplica;811;Trebišov;800;Košický
+459;544027;  Zemplínske Hradište;811;Trebišov;800;Košický
+460;544035;  Zemplínske Jastrabie;811;Trebišov;800;Košický
+461;544043;  Zemplínsky Branč;811;Trebišov;800;Košický

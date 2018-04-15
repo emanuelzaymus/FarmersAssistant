@@ -1,0 +1,355 @@
+p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
+1;501034;  Bajč;401;Komárno;400;Nitriansky
+2;501395;  Bátorove Kosihy;401;Komárno;400;Nitriansky
+3;501042;  Bodza;401;Komárno;400;Nitriansky
+4;555819;  Bodzianske Lúky;401;Komárno;400;Nitriansky
+5;501069;  Brestovec;401;Komárno;400;Nitriansky
+6;501077;  Búč;401;Komárno;400;Nitriansky
+7;501085;  Čalovec;401;Komárno;400;Nitriansky
+8;501093;  Číčov;401;Komárno;400;Nitriansky
+9;501107;  Dedina Mládeže;401;Komárno;400;Nitriansky
+10;501123;  Dulovce;401;Komárno;400;Nitriansky
+11;580911;  Holiare;401;Komárno;400;Nitriansky
+12;501140;  Hurbanovo;401;Komárno;400;Nitriansky
+13;501158;  Chotín;401;Komárno;400;Nitriansky
+14;501166;  Imeľ;401;Komárno;400;Nitriansky
+15;501174;  Iža;401;Komárno;400;Nitriansky
+16;501182;  Kameničná;401;Komárno;400;Nitriansky
+17;501191;  Klížska Nemá;401;Komárno;400;Nitriansky
+18;501204;  Kolárovo;401;Komárno;400;Nitriansky
+19;501026;  Komárno;401;Komárno;400;Nitriansky
+20;501212;  Kravany nad Dunajom;401;Komárno;400;Nitriansky
+21;501221;  Lipové;401;Komárno;400;Nitriansky
+22;501239;  Marcelová;401;Komárno;400;Nitriansky
+23;501247;  Martovce;401;Komárno;400;Nitriansky
+24;501255;  Moča;401;Komárno;400;Nitriansky
+25;501263;  Modrany;401;Komárno;400;Nitriansky
+26;501271;  Mudroňovo;401;Komárno;400;Nitriansky
+27;501280;  Nesvady;401;Komárno;400;Nitriansky
+28;501301;  Okoličná na Ostrove;401;Komárno;400;Nitriansky
+29;501310;  Patince;401;Komárno;400;Nitriansky
+30;501328;  Pribeta;401;Komárno;400;Nitriansky
+31;501336;  Radvaň nad Dunajom;401;Komárno;400;Nitriansky
+32;501344;  Sokolce;401;Komárno;400;Nitriansky
+33;501115;  Svätý Peter;401;Komárno;400;Nitriansky
+34;501352;  Šrobárová;401;Komárno;400;Nitriansky
+35;501361;  Tôň;401;Komárno;400;Nitriansky
+36;501379;  Trávnik;401;Komárno;400;Nitriansky
+37;501387;  Veľké Kosihy;401;Komárno;400;Nitriansky
+38;555827;  Virt;401;Komárno;400;Nitriansky
+39;501409;  Vrbová nad Váhom;401;Komárno;400;Nitriansky
+40;501417;  Zemianska Olča;401;Komárno;400;Nitriansky
+41;501425;  Zlatná na Ostrove;401;Komárno;400;Nitriansky
+42;502049;  Bajka;402;Levice;400;Nitriansky
+43;502057;  Bátovce;402;Levice;400;Nitriansky
+44;502065;  Beša;402;Levice;400;Nitriansky
+45;502073;  Bielovce;402;Levice;400;Nitriansky
+46;580937;  Bohunice;402;Levice;400;Nitriansky
+47;502090;  Bory;402;Levice;400;Nitriansky
+48;502103;  Brhlovce;402;Levice;400;Nitriansky
+49;502111;  Čajkov;402;Levice;400;Nitriansky
+50;502120;  Čaka;402;Levice;400;Nitriansky
+51;555843;  Čata;402;Levice;400;Nitriansky
+52;502154;  Demandice;402;Levice;400;Nitriansky
+53;502162;  Devičany;402;Levice;400;Nitriansky
+54;502171;  Dolná Seč;402;Levice;400;Nitriansky
+55;502189;  Dolné Semerovce;402;Levice;400;Nitriansky
+56;502197;  Dolný Pial;402;Levice;400;Nitriansky
+57;502201;  Domadice;402;Levice;400;Nitriansky
+58;502219;  Drženice;402;Levice;400;Nitriansky
+59;502227;  Farná;402;Levice;400;Nitriansky
+60;502243;  Hokovce;402;Levice;400;Nitriansky
+61;502251;  Hontianska Vrbica;402;Levice;400;Nitriansky
+62;545350;  Hontianske Trsťany;402;Levice;400;Nitriansky
+63;502260;  Horná Seč;402;Levice;400;Nitriansky
+64;502278;  Horné Semerovce;402;Levice;400;Nitriansky
+65;502286;  Horné Turovce;402;Levice;400;Nitriansky
+66;502294;  Horný Pial;402;Levice;400;Nitriansky
+67;581895;  Hrkovce;402;Levice;400;Nitriansky
+68;502324;  Hronovce;402;Levice;400;Nitriansky
+69;502332;  Hronské Kľačany;402;Levice;400;Nitriansky
+70;502341;  Hronské Kosihy;402;Levice;400;Nitriansky
+71;502359;  Iňa;402;Levice;400;Nitriansky
+72;502367;  Ipeľské Úľany;402;Levice;400;Nitriansky
+73;502375;  Ipeľský Sokolec;402;Levice;400;Nitriansky
+74;502383;  Jabloňovce;402;Levice;400;Nitriansky
+75;556777;  Jesenské;402;Levice;400;Nitriansky
+76;502391;  Jur nad Hronom;402;Levice;400;Nitriansky
+77;502413;  Kalná nad Hronom;402;Levice;400;Nitriansky
+78;502472;  Keť;402;Levice;400;Nitriansky
+79;502421;  Kozárovce;402;Levice;400;Nitriansky
+80;502430;  Krškany;402;Levice;400;Nitriansky
+81;502448;  Kubáňovo;402;Levice;400;Nitriansky
+82;502456;  Kukučínov;402;Levice;400;Nitriansky
+83;502464;  Kuraľany;402;Levice;400;Nitriansky
+84;502031;  Levice;402;Levice;400;Nitriansky
+85;502481;  Lok;402;Levice;400;Nitriansky
+86;502499;  Lontov;402;Levice;400;Nitriansky
+87;502502;  Lula;402;Levice;400;Nitriansky
+88;502511;  Málaš;402;Levice;400;Nitriansky
+89;581135;  Malé Kozmálovce;402;Levice;400;Nitriansky
+90;502537;  Malé Ludince;402;Levice;400;Nitriansky
+91;502570;  Mýtne Ludany;402;Levice;400;Nitriansky
+92;502588;  Nová Dedina;402;Levice;400;Nitriansky
+93;502596;  Nový Tekov;402;Levice;400;Nitriansky
+94;502600;  Nýrovce;402;Levice;400;Nitriansky
+95;502618;  Ondrejovce;402;Levice;400;Nitriansky
+96;502626;  Pastovce;402;Levice;400;Nitriansky
+97;502634;  Pečenice;402;Levice;400;Nitriansky
+98;502642;  Plášťovce;402;Levice;400;Nitriansky
+99;502651;  Plavé Vozokany;402;Levice;400;Nitriansky
+100;502669;  Podlužany;402;Levice;400;Nitriansky
+101;502677;  Pohronský Ruskov;402;Levice;400;Nitriansky
+102;502693;  Pukanec;402;Levice;400;Nitriansky
+103;502707;  Rybník;402;Levice;400;Nitriansky
+104;502715;  Santovka;402;Levice;400;Nitriansky
+105;502723;  Sazdice;402;Levice;400;Nitriansky
+106;502731;  Sikenica;402;Levice;400;Nitriansky
+107;502740;  Slatina;402;Levice;400;Nitriansky
+108;502758;  Starý Hrádok;402;Levice;400;Nitriansky
+109;502766;  Starý Tekov;402;Levice;400;Nitriansky
+110;502782;  Šahy;402;Levice;400;Nitriansky
+111;502791;  Šalov;402;Levice;400;Nitriansky
+112;502804;  Šarovce;402;Levice;400;Nitriansky
+113;502812;  Tehla;402;Levice;400;Nitriansky
+114;502821;  Tekovské Lužany;402;Levice;400;Nitriansky
+115;502847;  Tekovský Hrádok;402;Levice;400;Nitriansky
+116;502863;  Tlmače;402;Levice;400;Nitriansky
+117;502871;  Tupá;402;Levice;400;Nitriansky
+118;502880;  Turá;402;Levice;400;Nitriansky
+119;502898;  Uhliská;402;Levice;400;Nitriansky
+120;581160;  Veľké Kozmálovce;402;Levice;400;Nitriansky
+121;502910;  Veľké Ludince;402;Levice;400;Nitriansky
+122;502928;  Veľké Turovce;402;Levice;400;Nitriansky
+123;502936;  Veľký Ďur;402;Levice;400;Nitriansky
+124;502944;  Vyškovce nad Ipľom;402;Levice;400;Nitriansky
+125;502952;  Vyšné nad Hronom;402;Levice;400;Nitriansky
+126;502961;  Zalaba;402;Levice;400;Nitriansky
+127;502979;  Zbrojníky;402;Levice;400;Nitriansky
+128;502987;  Želiezovce;402;Levice;400;Nitriansky
+129;502995;  Žemberovce;402;Levice;400;Nitriansky
+130;503002;  Žemliare;402;Levice;400;Nitriansky
+131;500020;  Alekšince;403;Nitra;400;Nitriansky
+132;500046;  Báb;403;Nitra;400;Nitriansky
+133;581623;  Babindol;403;Nitra;400;Nitriansky
+134;582697;  Bádice;403;Nitra;400;Nitriansky
+135;500071;  Branč;403;Nitra;400;Nitriansky
+136;545589;  Cabaj - Čápor;403;Nitra;400;Nitriansky
+137;582387;  Čab;403;Nitra;400;Nitriansky
+138;500101;  Čakajovce;403;Nitra;400;Nitriansky
+139;555886;  Čechynce;403;Nitra;400;Nitriansky
+140;500135;  Čeľadice;403;Nitra;400;Nitriansky
+141;500160;  Čifáre;403;Nitra;400;Nitriansky
+142;582425;  Dolné Lefantovce;403;Nitra;400;Nitriansky
+143;500194;  Dolné Obdokovce;403;Nitra;400;Nitriansky
+144;500232;  Golianovo;403;Nitra;400;Nitriansky
+145;545635;  Horné Lefantovce;403;Nitra;400;Nitriansky
+146;555959;  Hosťová;403;Nitra;400;Nitriansky
+147;500313;  Hruboňovo;403;Nitra;400;Nitriansky
+148;558320;  Ivanka pri Nitre;403;Nitra;400;Nitriansky
+149;500356;  Jarok;403;Nitra;400;Nitriansky
+150;500372;  Jelenec;403;Nitra;400;Nitriansky
+151;500381;  Jelšovce;403;Nitra;400;Nitriansky
+152;500399;  Kapince;403;Nitra;400;Nitriansky
+153;500402;  Klasov;403;Nitra;400;Nitriansky
+154;500411;  Kolíňany;403;Nitra;400;Nitriansky
+155;500453;  Lehota;403;Nitra;400;Nitriansky
+156;500470;  Lúčnica nad Žitavou;403;Nitra;400;Nitriansky
+157;581097;  Ľudovítová;403;Nitra;400;Nitriansky
+158;500488;  Lukáčovce;403;Nitra;400;Nitriansky
+159;580899;  Lužianky;403;Nitra;400;Nitriansky
+160;556785;  Malé Chyndice;403;Nitra;400;Nitriansky
+161;500534;  Malé Zálužie;403;Nitra;400;Nitriansky
+162;555908;  Malý Cetín;403;Nitra;400;Nitriansky
+163;555851;  Malý Lapáš;403;Nitra;400;Nitriansky
+164;500569;  Melek;403;Nitra;400;Nitriansky
+165;500577;  Mojmírovce;403;Nitra;400;Nitriansky
+166;500011;  Nitra;403;Nitra;400;Nitriansky
+167;556696;  Nitrianske Hrnčiarovce;403;Nitra;400;Nitriansky
+168;500631;  Nová Ves nad Žitavou;403;Nitra;400;Nitriansky
+169;500640;  Nové Sady;403;Nitra;400;Nitriansky
+170;500666;  Paňa;403;Nitra;400;Nitriansky
+171;500674;  Podhorany;403;Nitra;400;Nitriansky
+172;500682;  Pohranice;403;Nitra;400;Nitriansky
+173;500691;  Poľný Kesov;403;Nitra;400;Nitriansky
+174;500704;  Rišňovce;403;Nitra;400;Nitriansky
+175;500712;  Rumanová;403;Nitra;400;Nitriansky
+176;555991;  Svätoplukovo;403;Nitra;400;Nitriansky
+177;581691;  Štefanovičová;403;Nitra;400;Nitriansky
+178;582719;  Štitáre;403;Nitra;400;Nitriansky
+179;500780;  Šurianky;403;Nitra;400;Nitriansky
+180;500798;  Tajná;403;Nitra;400;Nitriansky
+181;555967;  Telince;403;Nitra;400;Nitriansky
+182;500844;  Veľká Dolina;403;Nitra;400;Nitriansky
+183;500518;  Veľké Chyndice;403;Nitra;400;Nitriansky
+184;500887;  Veľké Zálužie;403;Nitra;400;Nitriansky
+185;500895;  Veľký Cetín;403;Nitra;400;Nitriansky
+186;555860;  Veľký Lapáš;403;Nitra;400;Nitriansky
+187;500917;  Vinodol;403;Nitra;400;Nitriansky
+188;500933;  Vráble;403;Nitra;400;Nitriansky
+189;500941;  Výčapy - Opatovce;403;Nitra;400;Nitriansky
+190;500950;  Zbehy;403;Nitra;400;Nitriansky
+191;500992;  Žirany;403;Nitra;400;Nitriansky
+192;501018;  Žitavce;403;Nitra;400;Nitriansky
+193;503029;  Andovce;404;Nové Zámky;400;Nitriansky
+194;503037;  Bajtava;404;Nové Zámky;400;Nitriansky
+195;503045;  Bánov;404;Nové Zámky;400;Nitriansky
+196;503053;  Bardoňovo;404;Nové Zámky;400;Nitriansky
+197;503061;  Belá;404;Nové Zámky;400;Nitriansky
+198;503070;  Bešeňov;404;Nové Zámky;400;Nitriansky
+199;503088;  Bíňa;404;Nové Zámky;400;Nitriansky
+200;503096;  Branovo;404;Nové Zámky;400;Nitriansky
+201;503100;  Bruty;404;Nové Zámky;400;Nitriansky
+202;503118;  Čechy;404;Nové Zámky;400;Nitriansky
+203;503126;  Černík;404;Nové Zámky;400;Nitriansky
+204;503134;  Dedinka;404;Nové Zámky;400;Nitriansky
+205;503151;  Dolný Ohaj;404;Nové Zámky;400;Nitriansky
+206;503169;  Dubník;404;Nové Zámky;400;Nitriansky
+207;503177;  Dvory nad Žitavou;404;Nové Zámky;400;Nitriansky
+208;503185;  Gbelce;404;Nové Zámky;400;Nitriansky
+209;503193;  Hul;404;Nové Zámky;400;Nitriansky
+210;503207;  Chľaba;404;Nové Zámky;400;Nitriansky
+211;503215;  Jasová;404;Nové Zámky;400;Nitriansky
+212;503223;  Jatov;404;Nové Zámky;400;Nitriansky
+213;503231;  Kamenica nad Hronom;404;Nové Zámky;400;Nitriansky
+214;503240;  Kamenín;404;Nové Zámky;400;Nitriansky
+215;503258;  Kamenný Most;404;Nové Zámky;400;Nitriansky
+216;503266;  Kmeťovo;404;Nové Zámky;400;Nitriansky
+217;503274;  Kolta;404;Nové Zámky;400;Nitriansky
+218;503282;  Komjatice;404;Nové Zámky;400;Nitriansky
+219;503291;  Komoča;404;Nové Zámky;400;Nitriansky
+220;503312;  Leľa;404;Nové Zámky;400;Nitriansky
+221;503321;  Lipová;404;Nové Zámky;400;Nitriansky
+222;503339;  Ľubá;404;Nové Zámky;400;Nitriansky
+223;503347;  Malá nad Hronom;404;Nové Zámky;400;Nitriansky
+224;503355;  Malé Kosihy;404;Nové Zámky;400;Nitriansky
+225;503363;  Maňa;404;Nové Zámky;400;Nitriansky
+226;503371;  Michal nad Žitavou;404;Nové Zámky;400;Nitriansky
+227;503398;  Mojzesovo;404;Nové Zámky;400;Nitriansky
+228;503401;  Mužla;404;Nové Zámky;400;Nitriansky
+229;556092;  Nána;404;Nové Zámky;400;Nitriansky
+230;503436;  Nová Vieska;404;Nové Zámky;400;Nitriansky
+231;503011;  Nové Zámky;404;Nové Zámky;400;Nitriansky
+232;582361;  Obid;404;Nové Zámky;400;Nitriansky
+233;503452;  Palárikovo;404;Nové Zámky;400;Nitriansky
+234;556033;  Pavlová;404;Nové Zámky;400;Nitriansky
+235;503479;  Podhájska;404;Nové Zámky;400;Nitriansky
+236;503487;  Pozba;404;Nové Zámky;400;Nitriansky
+237;503495;  Radava;404;Nové Zámky;400;Nitriansky
+238;503509;  Rastislavice;404;Nové Zámky;400;Nitriansky
+239;503517;  Rúbaň;404;Nové Zámky;400;Nitriansky
+240;503525;  Salka;404;Nové Zámky;400;Nitriansky
+241;503533;  Semerovo;404;Nové Zámky;400;Nitriansky
+242;503541;  Sikenička;404;Nové Zámky;400;Nitriansky
+243;503550;  Strekov;404;Nové Zámky;400;Nitriansky
+244;503568;  Svodín;404;Nové Zámky;400;Nitriansky
+245;503576;  Šarkan;404;Nové Zámky;400;Nitriansky
+246;503584;  Štúrovo;404;Nové Zámky;400;Nitriansky
+247;503592;  Šurany;404;Nové Zámky;400;Nitriansky
+248;503606;  Trávnica;404;Nové Zámky;400;Nitriansky
+249;503614;  Tvrdošovce;404;Nové Zámky;400;Nitriansky
+250;556050;  Úľany nad Žitavou;404;Nové Zámky;400;Nitriansky
+251;503631;  Veľké Lovce;404;Nové Zámky;400;Nitriansky
+252;503380;  Veľký Kýr;404;Nové Zámky;400;Nitriansky
+253;556025;  Vlkas;404;Nové Zámky;400;Nitriansky
+254;503649;  Zemné;404;Nové Zámky;400;Nitriansky
+255;503711;  Diakovce;405;Šaľa;400;Nitriansky
+256;503720;  Dlhá nad Váhom;405;Šaľa;400;Nitriansky
+257;500241;  Hájske;405;Šaľa;400;Nitriansky
+258;555878;  Horná Kráľová;405;Šaľa;400;Nitriansky
+259;503886;  Kráľová nad Váhom;405;Šaľa;400;Nitriansky
+260;500739;  Močenok;405;Šaľa;400;Nitriansky
+261;503932;  Neded;405;Šaľa;400;Nitriansky
+262;503991;  Selice;405;Šaľa;400;Nitriansky
+263;504025;  Šaľa;405;Šaľa;400;Nitriansky
+264;504068;  Tešedíkovo;405;Šaľa;400;Nitriansky
+265;504092;  Trnovec nad Váhom;405;Šaľa;400;Nitriansky
+266;504165;  Vlčany;405;Šaľa;400;Nitriansky
+267;504190;  Žihárec;405;Šaľa;400;Nitriansky
+268;556220;  Ardanovce;406;Topoľčany;400;Nitriansky
+269;542661;  Belince;406;Topoľčany;400;Nitriansky
+270;542695;  Biskupová;406;Topoľčany;400;Nitriansky
+271;542709;  Blesovce;406;Topoľčany;400;Nitriansky
+272;542717;  Bojná;406;Topoľčany;400;Nitriansky
+273;556297;  Čeľadince;406;Topoľčany;400;Nitriansky
+274;542792;  Čermany;406;Topoľčany;400;Nitriansky
+275;556262;  Dvorany nad Nitrou;406;Topoľčany;400;Nitriansky
+276;542881;  Hajná Nová Ves;406;Topoľčany;400;Nitriansky
+277;556351;  Horné Chlebany;406;Topoľčany;400;Nitriansky
+278;542938;  Horné Obdokovce;406;Topoľčany;400;Nitriansky
+279;542954;  Horné Štitáre;406;Topoľčany;400;Nitriansky
+280;542971;  Hrušovany;406;Topoľčany;400;Nitriansky
+281;556165;  Chrabrany;406;Topoľčany;400;Nitriansky
+282;556157;  Jacovce;406;Topoľčany;400;Nitriansky
+283;543039;  Kamanová;406;Topoľčany;400;Nitriansky
+284;543063;  Koniarovce;406;Topoľčany;400;Nitriansky
+285;543071;  Kovarce;406;Topoľčany;400;Nitriansky
+286;543101;  Krnča;406;Topoľčany;400;Nitriansky
+287;543110;  Krtovce;406;Topoľčany;400;Nitriansky
+288;556149;  Krušovce;406;Topoľčany;400;Nitriansky
+289;581704;  Kuzmice;406;Topoľčany;400;Nitriansky
+290;505021;  Lipovník;406;Topoľčany;400;Nitriansky
+291;505048;  Ludanice;406;Topoľčany;400;Nitriansky
+292;505064;  Lužany;406;Topoľčany;400;Nitriansky
+293;505137;  Malé Ripňany;406;Topoľčany;400;Nitriansky
+294;581305;  Nemčice;406;Topoľčany;400;Nitriansky
+295;505226;  Nemečky;406;Topoľčany;400;Nitriansky
+296;505234;  Nitrianska Blatnica;406;Topoľčany;400;Nitriansky
+297;505242;  Nitrianska Streda;406;Topoľčany;400;Nitriansky
+298;505251;  Norovce;406;Topoľčany;400;Nitriansky
+299;505285;  Oponice;406;Topoľčany;400;Nitriansky
+300;556211;  Orešany;406;Topoľčany;400;Nitriansky
+301;505340;  Podhradie;406;Topoľčany;400;Nitriansky
+302;505374;  Prašice;406;Topoľčany;400;Nitriansky
+303;581658;  Práznovce;406;Topoľčany;400;Nitriansky
+304;505404;  Preseľany;406;Topoľčany;400;Nitriansky
+305;505421;  Radošina;406;Topoľčany;400;Nitriansky
+306;505439;  Rajčany;406;Topoľčany;400;Nitriansky
+307;505498;  Solčany;406;Topoľčany;400;Nitriansky
+308;556327;  Solčianky;406;Topoľčany;400;Nitriansky
+309;505510;  Súlovce;406;Topoľčany;400;Nitriansky
+310;556238;  Svrbice;406;Topoľčany;400;Nitriansky
+311;505536;  Šalgovce;406;Topoľčany;400;Nitriansky
+312;505561;  Tesáre;406;Topoľčany;400;Nitriansky
+313;504998;  Topoľčany;406;Topoľčany;400;Nitriansky
+314;580457;  Tovarníky;406;Topoľčany;400;Nitriansky
+315;505617;  Tvrdomestice;406;Topoľčany;400;Nitriansky
+316;505641;  Urmince;406;Topoľčany;400;Nitriansky
+317;505676;  Veľké Dvorany;406;Topoľčany;400;Nitriansky
+318;505714;  Veľké Ripňany;406;Topoľčany;400;Nitriansky
+319;505749;  Velušovce;406;Topoľčany;400;Nitriansky
+320;505757;  Vozokany;406;Topoľčany;400;Nitriansky
+321;505773;  Závada;406;Topoľčany;400;Nitriansky
+322;500062;  Beladice;407;Zlaté Moravce;400;Nitriansky
+323;500127;  Čaradice;407;Zlaté Moravce;400;Nitriansky
+324;555916;  Červený Hrádok;407;Zlaté Moravce;400;Nitriansky
+325;500151;  Čierne Kľačany;407;Zlaté Moravce;400;Nitriansky
+326;500283;  Hostie;407;Zlaté Moravce;400;Nitriansky
+327;500305;  Hosťovce;407;Zlaté Moravce;400;Nitriansky
+328;500321;  Choča;407;Zlaté Moravce;400;Nitriansky
+329;500364;  Jedľové Kostoľany;407;Zlaté Moravce;400;Nitriansky
+330;500429;  Kostoľany pod Tríbečom;407;Zlaté Moravce;400;Nitriansky
+331;500437;  Ladice;407;Zlaté Moravce;400;Nitriansky
+332;500461;  Lovce;407;Zlaté Moravce;400;Nitriansky
+333;500500;  Machulince;407;Zlaté Moravce;400;Nitriansky
+334;555924;  Malé Vozokany;407;Zlaté Moravce;400;Nitriansky
+335;500542;  Mankovce;407;Zlaté Moravce;400;Nitriansky
+336;500551;  Martin nad Žitavou;407;Zlaté Moravce;400;Nitriansky
+337;500585;  Nemčiňany;407;Zlaté Moravce;400;Nitriansky
+338;500593;  Neverice;407;Zlaté Moravce;400;Nitriansky
+339;500607;  Nevidzany;407;Zlaté Moravce;400;Nitriansky
+340;500658;  Obyce;407;Zlaté Moravce;400;Nitriansky
+341;500721;  Skýcov;407;Zlaté Moravce;400;Nitriansky
+342;500747;  Sľažany;407;Zlaté Moravce;400;Nitriansky
+343;500755;  Slepčany;407;Zlaté Moravce;400;Nitriansky
+344;517305;  Tekovské Nemce;407;Zlaté Moravce;400;Nitriansky
+345;500810;  Tesárske Mlyňany;407;Zlaté Moravce;400;Nitriansky
+346;500828;  Topoľčianky;407;Zlaté Moravce;400;Nitriansky
+347;500836;  Velčice;407;Zlaté Moravce;400;Nitriansky
+348;555932;  Veľké Vozokany;407;Zlaté Moravce;400;Nitriansky
+349;500909;  Vieska nad Žitavou;407;Zlaté Moravce;400;Nitriansky
+350;500925;  Volkovce;407;Zlaté Moravce;400;Nitriansky
+351;500968;  Zlaté Moravce;407;Zlaté Moravce;400;Nitriansky
+352;500976;  Zlatno;407;Zlaté Moravce;400;Nitriansky
+353;500984;  Žikava;407;Zlaté Moravce;400;Nitriansky
+354;582816;  Žitavany;407;Zlaté Moravce;400;Nitriansky
