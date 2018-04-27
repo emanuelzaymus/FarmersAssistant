@@ -2,6 +2,8 @@
 
 #include <string>
 
+#include "structures\heap_monitor.h"
+
 class FileHandler
 {
 public:

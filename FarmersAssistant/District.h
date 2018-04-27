@@ -2,19 +2,22 @@
 
 #include <string>
 
-#include "PopulationInfo.h"
+#include "structures\heap_monitor.h"
 
-class District
+#include "PopulationInfo.h"
+#include "Region.h"
+
+class District //Okres
 {
 private:
 	std::wstring name;
 	int code;
-	//region
+	Region* region;
 	//towns
 	PopulationInfo *population;
 
 public:
-	District(int code, std::wstring name);
+	District(int code, std::wstring name, Region* region);
 	~District();
 };
 

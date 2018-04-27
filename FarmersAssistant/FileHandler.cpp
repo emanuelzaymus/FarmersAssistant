@@ -7,6 +7,15 @@
 #include <codecvt>
 #include <string>
 
+#include <locale>
+#include <codecvt>
+
+#include "structures\heap_monitor.h"
+
+#include "Town.h"
+#include "District.h"
+#include "Region.h"
+
 
 FileHandler::FileHandler()
 {
@@ -39,22 +48,54 @@ void FileHandler::read(std::string path)
 void FileHandler::readRegionUTF8(std::string path)
 {
 	std::wifstream wifstrm(path);
-	wifstrm.imbue(std::locale(std::locale::empty(), new std::codecvt_utf8<wchar_t>));
-	
+	wifstrm.imbue(std::locale(std::locale::empty(), ::new std::codecvt_utf8<wchar_t>));
+
 	if (!wifstrm.is_open())
 		throw std::exception("Cannot open file.");
 
 	std::wstring wstr;
+	int townCode;
+	std::wstring townName;
+	int districtCode;
+	std::wstring districtName;
+	int regionCode;
+	std::wstring regionName;
+
+	Region* region;
+	District* district;
+
 	std::getline(wifstrm, wstr);
+
 	int i = 0;
 	while (wifstrm.good())
 	{
-		if (i++ >= 500)
-		{
+		if (i++ >= 50)
 			break;
-		}
 		std::getline(wifstrm, wstr, L';');
-		std::wcout << wstr << '|';
+
+		std::getline(wifstrm, wstr, L';');
+		townCode = std::stoi(wstr);
+		std::wcout << townCode << '|';
+		
+		std::getline(wifstrm, townName, L';');
+		townName = townName.substr(2);
+		std::wcout << townName << '|';
+		
+		std::getline(wifstrm, wstr, L';');
+		districtCode = std::stoi(wstr);
+		std::wcout << districtCode << '|';
+		
+		std::getline(wifstrm, districtName, L';');
+		std::wcout << districtName << '|';
+		
+		std::getline(wifstrm, wstr, L';');
+		regionCode = std::stoi(wstr);
+		std::wcout << regionCode << '|';
+		
+		std::getline(wifstrm, regionName, L'\n');
+		std::wcout << regionName << '|' << std::endl;
+
+
 	}
 	wifstrm.close();
 }
@@ -62,7 +103,7 @@ void FileHandler::readRegionUTF8(std::string path)
 void FileHandler::readPopulationUTF8(std::string path)
 {
 	std::wifstream wifstrm(path);
-	wifstrm.imbue(std::locale(std::locale::empty(), new std::codecvt_utf8<wchar_t>));
+	wifstrm.imbue(std::locale(std::locale::empty(), ::new std::codecvt_utf8<wchar_t>));
 
 	if (!wifstrm.is_open())
 		throw std::exception("Cannot open file.");
@@ -86,7 +127,7 @@ void FileHandler::readPopulationUTF8(std::string path)
 void FileHandler::readLandUTF8(std::string path)
 {
 	std::wifstream wifstrm(path);
-	wifstrm.imbue(std::locale(std::locale::empty(), new std::codecvt_utf8<wchar_t>));
+	wifstrm.imbue(std::locale(std::locale::empty(), ::new std::codecvt_utf8<wchar_t>));
 
 	if (!wifstrm.is_open())
 		throw std::exception("Cannot open file.");

@@ -1,4 +1,7 @@
 #pragma once
+
+#include "structures\heap_monitor.h"
+
 class PopulationInfo
 {
 private:

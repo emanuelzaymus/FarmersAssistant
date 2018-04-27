@@ -2,9 +2,11 @@
 
 #include <string>
 
+#include "structures\heap_monitor.h"
+
 #include "PopulationInfo.h"
 
-class Region
+class Region //Kraj
 {
 private:
 	std::wstring name;
