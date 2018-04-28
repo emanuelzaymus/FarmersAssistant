@@ -4,6 +4,9 @@
 
 #include "structures\heap_monitor.h"
 
+//class Manager;
+#include "Region.h"
+
 class FileHandler
 {
 public:
@@ -11,7 +14,7 @@ public:
 	~FileHandler();
 
 	void read(std::string path);
-	void readRegionUTF8(std::string path);
+	Region* readRegionUTF8(std::string path);
 	void readPopulationUTF8(std::string path);
 	void readLandUTF8(std::string path);
 };

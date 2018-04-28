@@ -5,7 +5,7 @@
 #include "structures\heap_monitor.h"
 
 #include "PopulationInfo.h"
-#include "District.h"
+class District;
 
 class Town
 {

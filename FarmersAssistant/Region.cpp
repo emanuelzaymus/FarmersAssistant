@@ -11,4 +11,7 @@ Region::Region(int code, std::wstring name)
 
 Region::~Region()
 {
+	while (!districts->isEmpty())
+		delete districts->removeAt(districts->size() - 1);
+	delete districts;
 }

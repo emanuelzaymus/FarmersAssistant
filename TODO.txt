@@ -1,1 +1,7 @@
-nacitavanie jednotlivych objektov... staci jednotlivo.... do struktur das potom
+hw ... iterators
+fix bad structures
+
+
+rewriting District and Region when I put something into Town
+LandInfo ... try to change to enum
+everything into structres

@@ -4,6 +4,7 @@
 #include <iostream>
 
 #include "structures\heap_monitor.h"
+
 #include "Manager.h"
 
 #include <sstream>
@@ -40,6 +41,8 @@ int main() {
 	setlocale(LC_ALL, "");
 
 	Manager manager;
+
+	manager.loadInfo();
 
 	return 0;
 }

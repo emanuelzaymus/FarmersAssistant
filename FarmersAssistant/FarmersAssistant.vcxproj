@@ -228,6 +228,9 @@
     <ClInclude Include="structures\vector\vector.h" />
     <ClInclude Include="Town.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="structures\aus.natvis" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
