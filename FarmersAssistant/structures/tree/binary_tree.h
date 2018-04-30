@@ -267,7 +267,7 @@ namespace structures
 
 		BinaryTreeNode<T>* btn = dynamic_cast<BinaryTreeNode<T>*>(current);
 		
-		populatePath(btn->getRightSon());
+		populatePath(btn->getLeftSon());
 
 		path_->push(current);
 		

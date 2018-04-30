@@ -185,7 +185,6 @@ namespace structures
 				else
 					rotateLeftOverParent(newNode);
 			}
-			size_++;
 		}
 		else {
 			delete treapItem;
@@ -204,13 +203,15 @@ namespace structures
 			dynamic_cast<TreapItem<K, T>*>(node->accessData())->minimizePriority();
 			while (!isHeapOK(node))
 			{
-				if (node->isLeftSon())
-				{
-					rotateRightOverParent(node);
-				}
-				else {
-					rotateLeftOverParent(node);
-				}
+				auto left = node->getLeftSon();
+				auto right = node->getRightSon();
+				auto nodeToRotate = extractPriority(left) < extractPriority(right)
+					? (left != nullptr ? left : right)
+					: (right != nullptr ? right : left);
+				if (nodeToRotate->isLeftSon())
+					rotateRightOverParent(nodeToRotate);
+				else
+					rotateLeftOverParent(nodeToRotate);
 			}
 			extractNode(node);
 			T data = node->accessData()->accessData();
@@ -229,9 +230,9 @@ namespace structures
 	inline bool Treap<K, T>::isHeapOK(BinarySearchTree<K, T>::BSTTreeNode* node)
 	{
 		return node == nullptr
-			|| node->getParent() == nullptr || extractPriority(node) > extractPriority(node->getParent())
-			&& extractPriority(node) < extractPriority(node->getLeftSon())
-			&& extractPriority(node) < extractPriority(node->getRightSon());
+			|| node->getParent() == nullptr || extractPriority(node) >= extractPriority(node->getParent())
+			&& extractPriority(node) <= extractPriority(node->getLeftSon())
+			&& extractPriority(node) <= extractPriority(node->getRightSon());
 	}
 
 	template<typename K, typename T>
@@ -253,7 +254,9 @@ namespace structures
 			BSTTreeNode* leftSon = node->getLeftSon();
 
 			parent->setRightSon(leftSon);
-			leftSon->setParent(parent);
+			if (leftSon != nullptr) {
+				leftSon->setParent(parent);
+			}
 
 			node->setParent(grandParent);
 			if (grandParent != nullptr)
@@ -262,6 +265,9 @@ namespace structures
 					grandParent->setLeftSon(node);
 				else
 					grandParent->setRightSon(node);
+			}
+			else {
+				binaryTree_->replaceRoot(node);
 			}
 
 			node->setLeftSon(parent);
@@ -279,7 +285,9 @@ namespace structures
 			BSTTreeNode* rightSon = node->getRightSon();
 
 			parent->setLeftSon(rightSon);
-			rightSon->setParent(parent);
+			if (rightSon != nullptr) {
+				rightSon->setParent(parent);
+			}
 
 			node->setParent(grandParent);
 			if (grandParent != nullptr)
@@ -288,6 +296,9 @@ namespace structures
 					grandParent->setLeftSon(node);
 				else
 					grandParent->setRightSon(node);
+			}
+			else {
+				binaryTree_->replaceRoot(node);
 			}
 
 			node->setRightSon(parent);

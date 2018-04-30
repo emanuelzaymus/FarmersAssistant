@@ -506,7 +506,7 @@ namespace structures
 		helpQ.push(current);
 		while (!helpQ.empty())
 		{
-			TreeNode<T>* node = helpQ.pop();
+			TreeNode<T>* node = helpQ.front();
 			if (node != nullptr)
 			{
 				path_->push(node);

@@ -74,8 +74,8 @@ Region* FileHandler::readRegionUTF8(std::string path)
 	int i = 0;
 	while (wifstrm.good())
 	{
-		if (i++ >= 50)
-			break;
+		//if (i++ >= 50)
+		//	break;
 		std::getline(wifstrm, wstr, L';');
 
 		std::getline(wifstrm, wstr, L';');
@@ -199,13 +199,13 @@ void FileHandler::readLandUTF8(std::string path)
 	int i = 0;
 	while (wifstrm.good())
 	{
-		if (i++ >= 2)
+		if (i++ >= 10)
 		{
 			break;
 		}
 
 		std::getline(wifstrm, name, L';');
-		std::wcout << name << '|';
+		std::wcout << "*****" << name << "*****" << '|';
 		landInfo = new LandInfo();
 
 		for (size_t i = 0; i < 13; i++)

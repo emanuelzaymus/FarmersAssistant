@@ -1,4 +1,3 @@
-hw ... iterators
 fix bad structures
 
 

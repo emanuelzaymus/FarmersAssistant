@@ -260,6 +260,7 @@ namespace structures
 		{
 			delete item;
 		}
+		binaryTree_->clear();
 		size_ = 0;
 	}
 
@@ -309,6 +310,8 @@ namespace structures
 					parent->setLeftSon(node);
 				else
 					parent->setRightSon(node);
+
+				node->setParent(parent);//todo som pridal
 				size_++;
 			}
 		}

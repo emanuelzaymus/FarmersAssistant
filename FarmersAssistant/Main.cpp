@@ -4,6 +4,19 @@
 #include <iostream>
 
 #include "structures\heap_monitor.h"
+#include "structures\tree\k_way_tree.h"
+#include "structures\tree\multi_way_tree.h"
+#include "structures\tree\binary_tree.h"
+
+#include "structures\table\binary_search_tree.h"
+#include "structures\table\treap.h"
+#include "structures\tree\tree.h"
+
+
+#include "structures\table\table.h"
+#include "structures\list\list.h"
+#include "structures\tree\binary_tree.h"
+#include <stdexcept>
 
 #include "Manager.h"
 
@@ -40,9 +53,117 @@ int main() {
 
 	setlocale(LC_ALL, "");
 
-	Manager manager;
+	//Manager manager;
 
-	manager.loadInfo();
+	//manager.loadInfo();
+
+	structures::Treap<int, char> bst;
+/*
+	bst.insert(9, 'i');
+	for each (auto c in bst)
+		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
+	std::cout << "------------------------------" << std::endl;
+
+	bst.insert(1, 'a');
+	for each (auto c in bst)
+		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
+	std::cout << "------------------------------" << std::endl;
+
+	bst.insert(10, 'j');
+	for each (auto c in bst)
+		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
+	std::cout << "------------------------------" << std::endl;
+
+	bst.insert(11, 'i');
+	for each (auto c in bst)
+		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
+	std::cout << "------------------------------" << std::endl;
+
+	bst.insert(12, 'j');
+	for each (auto c in bst)
+		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
+	std::cout << "------------------------------" << std::endl;
+
+	bst.insert(2, 'b');
+	for each (auto c in bst)
+		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
+	std::cout << "------------------------------" << std::endl;
+
+	bst.insert(3, 'c');
+	for each (auto c in bst)
+		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
+	std::cout << "------------------------------" << std::endl;
+
+	bst.insert(4, 'd');
+	for each (auto c in bst)
+		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
+	std::cout << "------------------------------" << std::endl;
+
+	bst.insert(5, 'e');
+	for each (auto c in bst)
+		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
+	std::cout << "------------------------------" << std::endl;
+
+	bst.insert(6, 'f');
+	for each (auto c in bst)
+		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
+	std::cout << "------------------------------" << std::endl;
+
+	bst.insert(7, 'g');
+	for each (auto c in bst)
+		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
+	std::cout << "------------------------------" << std::endl;
+
+	bst.insert(8, 'h');
+	for each (auto c in bst)
+		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
+	std::cout << "------------------------------" << std::endl;
+*/
+	bst.insert(1, 'h');
+	bst.insert(2, 'h');
+	bst.insert(3, 'h');
+	bst.insert(4, 'h');
+	bst.insert(5, 'h');
+	bst.insert(6, 'h');
+	bst.insert(7, 'h');
+	bst.insert(8, 'h');
+	bst.insert(9, 'h');
+	//bst.insert(10, 'h');
+	//bst.insert(11, 'h');
+	//bst.insert(12, 'h');
+	//bst.insert(13, 'h');
+	//bst.insert(14, 'h');
+	//bst.insert(15, 'h');
+	//bst.insert(16, 'h');
+	//bst.insert(17, 'h');
+	//bst.insert(18, 'h');
+	//bst.insert(19, 'h');
+	//bst.insert(20, 'h');
+
+
+	for each (auto c in bst)
+	{
+		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
+	}
+	//bst.clear();
+
+	std::cout << bst.remove(1) << std::endl;
+	std::cout << bst.remove(2) << std::endl;
+	//std::cout << bst.remove(3) << std::endl;
+	//std::cout << bst.remove(4) << std::endl;
+	//std::cout << bst.remove(5) << std::endl;
+	//std::cout << bst.remove(6) << std::endl;
+
+
+
+	//bst.insert(-56, 'h');
+	//bst.insert(0, 'h');
+
+	for each (auto c in bst)
+	{
+		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
+	}
+
 
 	return 0;
 }
