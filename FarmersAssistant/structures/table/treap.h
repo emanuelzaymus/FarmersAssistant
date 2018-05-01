@@ -253,12 +253,8 @@ namespace structures
 			BSTTreeNode* grandParent = parent->getParent();
 			BSTTreeNode* leftSon = node->getLeftSon();
 
-			parent->setRightSon(leftSon);
-			if (leftSon != nullptr) {
-				leftSon->setParent(parent);
-			}
+			parent->setRightSon(nullptr);
 
-			node->setParent(grandParent);
 			if (grandParent != nullptr)
 			{
 				if (parent->isLeftSon())
@@ -271,7 +267,7 @@ namespace structures
 			}
 
 			node->setLeftSon(parent);
-			parent->setParent(node);
+			parent->setRightSon(leftSon);
 		}
 	}
 
@@ -285,11 +281,7 @@ namespace structures
 			BSTTreeNode* rightSon = node->getRightSon();
 
 			parent->setLeftSon(rightSon);
-			if (rightSon != nullptr) {
-				rightSon->setParent(parent);
-			}
 
-			node->setParent(grandParent);
 			if (grandParent != nullptr)
 			{
 				if (parent->isLeftSon())
@@ -302,7 +294,7 @@ namespace structures
 			}
 
 			node->setRightSon(parent);
-			parent->setParent(node);
+			parent->setLeftSon(rightSon);
 		}
 	}
 }

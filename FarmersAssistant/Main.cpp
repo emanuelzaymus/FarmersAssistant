@@ -58,28 +58,8 @@ int main() {
 	//manager.loadInfo();
 
 	structures::Treap<int, char> bst;
-/*
-	bst.insert(9, 'i');
-	for each (auto c in bst)
-		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
-	std::cout << "------------------------------" << std::endl;
 
 	bst.insert(1, 'a');
-	for each (auto c in bst)
-		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
-	std::cout << "------------------------------" << std::endl;
-
-	bst.insert(10, 'j');
-	for each (auto c in bst)
-		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
-	std::cout << "------------------------------" << std::endl;
-
-	bst.insert(11, 'i');
-	for each (auto c in bst)
-		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
-	std::cout << "------------------------------" << std::endl;
-
-	bst.insert(12, 'j');
 	for each (auto c in bst)
 		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
 	std::cout << "------------------------------" << std::endl;
@@ -118,16 +98,40 @@ int main() {
 	for each (auto c in bst)
 		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
 	std::cout << "------------------------------" << std::endl;
-*/
-	bst.insert(1, 'h');
-	bst.insert(2, 'h');
-	bst.insert(3, 'h');
-	bst.insert(4, 'h');
-	bst.insert(5, 'h');
-	bst.insert(6, 'h');
-	bst.insert(7, 'h');
-	bst.insert(8, 'h');
-	bst.insert(9, 'h');
+
+	bst.insert(9, 'i');
+	for each (auto c in bst)
+		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
+	std::cout << "------------------------------" << std::endl;
+
+	bst.insert(10, 'j');
+	for each (auto c in bst)
+		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
+	std::cout << "------------------------------" << std::endl;
+
+	std::cout << bst.remove(4) << std::endl;
+	std::cout << bst.remove(5) << std::endl;
+
+
+	bst.insert(11, 'i');
+	for each (auto c in bst)
+		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
+	std::cout << "------------------------------" << std::endl;
+
+	bst.insert(12, 'j');
+	for each (auto c in bst)
+		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
+	std::cout << "------------------------------" << std::endl;
+
+	//bst.insert(1, 'h');
+	//bst.insert(2, 'h');
+	//bst.insert(3, 'h');
+	//bst.insert(4, 'h');
+	//bst.insert(5, 'h');
+	//bst.insert(6, 'h');
+	//bst.insert(7, 'h');
+	//bst.insert(8, 'h');
+	//bst.insert(9, 'h');
 	//bst.insert(10, 'h');
 	//bst.insert(11, 'h');
 	//bst.insert(12, 'h');
@@ -141,10 +145,10 @@ int main() {
 	//bst.insert(20, 'h');
 
 
-	for each (auto c in bst)
-	{
-		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
-	}
+	//for each (auto c in bst)
+	//{
+	//	std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
+	//}
 	//bst.clear();
 
 	std::cout << bst.remove(1) << std::endl;
