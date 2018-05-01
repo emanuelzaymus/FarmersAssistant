@@ -12,6 +12,7 @@
 #include "structures\table\treap.h"
 #include "structures\tree\tree.h"
 
+#include "structures\table\hash_table.h"
 
 #include "structures\table\table.h"
 #include "structures\list\list.h"
@@ -56,7 +57,7 @@ int main() {
 	//Manager manager;
 
 	//manager.loadInfo();
-
+/*
 	structures::Treap<int, char> bst;
 
 	bst.insert(1, 'a');
@@ -149,7 +150,6 @@ int main() {
 	//{
 	//	std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
 	//}
-	//bst.clear();
 
 	std::cout << bst.remove(1) << std::endl;
 	std::cout << bst.remove(2) << std::endl;
@@ -158,6 +158,7 @@ int main() {
 	//std::cout << bst.remove(5) << std::endl;
 	//std::cout << bst.remove(6) << std::endl;
 
+	bst.clear();
 
 
 	//bst.insert(-56, 'h');
@@ -167,6 +168,36 @@ int main() {
 	{
 		std::cout << (char)c->accessData() << " - " << c->getKey() << std::endl;
 	}
+*/
+
+	structures::HashTable<int, char> ht;
+
+	ht.insert(1, 'a');
+	ht.insert(2, 'a');
+	ht.insert(3, 'a');
+	ht.insert(4, 'a');
+	ht.insert(5, 'a');
+	ht.insert(6, 'a');
+	ht.insert(7, 'a');
+	ht.insert(8, 'a');
+	ht.insert(9, 'a');
+	ht.insert(10, 'a');
+	ht.insert(11, 'a');
+	ht.insert(12, 'a');
+	ht.insert(13, 'a');
+	ht.insert(14, 'a');
+
+	for each (auto var in ht)
+		std::cout << var->getKey() << " - " << var->accessData() << std::endl;
+	std::cout << "------------------------" << std::endl;
+
+	std::cout << ht.remove(4) << std::endl;
+
+	for each (auto var in ht)
+		std::cout << var->getKey() << " - " << var->accessData() << std::endl;
+
+
+
 
 
 	return 0;
