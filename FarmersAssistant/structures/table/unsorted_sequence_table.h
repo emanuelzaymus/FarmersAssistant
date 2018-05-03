@@ -22,7 +22,7 @@ namespace structures
 
 		/// <summary> Operacia klonovania. Vytvori a vrati duplikat udajovej struktury. </summary>
 		/// <returns> Ukazovatel na klon struktury. </returns>
-		Structure* clone() const override;	
+		Structure* clone() const override;
 
 		/// <summary> Vrati prvok tabulky na danom indexe. </summary>
 		/// <param name = "index"> Index prvku. </param>
@@ -39,6 +39,8 @@ namespace structures
 		/// <param name = "first"> Prvy prvok. </param>
 		/// <param name = "second"> Druhy prvok. </param>
 		static void swap(TableItem<K, T>& first, TableItem<K, T>& second);
+
+		void insertBetween(int elementPos, int position);
 	};
 
 	template<typename K, typename T>
@@ -76,6 +78,14 @@ namespace structures
 	inline void UnsortedSequenceTable<K, T>::swap(TableItem<K, T>& first, TableItem<K, T>& second)
 	{
 		DSRoutines::swap(first, second);
+	}
+
+	template<typename K, typename T>
+	inline void UnsortedSequenceTable<K, T>::insertBetween(int elementPos, int position)
+	{
+		TableItem<K, T>* elem = &getItemAtIndex(elementPos);
+		list_->removeAt(elementPos);
+		list_->insert(elem, position);
 	}
 
 }

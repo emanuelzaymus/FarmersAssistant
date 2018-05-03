@@ -12,6 +12,9 @@ namespace structures
 	template <typename K, typename T>
 	class QuickSort : public Sort<K, T>
 	{
+	private:
+		void quick(UnsortedSequenceTable<K, T>& table, int min, int max) override;
+
 	public:
 		/// <summary> Utriedi tabulku triedenim Quick sort. </summary>
 		/// <param name = "table"> NonortedSequenceTable, ktoru ma utriedit. </param>
@@ -24,5 +27,13 @@ namespace structures
 		//TODO 12: QuickSort
 		throw std::exception("QuickSort<K, T>::sort: Not implemented yet.");
 	}
+
+	template<typename K, typename T>
+	inline void QuickSort<K, T>::quick(UnsortedSequenceTable<K, T>& table, int min, int max)
+	{
+		//TODO 12: QuickSort
+		throw std::exception("QuickSort<K, T>::sort: Not implemented yet.");
+	}
+
 
 }

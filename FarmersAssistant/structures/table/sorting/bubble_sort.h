@@ -21,8 +21,20 @@ namespace structures
 	template<typename K, typename T>
 	inline void BubbleSort<K, T>::sort(UnsortedSequenceTable<K, T>& table)
 	{
-		//TODO 12: BubbleSort
-		throw std::exception("BubbleSort<K, T>::sort: Not implemented yet.");
+		bool wasSwap;
+		do
+		{
+			wasSwap = false;
+			for (size_t i = 0; i < table.size() - 1; i++)
+			{
+				if (table.getItemAtIndex(i).getKey() > table.getItemAtIndex(i + 1).getKey())
+				{
+					table.swap(i, i + 1);
+					wasSwap = true;
+				}
+			}
+
+		} while (wasSwap);
 	}
 
 }

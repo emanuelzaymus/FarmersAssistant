@@ -1,5 +1,7 @@
 #pragma once
 
+#include <math.h>
+
 #include "sort.h"
 #include "../unsorted_sequence_table.h"
 
@@ -21,8 +23,19 @@ namespace structures
 	template<typename K, typename T>
 	inline void ShellSort<K, T>::sort(UnsortedSequenceTable<K, T>& table)
 	{
-		//TODO 12: ShellSort
-		throw std::exception("ShellSort<K, T>::sort: Not implemented yet.");
+		for (int gap = ceil(table.size()) / 2; gap > 0; gap /= 2)
+		{
+			for (int i = gap; i < table.size(); i++)
+			{
+				auto temp = table.getItemAtIndex(i);
+
+				int j;
+				for (j = i; j >= gap && table.getItemAtIndex(j - gap).getKey() > temp.getKey(); j -= gap) {
+					table.getItemAtIndex(j) = table.getItemAtIndex(j - gap);
+				}
+				table.getItemAtIndex(j) = temp;
+			}
+		}
 	}
 
 }

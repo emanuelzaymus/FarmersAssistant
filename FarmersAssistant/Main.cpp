@@ -17,6 +17,18 @@
 #include "structures\table\table.h"
 #include "structures\list\list.h"
 #include "structures\tree\binary_tree.h"
+
+#include "structures\table\unsorted_sequence_table.h"
+#include "structures\table\sorting\bubble_sort.h"
+#include "structures\table\sorting\heap_sort.h"
+#include "structures\table\sorting\insert_sort.h"
+#include "structures\table\sorting\merge_sort.h"
+#include "structures\table\sorting\quick_sort.h"
+#include "structures\table\sorting\radix_sort.h"
+#include "structures\table\sorting\select_sort.h"
+#include "structures\table\sorting\shell_sort.h"
+#include "structures\table\sorting\shuffle.h"
+
 #include <stdexcept>
 
 #include "Manager.h"
@@ -57,6 +69,7 @@ int main() {
 	//Manager manager;
 
 	//manager.loadInfo();
+
 /*
 	structures::Treap<int, char> bst;
 
@@ -170,8 +183,8 @@ int main() {
 	}
 */
 
+/*
 	structures::HashTable<int, char> ht;
-
 	ht.insert(1, 'a');
 	ht.insert(2, 'a');
 	ht.insert(3, 'a');
@@ -195,10 +208,41 @@ int main() {
 
 	for each (auto var in ht)
 		std::cout << var->getKey() << " - " << var->accessData() << std::endl;
+*/
+
+	structures::UnsortedSequenceTable<int, std::string> table;
+
+	table.insert(60, "sesenta");
+	table.insert(9, "nueve");
+	table.insert(7, "siete");
+	table.insert(4, "cuatro");
+	table.insert(36, "treinta y seis");
+	table.insert(8, "ocho");
+	table.insert(1, "uno");
+	table.insert(5, "cinco");
+	table.insert(6, "seis");
+	table.insert(10, "dies");
+	table.insert(2, "dos");
+	table.insert(11, "once");
+	table.insert(12, "doce");
+	table.insert(13, "trece");
+	table.insert(14, "catorce");
+	table.insert(15, "quince");	
+
+	structures::Shuffle<int, std::string> shuf;
+	//shuf(table);
+
+	for each (auto v in table)
+		std::cout << v->getKey() << " - " << v->accessData() << std::endl;
+	std::cout << "--------" << std::endl;
+	
+
+	structures::ShellSort<int, std::string> s;
+	s.sort(table);
 
 
-
-
+	for each (auto v in table)
+		std::cout << v->getKey() << " - " << v->accessData() << std::endl;
 
 	return 0;
 }
