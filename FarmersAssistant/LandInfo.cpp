@@ -21,17 +21,17 @@ LandInfo::LandInfo()
 
 LandInfo::~LandInfo()
 {
-	delete arableLand;//orna poda
-	delete hopGarden;//chmelnica
-	delete vineyard;//vinica
-	delete garden;//zahrada
-	delete ochard;//ovocny sad
-	delete lawn;//travnik
+	if (arableLand != nullptr) { delete arableLand; }//orna poda
+	if (hopGarden != nullptr) { delete hopGarden; }//chmelnica
+	if (vineyard != nullptr) { delete vineyard; }//vinica
+	if (garden != nullptr) { delete garden; }//zahrada
+	if (ochard != nullptr) { delete ochard; }//ovocny sad
+	if (lawn != nullptr) { delete lawn; }//travnik
 
-	delete forest;//les
-	delete water;//les
-	delete builtupArea;//zastanena plocha
-	delete theRest;//ostatna plocha
+	if (forest != nullptr) { delete forest; }//les
+	if (water != nullptr) { delete water; }//voda
+	if (builtupArea != nullptr) { delete builtupArea; }//zastanena plocha
+	if (theRest != nullptr) { delete theRest; }//ostatna plocha
 }
 
 int LandInfo::getTotalAreat(int year)

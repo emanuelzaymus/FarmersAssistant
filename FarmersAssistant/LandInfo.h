@@ -21,17 +21,17 @@ enum Land
 class LandInfo
 {
 private:
-	structures::Array<int>* arableLand;//orna poda
-	structures::Array<int>* hopGarden;//chmelnica
-	structures::Array<int>* vineyard;//vinica
-	structures::Array<int>* garden;//zahrada
-	structures::Array<int>* ochard;//ovocny sad
-	structures::Array<int>* lawn;//travnik
+	structures::Array<int>* arableLand = nullptr;//orna poda
+	structures::Array<int>* hopGarden = nullptr;//chmelnica
+	structures::Array<int>* vineyard = nullptr;//vinica
+	structures::Array<int>* garden = nullptr;//zahrada
+	structures::Array<int>* ochard = nullptr;//ovocny sad
+	structures::Array<int>* lawn = nullptr;//travnik
 
-	structures::Array<int>* forest;//les
-	structures::Array<int>* water;//les
-	structures::Array<int>* builtupArea;//zastanena plocha
-	structures::Array<int>* theRest;//ostatna plocha
+	structures::Array<int>* forest = nullptr;//les
+	structures::Array<int>* water = nullptr;//voda
+	structures::Array<int>* builtupArea = nullptr;//zastanena plocha
+	structures::Array<int>* theRest = nullptr;//ostatna plocha
 
 public:
 	static const int MIN_YEAR = 1996;
@@ -51,16 +51,16 @@ public:
 	void setBuiltupArea(structures::Array<int>* arr) { builtupArea = arr; }
 	void setTheRest(structures::Array<int>* arr) { theRest = arr; }
 
-	int getArableLand(int year) { return (*arableLand)[year - MIN_YEAR]; }
-	int getHopGarden(int year) { return (*hopGarden)[year - MIN_YEAR]; }
-	int getVineyard(int year) { return (*vineyard)[year - MIN_YEAR]; }
-	int getGarden(int year) { return (*garden)[year - MIN_YEAR]; }
-	int getOchard(int year) { return (*ochard)[year - MIN_YEAR]; }
-	int getLawn(int year) { return (*lawn)[year - MIN_YEAR]; }
-	int getForest(int year) { return (*forest)[year - MIN_YEAR]; }
-	int getWater(int year) { return (*water)[year - MIN_YEAR]; }
-	int getBuiltupArea(int year) { return (*builtupArea)[year - MIN_YEAR]; }
-	int getTheRest(int year) { return (*theRest)[year - MIN_YEAR]; }
+	int getArableLand(int year) { return arableLand == nullptr ? 0 : (*arableLand)[year - MIN_YEAR]; }
+	int getHopGarden(int year) { return hopGarden == nullptr ? 0 : (*hopGarden)[year - MIN_YEAR]; }
+	int getVineyard(int year) { return vineyard == nullptr ? 0 : (*vineyard)[year - MIN_YEAR]; }
+	int getGarden(int year) { return garden == nullptr ? 0 : (*garden)[year - MIN_YEAR]; }
+	int getOchard(int year) { return ochard == nullptr ? 0 : (*ochard)[year - MIN_YEAR]; }
+	int getLawn(int year) { return lawn == nullptr ? 0 : (*lawn)[year - MIN_YEAR]; }
+	int getForest(int year) { return forest == nullptr ? 0 : (*forest)[year - MIN_YEAR]; }
+	int getWater(int year) { return water == nullptr ? 0 : (*water)[year - MIN_YEAR]; }
+	int getBuiltupArea(int year) { return builtupArea == nullptr ? 0 : (*builtupArea)[year - MIN_YEAR]; }
+	int getTheRest(int year) { return theRest == nullptr ? 0 : (*theRest)[year - MIN_YEAR]; }
 
 	int getTotalAreat(int year);
 	int getTotalAgriculturalArea(int year);

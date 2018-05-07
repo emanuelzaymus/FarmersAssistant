@@ -66,9 +66,9 @@ int main() {
 
 	setlocale(LC_ALL, "");
 
-	//Manager manager;
+	Manager manager;
 
-	//manager.loadInfo();
+	manager.loadInfo();
 
 /*
 	structures::Treap<int, char> bst;
@@ -210,6 +210,7 @@ int main() {
 		std::cout << var->getKey() << " - " << var->accessData() << std::endl;
 */
 
+/*
 	structures::UnsortedSequenceTable<int, std::string> table;
 
 	table.insert(60, "sesenta");
@@ -243,6 +244,6 @@ int main() {
 
 	for each (auto v in table)
 		std::cout << v->getKey() << " - " << v->accessData() << std::endl;
-
+	*/
 	return 0;
 }

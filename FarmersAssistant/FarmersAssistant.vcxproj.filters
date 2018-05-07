@@ -252,4 +252,7 @@
   <ItemGroup>
     <Natvis Include="structures\aus.natvis" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
 </Project>

@@ -191,62 +191,71 @@ void FileHandler::readLandUTF8(std::string path)
 
 	std::wstring wstr;
 	std::wstring name;
+	std::wstring area;
 
-	LandInfo* landInfo;
+	LandInfo* landInfo = nullptr;
 	structures::Array<int>* array;
-	
+
 	std::getline(wifstrm, wstr);
+	std::getline(wifstrm, name, L';');
+
 	int i = 0;
 	while (wifstrm.good())
 	{
-		if (i++ >= 10)
-		{
+		if (i++ >= 50)
 			break;
-		}
 
-		std::getline(wifstrm, name, L';');
-		std::wcout << "*****" << name << "*****" << '|';
-		landInfo = new LandInfo();
-
-		for (size_t i = 0; i < 13; i++)
+		if (name.compare(L"") != 0)
 		{
-			if (i == 0 || i == 1 || i == 8) //Total Area, Total Agricultural Area, Total Nonagricultural Area
+			std::wcout << "*****" << name << "*****" << '|';
+			if (landInfo != nullptr)
 			{
-				std::getline(wifstrm, wstr, L'\n');
-				continue;
+				delete landInfo;//put landInfo into town you find TODO
+				landInfo = nullptr;
 			}
-			for (size_t i = 0; i < 2; i++) { std::getline(wifstrm, wstr, L';'); } //empty space, name of area
+			landInfo = new LandInfo();
 
-			array = new structures::Array<int>(LandInfo::MAX_YEAR - LandInfo::MIN_YEAR + 1);
-
-			for (size_t j = 0; j < LandInfo::MAX_YEAR - LandInfo::MIN_YEAR + 1; j++)
-			{
-				if (j < LandInfo::MAX_YEAR - LandInfo::MIN_YEAR)
-					std::getline(wifstrm, wstr, L';');
-				else
-					std::getline(wifstrm, wstr, L'\n');
-
-				(*array)[j] = std::stoi(wstr);
-				std::wcout << (*array)[j] << '|';
-			}
-			switch (i)
-			{
-			case 2: landInfo->setArableLand(array);	break;
-			case 3: landInfo->setHopGarden(array); break;
-			case 4: landInfo->setVineyard(array); break;
-			case 5: landInfo->setGarden(array);	break;
-			case 6: landInfo->setOchard(array);	break;
-			case 7: landInfo->setLawn(array); break;
-			
-			case 9: landInfo->setForest(array); break;
-			case 10: landInfo->setWater(array); break;
-			case 11: landInfo->setBuiltupArea(array); break;
-			case 12: landInfo->setTheRest(array); break;
-			}
-			std::cout << std::endl;
+			for (size_t i = 0; i < 2; i++) { std::getline(wifstrm, wstr, L'\n'); } //Total Area, Total Agricultural Area
+			std::getline(wifstrm, wstr, L';'); //empty space
 		}
 
-		delete landInfo;//put landInfo into town you find TODO
+		std::getline(wifstrm, area, L';'); //name of area
+
+		if (area.compare(L"Nepo¾nohospodárska pôda - spolu") == 0) {
+			std::getline(wifstrm, wstr, L'\n');
+			std::getline(wifstrm, wstr, L';'); //empty space
+			continue;
+		}
+
+		array = new structures::Array<int>(LandInfo::MAX_YEAR - LandInfo::MIN_YEAR + 1);
+		for (size_t j = 0; j < LandInfo::MAX_YEAR - LandInfo::MIN_YEAR + 1; j++)
+		{
+			if (j < LandInfo::MAX_YEAR - LandInfo::MIN_YEAR)
+				std::getline(wifstrm, wstr, L';');
+			else
+				std::getline(wifstrm, wstr, L'\n');
+
+			(*array)[j] = std::stoi(wstr);
+			std::wcout << (*array)[j] << '|';
+		}
+		std::cout << std::endl;
+
+		if (area.compare(L"Po¾nohospodárska pôda  - orná pôda (v m2)") == 0) { landInfo->setArableLand(array); }
+		else if (area.compare(L"Po¾nohospodárska pôda  - chme¾nica (v m2)") == 0) { landInfo->setHopGarden(array); }
+		else if (area.compare(L"Po¾nohospodárska pôda  - vinica (v m2)") == 0) { landInfo->setVineyard(array); }
+		else if (area.compare(L"Po¾nohospodárska pôda  -  záhrada") == 0) { landInfo->setGarden(array); }
+		else if (area.compare(L"Po¾nohospodárska pôda  -  ovocný sad (v m2)") == 0) { landInfo->setOchard(array); }
+		else if (area.compare(L"Po¾nohospodárska pôda  -  trvalý trávny porast (v m2)") == 0) { landInfo->setLawn(array); }
+
+		else if (area.compare(L"Nepo¾nohospodárska pôda - lesný pozemok (v m2)") == 0) { landInfo->setForest(array); }
+		else if (area.compare(L"Nepo¾nohospodárska pôda - vodná plocha (v m2)") == 0) { landInfo->setWater(array); }
+		else if (area.compare(L"Nepo¾nohospodárska pôda - zastavaná plocha a nádvorie (v m2)") == 0) { landInfo->setBuiltupArea(array); }
+		else if (area.compare(L"Nepo¾nohospodárska pôda - ostatná plocha (v m2)") == 0) { landInfo->setTheRest(array); }
+		else { std::wcout << "error|"; }
+		std::getline(wifstrm, name, L';');
+
 	}
 	wifstrm.close();
+	delete landInfo;//put landInfo into town you find TODO
+
 }
