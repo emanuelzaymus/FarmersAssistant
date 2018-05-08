@@ -23,5 +23,7 @@ public:
 	~District();
 
 	void addTown(Town* t) { towns->add(t); }
+
+	auto getTowns() { return towns; }
 };
 

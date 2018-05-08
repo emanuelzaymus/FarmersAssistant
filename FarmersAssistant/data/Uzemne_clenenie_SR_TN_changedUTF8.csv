@@ -41,7 +41,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 40;505692;  Veľké Chlievany;301;Bánovce nad Bebravou;300;Trenčiansky
 41;505765;  Vysočany;301;Bánovce nad Bebravou;300;Trenčiansky
 42;505790;  Zlatníky;301;Bánovce nad Bebravou;300;Trenčiansky
-43;505811;  Žitná - Radiša;301;Bánovce nad Bebravou;300;Trenčiansky
+43;505811;  Žitná-Radiša;301;Bánovce nad Bebravou;300;Trenčiansky
 44;582301;  Bohunice;302;Ilava;300;Trenčiansky
 45;512885;  Bolešov;302;Ilava;300;Trenčiansky
 46;557391;  Borčice;302;Ilava;300;Trenčiansky
@@ -67,7 +67,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 66;504262;  Brezová pod Bradlom;303;Myjava;300;Trenčiansky
 67;504289;  Bukovec;303;Myjava;300;Trenčiansky
 68;506079;  Hrašné;303;Myjava;300;Trenčiansky
-69;504408;  Chvojnica;303;Myjava;300;Trenčiansky
+69;504408;  Chvojnica (Myjava);303;Myjava;300;Trenčiansky
 70;504424;  Jablonka;303;Myjava;300;Trenčiansky
 71;506141;  Kostolné;303;Myjava;300;Trenčiansky
 72;504467;  Košariská;303;Myjava;300;Trenčiansky
@@ -152,7 +152,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 151;513245;  Kostolec;306;Považská Bystrica;300;Trenčiansky
 152;557579;  Malé Lednice;306;Považská Bystrica;300;Trenčiansky
 153;513466;  Papradno;306;Považská Bystrica;300;Trenčiansky
-154;513474;  Plevník - Drienové;306;Považská Bystrica;300;Trenčiansky
+154;513474;  Plevník-Drienové;306;Považská Bystrica;300;Trenčiansky
 155;558222;  Počarová;306;Považská Bystrica;300;Trenčiansky
 156;580864;  Podskalie;306;Považská Bystrica;300;Trenčiansky
 157;512842;  Považská Bystrica;306;Považská Bystrica;300;Trenčiansky
@@ -177,8 +177,8 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 176;513997;  Handlová;307;Prievidza;300;Trenčiansky
 177;514004;  Horná Ves;307;Prievidza;300;Trenčiansky
 178;514012;  Horné Vestenice;307;Prievidza;300;Trenčiansky
-179;514021;  Chrenovec - Brusno;307;Prievidza;300;Trenčiansky
-180;514039;  Chvojnica;307;Prievidza;300;Trenčiansky
+179;514021;  Chrenovec-Brusno;307;Prievidza;300;Trenčiansky
+180;514039;  Chvojnica (Prievidza);307;Prievidza;300;Trenčiansky
 181;557714;  Jalovec;307;Prievidza;300;Trenčiansky
 182;514063;  Kamenec pod Vtáčnikom;307;Prievidza;300;Trenčiansky
 183;514071;  Kanianka;307;Prievidza;300;Trenčiansky
@@ -192,7 +192,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 191;557706;  Lipník;307;Prievidza;300;Trenčiansky
 192;514179;  Malá Čausa;307;Prievidza;300;Trenčiansky
 193;514187;  Malinová;307;Prievidza;300;Trenčiansky
-194;514209;  Nedožery - Brezany;307;Prievidza;300;Trenčiansky
+194;514209;  Nedožery-Brezany;307;Prievidza;300;Trenčiansky
 195;514217;  Nevidzany;307;Prievidza;300;Trenčiansky
 196;514225;  Nitrianske Pravno;307;Prievidza;300;Trenčiansky
 197;514233;  Nitrianske Rudno;307;Prievidza;300;Trenčiansky
@@ -211,7 +211,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 210;514365;  Rudnianska Lehota;307;Prievidza;300;Trenčiansky
 211;514373;  Sebedražie;307;Prievidza;300;Trenčiansky
 212;514381;  Seč;307;Prievidza;300;Trenčiansky
-213;514390;  Šutovce;307;Prievidza;300;Trenčiansky
+213;514390;  Šútovce;307;Prievidza;300;Trenčiansky
 214;514403;  Temeš;307;Prievidza;300;Trenčiansky
 215;514411;  Tužina;307;Prievidza;300;Trenčiansky
 216;514420;  Valaská Belá;307;Prievidza;300;Trenčiansky
@@ -248,11 +248,11 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 247;506028;  Horňany;309;Trenčín;300;Trenčiansky
 248;506036;  Horné Srnie;309;Trenčín;300;Trenčiansky
 249;506044;  Hrabovka;309;Trenčín;300;Trenčiansky
-250;506087;  Chocholná - Velčice;309;Trenčín;300;Trenčiansky
+250;506087;  Chocholná-Velčice;309;Trenčín;300;Trenčiansky
 251;506095;  Ivanovce;309;Trenčín;300;Trenčiansky
-252;506133;  Kostolná - Záriečie;309;Trenčín;300;Trenčiansky
-253;506168;  Krivosúd - Bodovka;309;Trenčín;300;Trenčiansky
-254;545686;  Melčice - Lieskové;309;Trenčín;300;Trenčiansky
+252;506133;  Kostolná-Záriečie;309;Trenčín;300;Trenčiansky
+253;506168;  Krivosúd-Bodovka;309;Trenčín;300;Trenčiansky
+254;545686;  Melčice-Lieskové;309;Trenčín;300;Trenčiansky
 255;506231;  Mníchova Lehota;309;Trenčín;300;Trenčiansky
 256;506273;  Motešice;309;Trenčín;300;Trenčiansky
 257;506281;  Nemšová;309;Trenčín;300;Trenčiansky

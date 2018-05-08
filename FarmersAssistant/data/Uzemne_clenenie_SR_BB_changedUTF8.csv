@@ -31,9 +31,9 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 30;508918;  Poniky;601;Banská Bystrica;600;Banskobystrický
 31;508926;  Povrazník;601;Banská Bystrica;600;Banskobystrický
 32;508942;  Priechod;601;Banská Bystrica;600;Banskobystrický
-33;508969;  Riečka;601;Banská Bystrica;600;Banskobystrický
-34;508977;  Sebedín - Bečov;601;Banská Bystrica;600;Banskobystrický
-35;508985;  Selce;601;Banská Bystrica;600;Banskobystrický
+33;508969;  Riečka (Banská Bystrica);601;Banská Bystrica;600;Banskobystrický
+34;508977;  Sebedín-Bečov;601;Banská Bystrica;600;Banskobystrický
+35;508985;  Selce (Banská Bystrica);601;Banská Bystrica;600;Banskobystrický
 36;509001;  Slovenská Ľupča;601;Banská Bystrica;600;Banskobystrický
 37;509019;  Staré Hory;601;Banská Bystrica;600;Banskobystrický
 38;509027;  Strelníky;601;Banská Bystrica;600;Banskobystrický
@@ -100,7 +100,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 99;518816;  Stará Huta;604;Detva;600;Banskobystrický
 100;518824;  Stožok;604;Detva;600;Banskobystrický
 101;518921;  Vígľaš;604;Detva;600;Banskobystrický
-102;518930;  Vígľašská Huta - Kalinka;604;Detva;600;Banskobystrický
+102;518930;  Vígľašská Huta-Kalinka;604;Detva;600;Banskobystrický
 103;518212;  Bzovík;605;Krupina;600;Banskobystrický
 104;518239;  Cerovo;605;Krupina;600;Banskobystrický
 105;518247;  Čabradský Vrbovok;605;Krupina;600;Banskobystrický
@@ -119,7 +119,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 118;518441;  Horný Badín;605;Krupina;600;Banskobystrický
 119;518484;  Jalšovík;605;Krupina;600;Banskobystrický
 120;518514;  Kozí Vrbovok;605;Krupina;600;Banskobystrický
-121;518531;  Kráľovce - Krnišov;605;Krupina;600;Banskobystrický
+121;518531;  Kráľovce-Krnišov;605;Krupina;600;Banskobystrický
 122;518557;  Krupina;605;Krupina;600;Banskobystrický
 123;518565;  Lackov;605;Krupina;600;Banskobystrický
 124;518573;  Ladzany;605;Krupina;600;Banskobystrický
@@ -128,7 +128,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 127;518646;  Medovarce;605;Krupina;600;Banskobystrický
 128;518701;  Rykynčice;605;Krupina;600;Banskobystrický
 129;518735;  Sebechleby;605;Krupina;600;Banskobystrický
-130;518743;  Selce;605;Krupina;600;Banskobystrický
+130;518743;  Selce (Krupina);605;Krupina;600;Banskobystrický
 131;518751;  Senohrad;605;Krupina;600;Banskobystrický
 132;518832;  Sudince;605;Krupina;600;Banskobystrický
 133;518841;  Súdovce;605;Krupina;600;Banskobystrický
@@ -169,7 +169,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 168;511641;  Mýtna;606;Lučenec;600;Banskobystrický
 169;511668;  Nitra nad Ipľom;606;Lučenec;600;Banskobystrický
 170;511692;  Panické Dravce;606;Lučenec;600;Banskobystrický
-171;511706;  Píla;606;Lučenec;600;Banskobystrický
+171;511706;  Píla (Lučenec);606;Lučenec;600;Banskobystrický
 172;511722;  Pleš;606;Lučenec;600;Banskobystrický
 173;511749;  Podrečany;606;Lučenec;600;Banskobystrický
 174;511757;  Polichno;606;Lučenec;600;Banskobystrický
@@ -185,7 +185,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 184;511871;  Šíd;606;Lučenec;600;Banskobystrický
 185;511897;  Šurice;606;Lučenec;600;Banskobystrický
 186;511901;  Točnica;606;Lučenec;600;Banskobystrický
-187;511919;  Tomášovce;606;Lučenec;600;Banskobystrický
+187;511919;  Tomášovce (Lučenec);606;Lučenec;600;Banskobystrický
 188;511927;  Trebeľovce;606;Lučenec;600;Banskobystrický
 189;557340;  Trenč;606;Lučenec;600;Banskobystrický
 190;511943;  Tuhár;606;Lučenec;600;Banskobystrický
@@ -209,7 +209,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 208;511714;  Pinciná;606;Lučenec;600;Banskobystrický
 209;511765;  Poltár;607;Poltár;600;Banskobystrický
 210;511820;  Rovňany;607;Poltár;600;Banskobystrický
-211;515515;  Selce;607;Poltár;600;Banskobystrický
+211;515515;  Selce (Poltár);607;Poltár;600;Banskobystrický
 212;515591;  Sušany;607;Poltár;600;Banskobystrický
 213;511889;  Šoltýska;607;Poltár;600;Banskobystrický
 214;511978;  Uhorské;607;Poltár;600;Banskobystrický
@@ -250,7 +250,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 249;526142;  Revúca;608;Revúca;600;Banskobystrický
 250;526151;  Revúcka Lehota;608;Revúca;600;Banskobystrický
 251;515507;  Rybník;608;Revúca;600;Banskobystrický
-252;557820;  Sása;608;Revúca;600;Banskobystrický
+252;557820;  Sása (Revúca);608;Revúca;600;Banskobystrický
 253;526258;  Sirk;608;Revúca;600;Banskobystrický
 254;515523;  Skerešovo;608;Revúca;600;Banskobystrický
 255;526304;  Šivetice;608;Revúca;600;Banskobystrický
@@ -330,7 +330,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 329;557854;  Rakytník;609;Rimavská Sobota;600;Banskobystrický
 330;515388;  Ratkovská Lehota;609;Rimavská Sobota;600;Banskobystrický
 331;515396;  Ratkovská Suchá;609;Rimavská Sobota;600;Banskobystrický
-332;557765;  Riečka;609;Rimavská Sobota;600;Banskobystrický
+332;557765;  Riečka (Rimavská Sobota);609;Rimavská Sobota;600;Banskobystrický
 333;515426;  Rimavská Baňa;609;Rimavská Sobota;600;Banskobystrický
 334;515442;  Rimavská Seč;609;Rimavská Sobota;600;Banskobystrický
 335;514462;  Rimavská Sobota;609;Rimavská Sobota;600;Banskobystrický
@@ -351,7 +351,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 350;515663;  Tachty;609;Rimavská Sobota;600;Banskobystrický
 351;515671;  Teplý Vrch;609;Rimavská Sobota;600;Banskobystrický
 352;515680;  Tisovec;609;Rimavská Sobota;600;Banskobystrický
-353;515698;  Tomášovce;609;Rimavská Sobota;600;Banskobystrický
+353;515698;  Tomášovce (Rimavská Sobota);609;Rimavská Sobota;600;Banskobystrický
 354;515701;  Uzovská Panica;609;Rimavská Sobota;600;Banskobystrický
 355;515795;  Valice;609;Rimavská Sobota;600;Banskobystrický
 356;515710;  Včelince;609;Rimavská Sobota;600;Banskobystrický
@@ -453,7 +453,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 452;518671;  Ostrá Lúka;611;Zvolen;600;Banskobystrický
 453;518689;  Pliešovce;611;Zvolen;600;Banskobystrický
 454;518697;  Podzámčok;611;Zvolen;600;Banskobystrický
-455;518727;  Sása;611;Zvolen;600;Banskobystrický
+455;518727;  Sása (Zvolen);611;Zvolen;600;Banskobystrický
 456;518760;  Sielnica;611;Zvolen;600;Banskobystrický
 457;518808;  Sliač;611;Zvolen;600;Banskobystrický
 458;518875;  Tŕnie;611;Zvolen;600;Banskobystrický
@@ -463,7 +463,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 462;518972;  Zvolenská Slatina;611;Zvolen;600;Banskobystrický
 463;518981;  Železná Breznica;611;Zvolen;600;Banskobystrický
 464;581607;  Brehy;612;Žarnovica;600;Banskobystrický
-465;516759;  Hodruša - Hámre;612;Žarnovica;600;Banskobystrický
+465;516759;  Hodruša-Hámre;612;Žarnovica;600;Banskobystrický
 466;516805;  Horné Hámre;612;Žarnovica;600;Banskobystrický
 467;516813;  Hrabičov;612;Žarnovica;600;Banskobystrický
 468;516830;  Hronský Beňadik;612;Žarnovica;600;Banskobystrický
@@ -472,7 +472,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 471;517097;  Nová Baňa;612;Žarnovica;600;Banskobystrický
 472;580546;  Orovnica;612;Žarnovica;600;Banskobystrický
 473;517119;  Ostrý Grúň;612;Žarnovica;600;Banskobystrický
-474;517127;  Píla;612;Žarnovica;600;Banskobystrický
+474;517127;  Píla (Žarnovica);612;Žarnovica;600;Banskobystrický
 475;517232;  Rudno nad Hronom;612;Žarnovica;600;Banskobystrický
 476;517291;  Tekovská Breznica;612;Žarnovica;600;Banskobystrický
 477;517330;  Veľká Lehota;612;Žarnovica;600;Banskobystrický
@@ -501,7 +501,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 500;599328;  Ladomerská Vieska;613;Žiar nad Hronom;600;Banskobystrický
 501;517011;  Lehôtka pod Brehmi;613;Žiar nad Hronom;600;Banskobystrický
 502;517020;  Lovča;613;Žiar nad Hronom;600;Banskobystrický
-503;517038;  Lovčica - Trubín;613;Žiar nad Hronom;600;Banskobystrický
+503;517038;  Lovčica-Trubín;613;Žiar nad Hronom;600;Banskobystrický
 504;517046;  Lúčky;613;Žiar nad Hronom;600;Banskobystrický
 505;599336;  Lutila;613;Žiar nad Hronom;600;Banskobystrický
 506;517089;  Nevoľné;613;Žiar nad Hronom;600;Banskobystrický

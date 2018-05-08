@@ -18,6 +18,14 @@
 #include "PopulationInfo.h"
 #include "LandInfo.h"
 
+std::wstring FileHandler::trimComma(std::wstring wstr)
+{
+	int end = wstr.find(L',');
+	wstr = wstr.substr(0, end);
+
+	return wstr;
+}
+
 FileHandler::FileHandler()
 {
 }
@@ -71,7 +79,7 @@ Region* FileHandler::readRegionUTF8(std::string path)
 
 	std::getline(wifstrm, wstr);
 
-	int i = 0;
+	//int i = 0;
 	while (wifstrm.good())
 	{
 		//if (i++ >= 50)
@@ -80,20 +88,20 @@ Region* FileHandler::readRegionUTF8(std::string path)
 
 		std::getline(wifstrm, wstr, L';');
 		townCode = std::stoi(wstr);
-		std::wcout << townCode << '|';
+		//std::wcout << townCode << '|';
 
 		std::getline(wifstrm, townName, L';');
 		townName = townName.substr(2);
-		std::wcout << townName << '|';
+		//std::wcout << townName << '|';
 
 		std::getline(wifstrm, wstr, L';');
 		districtCode = std::stoi(wstr);
-		std::wcout << districtCode << '|';
+		//std::wcout << districtCode << '|';
 
 		if (districtCode != lastNewDistrictCode)
 		{
 			std::getline(wifstrm, districtName, L';');
-			std::wcout << districtName << '|';
+			//std::wcout << districtName << '|';
 
 			lastNewDistrictCode = districtCode;
 
@@ -101,10 +109,10 @@ Region* FileHandler::readRegionUTF8(std::string path)
 			{
 				std::getline(wifstrm, wstr, L';');
 				regionCode = std::stoi(wstr);
-				std::wcout << regionCode << '|';
+				//std::wcout << regionCode << '|';
 
 				std::getline(wifstrm, regionName, L'\n');
-				std::wcout << regionName << '|';
+				//std::wcout << regionName << '|';
 
 				region = new Region(regionCode, regionName);
 
@@ -119,7 +127,7 @@ Region* FileHandler::readRegionUTF8(std::string path)
 			std::getline(wifstrm, wstr, L'\n');
 		}
 		town = new Town(townCode, townName, district);
-		std::wcout << std::endl;
+		//std::wcout << std::endl;
 
 	}
 	wifstrm.close();
@@ -181,7 +189,108 @@ void FileHandler::readPopulationUTF8(std::string path)
 	wifstrm.close();
 }
 
-void FileHandler::readLandUTF8(std::string path)
+
+void FileHandler::readLandUTF8(std::string path, Region& region, int fromLine)
+{
+	std::wifstream wifstrm(path);
+	wifstrm.imbue(std::locale(std::locale::empty(), ::new std::codecvt_utf8<wchar_t>));
+
+	if (!wifstrm.is_open())
+		throw std::exception("Cannot open file.");
+
+	std::wstring wstr;
+	std::wstring name;
+	std::wstring area;
+
+	auto towns = region.getSortedTowns();
+
+	LandInfo* landInfo = nullptr;
+	structures::Array<int>* arr;
+
+	for (size_t i = 0; i < fromLine - 1; i++) { std::getline(wifstrm, wstr); }//first line with descreptions + 14 lines
+
+	std::getline(wifstrm, name, L';');//name
+
+	int i = 0;
+	while (wifstrm.good())
+	{
+		if (i++ >= towns.size())
+			break;
+
+		name = trimComma(name);
+		std::wcout << '*' << name << "*|";
+
+		Town *t;
+		try
+		{
+			t = towns[name];
+		}
+		catch (const std::exception& e)
+		{
+			std::cout << e.what() << std::endl;
+			std::getline(wifstrm, wstr);
+			std::getline(wifstrm, name, L';');//name
+			return;
+		}
+		std::cout << std::endl;
+
+		landInfo = new LandInfo();
+		for (size_t i = 0; i < 2; i++) { std::getline(wifstrm, wstr, L'\n'); } //Total Area, Total Agricultural Area
+		std::getline(wifstrm, wstr, L';'); //empty space
+
+		do
+		{
+			std::getline(wifstrm, area, L';'); //name of area
+
+			if (area.compare(L"Nepo¾nohospodárska pôda - spolu") == 0) {
+				std::getline(wifstrm, wstr, L'\n');
+				std::getline(wifstrm, wstr, L';'); //empty space
+				continue;
+			}
+
+			arr = new structures::Array<int>(LandInfo::MAX_YEAR - LandInfo::MIN_YEAR + 1);
+			for (size_t j = 0; j < LandInfo::MAX_YEAR - LandInfo::MIN_YEAR + 1; j++)
+			{
+				if (j < LandInfo::MAX_YEAR - LandInfo::MIN_YEAR)
+					std::getline(wifstrm, wstr, L';');
+				else
+					std::getline(wifstrm, wstr, L'\n');
+
+				(*arr)[j] = std::stoi(wstr);
+				//std::wcout << (*arr)[j] << '|';
+			}
+			//std::cout << std::endl;
+
+			if (area.compare(L"Po¾nohospodárska pôda  - orná pôda (v m2)") == 0) { landInfo->setArableLand(arr); }
+			else if (area.compare(L"Po¾nohospodárska pôda  - chme¾nica (v m2)") == 0) { landInfo->setHopGarden(arr); }
+			else if (area.compare(L"Po¾nohospodárska pôda  - vinica (v m2)") == 0) { landInfo->setVineyard(arr); }
+			else if (area.compare(L"Po¾nohospodárska pôda  -  záhrada") == 0) { landInfo->setGarden(arr); }
+			else if (area.compare(L"Po¾nohospodárska pôda  -  ovocný sad (v m2)") == 0) { landInfo->setOchard(arr); }
+			else if (area.compare(L"Po¾nohospodárska pôda  -  trvalý trávny porast (v m2)") == 0) { landInfo->setLawn(arr); }
+
+			else if (area.compare(L"Nepo¾nohospodárska pôda - lesný pozemok (v m2)") == 0) { landInfo->setForest(arr); }
+			else if (area.compare(L"Nepo¾nohospodárska pôda - vodná plocha (v m2)") == 0) { landInfo->setWater(arr); }
+			else if (area.compare(L"Nepo¾nohospodárska pôda - zastavaná plocha a nádvorie (v m2)") == 0) { landInfo->setBuiltupArea(arr); }
+			else if (area.compare(L"Nepo¾nohospodárska pôda - ostatná plocha (v m2)") == 0) { landInfo->setTheRest(arr); }
+			else { std::wcout << "error|"; }
+			std::getline(wifstrm, name, L';');
+
+		} while (name.compare(L"") == 0);
+
+		t->setLandInfo(landInfo);
+		//delete landInfo;//put landInfo into town you find TODO
+
+
+	}
+	wifstrm.close();
+	//delete landInfo;//put landInfo into town you find TODO
+	std::cout << "---------------" << std::endl;
+}
+
+
+
+/*
+void FileHandler::readLandUTF8(std::string path, Region& region, int fromLine)
 {
 	std::wifstream wifstrm(path);
 	wifstrm.imbue(std::locale(std::locale::empty(), ::new std::codecvt_utf8<wchar_t>));
@@ -256,6 +365,7 @@ void FileHandler::readLandUTF8(std::string path)
 
 	}
 	wifstrm.close();
-	delete landInfo;//put landInfo into town you find TODO
+	//delete landInfo;//put landInfo into town you find TODO
 
 }
+*/

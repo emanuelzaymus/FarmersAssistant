@@ -5,10 +5,10 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 4;517631;  Jablonové;501;Bytča;500;Žilinský
 5;517674;  Kolárovice;501;Bytča;500;Žilinský
 6;517691;  Kotešová;501;Bytča;500;Žilinský
-7;517798;  Maršová - Rašov;501;Bytča;500;Žilinský
+7;517798;  Maršová-Rašov;501;Bytča;500;Žilinský
 8;517861;  Petrovice;501;Bytča;500;Žilinský
 9;517895;  Predmier;501;Bytča;500;Žilinský
-10;517992;  Súľov - Hradná;501;Bytča;500;Žilinský
+10;517992;  Súľov-Hradná;501;Bytča;500;Žilinský
 11;518018;  Štiavnik;501;Bytča;500;Žilinský
 12;518085;  Veľké Rovné;501;Bytča;500;Žilinský
 13;509132;  Čadca;502;Čadca;500;Žilinský
@@ -87,7 +87,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 86;510505;  Jakubovany;505;Liptovský Mikuláš;500;Žilinský
 87;510513;  Jalovec;505;Liptovský Mikuláš;500;Žilinský
 88;510521;  Jamník;505;Liptovský Mikuláš;500;Žilinský
-89;507393;  Konská;505;Liptovský Mikuláš;500;Žilinský
+89;507393;  Konská (Liptovský Mikuláš);505;Liptovský Mikuláš;500;Žilinský
 90;510564;  Kráľova Lehota;505;Liptovský Mikuláš;500;Žilinský
 91;510572;  Kvačany;505;Liptovský Mikuláš;500;Žilinský
 92;510581;  Lazisko;505;Liptovský Mikuláš;500;Žilinský
@@ -128,7 +128,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 127;511188;  Vyšná Boca;505;Liptovský Mikuláš;500;Žilinský
 128;511196;  Závažná Poruba;505;Liptovský Mikuláš;500;Žilinský
 129;511200;  Žiar;505;Liptovský Mikuláš;500;Žilinský
-130;512052;  Belá - Dulice;506;Martin;500;Žilinský
+130;512052;  Belá-Dulice;506;Martin;500;Žilinský
 131;512061;  Benice;506;Martin;500;Žilinský
 132;512079;  Blatnica;506;Martin;500;Žilinský
 133;512133;  Bystrička;506;Martin;500;Žilinský
@@ -214,7 +214,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 213;510866;  Martinček;508;Ružomberok;500;Žilinský
 214;510955;  Potok;508;Ružomberok;500;Žilinský
 215;510998;  Ružomberok;508;Ružomberok;500;Žilinský
-216;511005;  Sliače;508;Ružomberok;500;Žilinský
+216;511005;  Liptovské Sliače;508;Ružomberok;500;Žilinský
 217;511030;  Stankovany;508;Ružomberok;500;Žilinský
 218;511056;  Štiavnička;508;Ružomberok;500;Žilinský
 219;511064;  Švošov;508;Ružomberok;500;Žilinský
@@ -279,13 +279,13 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 278;517640;  Jasenové;511;Žilina;500;Žilinský
 279;517658;  Kamenná Poruba;511;Žilina;500;Žilinský
 280;557994;  Kľače;511;Žilina;500;Žilinský
-281;517682;  Konská;511;Žilina;500;Žilinský
+281;517682;  Konská (Žilina);511;Žilina;500;Žilinský
 282;517704;  Kotrčiná Lúčka;511;Žilina;500;Žilinský
 283;517712;  Krasňany;511;Žilina;500;Žilinský
 284;517721;  Kunerad;511;Žilina;500;Žilinský
 285;517739;  Lietava;511;Žilina;500;Žilinský
 286;557935;  Lietavská Lúčka;511;Žilina;500;Žilinský
-287;517755;  Lietavská Svinná - Babkov;511;Žilina;500;Žilinský
+287;517755;  Lietavská Svinná-Babkov;511;Žilina;500;Žilinský
 288;517763;  Lutiše;511;Žilina;500;Žilinský
 289;517771;  Lysica;511;Žilina;500;Žilinský
 290;517780;  Malá Čierna;511;Žilina;500;Žilinský

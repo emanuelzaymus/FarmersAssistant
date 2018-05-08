@@ -221,6 +221,11 @@ namespace structures
 	template<typename T>
 	inline void ArrayList<T>::insert(const T & data, const int index)
 	{
+		if (index == size_)
+		{
+			add(data);
+			return;
+		}
 		if (size_ == array_->size())
 			this->enlarge();
 		Array<T>::copy(*array_, index, *array_, index + 1, size_ - index);

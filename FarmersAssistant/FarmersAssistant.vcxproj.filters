@@ -248,11 +248,11 @@
     <ClInclude Include="structures\ds_structure_types.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="structures\table\sorted_sequence_table_string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Natvis Include="structures\aus.natvis" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>

@@ -17,7 +17,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 16;543659;  Švedlár;801;Gelnica;800;Košický
 17;543683;  Úhorná;801;Gelnica;800;Košický
 18;543705;  Veľký Folkmar;801;Gelnica;800;Košický
-19;526631;  Závadka;801;Gelnica;800;Košický
+19;526631;  Závadka (Gelnica);801;Gelnica;800;Košický
 20;526649;  Žakarovce;801;Gelnica;800;Košický
 21;599891;  Košice - Džungľa;802;Košice I;800;Košický
 22;598119;  Košice - Kavečany;802;Košice I;800;Košický
@@ -64,7 +64,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 63;521345;  Družstevná pri Hornáde;806;Košice - okolie;800;Košický
 64;521353;  Ďurďošík;806;Košice - okolie;800;Košický
 65;521361;  Ďurkov;806;Košice - okolie;800;Košický
-66;559873;  Dvorníky - Včeláre;806;Košice - okolie;800;Košický
+66;559873;  Dvorníky-Včeláre;806;Košice - okolie;800;Košický
 67;521370;  Geča;806;Košice - okolie;800;Košický
 68;521388;  Gyňov;806;Košice - okolie;800;Košický
 69;521396;  Hačava;806;Košice - okolie;800;Košický
@@ -83,7 +83,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 82;521523;  Kecerovce;806;Košice - okolie;800;Košický
 83;521540;  Kecerovský Lipovec;806;Košice - okolie;800;Košický
 84;559687;  Kechnec;806;Košice - okolie;800;Košický
-85;521558;  Kokšov - Bakša;806;Košice - okolie;800;Košický
+85;521558;  Kokšov-Bakša;806;Košice - okolie;800;Košický
 86;521566;  Komárovce;806;Košice - okolie;800;Košický
 87;582514;  Kostoľany nad Hornádom;806;Košice - okolie;800;Košický
 88;521574;  Košická Belá;806;Košice - okolie;800;Košický
@@ -114,7 +114,7 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 113;521841;  Opiná;806;Košice - okolie;800;Košický
 114;521850;  Paňovce;806;Košice - okolie;800;Košický
 115;521868;  Peder;806;Košice - okolie;800;Košický
-116;521876;  Perín - Chym;806;Košice - okolie;800;Košický
+116;521876;  Perín-Chym;806;Košice - okolie;800;Košický
 117;521884;  Ploské;806;Košice - okolie;800;Košický
 118;521892;  Poproč;806;Košice - okolie;800;Košický
 119;521906;  Rákoš;806;Košice - okolie;800;Košický
@@ -225,10 +225,10 @@ p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
 224;523259;  Vinné;807;Michalovce;800;Košický
 225;543942;  Vojany;807;Michalovce;800;Košický
 226;523275;  Voľa;807;Michalovce;800;Košický
-227;523283;  Vŕbnica;807;Michalovce;800;Košický
+227;523283;  Vrbnica;807;Michalovce;800;Košický
 228;523291;  Vysoká nad Uhom;807;Michalovce;800;Košický
 229;523241;  Zalužice;807;Michalovce;800;Košický
-230;523348;  Závadka;807;Michalovce;800;Košický
+230;523348;  Závadka (Michalovce);807;Michalovce;800;Košický
 231;523356;  Zbudza;807;Michalovce;800;Košický
 232;523364;  Zemplínska Široká;807;Michalovce;800;Košický
 233;522635;  Zemplínske Kopčany;807;Michalovce;800;Košický
