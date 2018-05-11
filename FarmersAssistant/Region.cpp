@@ -19,34 +19,37 @@ Region::~Region()
 	delete districts;
 }
 
-structures::SortedSequenceTableString<std::wstring, Town*> Region::getSortedTowns()
+structures::SortedSequenceTableString<std::wstring, structures::LinkedList<Town*>> Region::getSortedTowns()
 {
-	structures::SortedSequenceTableString<std::wstring, Town*> table;
+	structures::SortedSequenceTableString<std::wstring, structures::LinkedList<Town*>> table;
 
 	for each (auto d in *districts)
 	{
 		auto towns = d->getTowns();
-		for each (auto t in *towns)
+		for each (auto t in towns)
 		{
-			table.insert(t->getName(), t);
+			if (!table.containsKey(t->getName()))
+			{
+				structures::LinkedList<Town*> list;
+				list.add(t);
+				table.insert(t->getName(), list);
+			}
+			else {
+				table[t->getName()].add(t);
+			}
 		}
 	}
 
 	return table;
 }
 
-structures::SortedSequenceTable<std::wstring, Town*> Region::getTowns()
+int Region::getNumberOfTowns()
 {
-	structures::SortedSequenceTable<std::wstring, Town*> table;
-
+	int count = 0;
 	for each (auto d in *districts)
 	{
-		auto towns = d->getTowns();
-		for each (auto t in *towns)
-		{
-			table.insert(t->getName(), t);
-		}
+		count += d->getNumberOfTowns();
 	}
 
-	return table;
+	return count;
 }

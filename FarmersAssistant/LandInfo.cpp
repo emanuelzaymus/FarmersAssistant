@@ -21,32 +21,32 @@ LandInfo::LandInfo()
 
 LandInfo::~LandInfo()
 {
-	//if (arableLand != NULL) { delete arableLand; }//orna poda
-	//if (hopGarden != NULL) { delete hopGarden; }//chmelnica
-	//if (vineyard != NULL) { delete vineyard; }//vinica
-	//if (garden != NULL) { delete garden; }//zahrada
-	//if (ochard != NULL) { delete ochard; }//ovocny sad
-	//if (lawn != NULL) { delete lawn; }//travnik
+	if (arableLand != nullptr) { delete arableLand; }//orna poda
+	if (hopGarden != nullptr) { delete hopGarden; }//chmelnica
+	if (vineyard != nullptr) { delete vineyard; }//vinica
+	if (garden != nullptr) { delete garden; }//zahrada
+	if (ochard != nullptr) { delete ochard; }//ovocny sad
+	if (lawn != nullptr) { delete lawn; }//travnik
 
-	//if (forest != NULL) { delete forest; }//les
-	//if (water != NULL) { delete water; }//voda
-	//if (builtupArea != NULL) { delete builtupArea; }//zastanena plocha
-	//if (theRest != NULL) { delete theRest; }//ostatna plocha
+	if (forest != nullptr) { delete forest; }//les
+	if (water != nullptr) { delete water; }//voda
+	if (builtupArea != nullptr) { delete builtupArea; }//zastanena plocha
+	if (theRest != nullptr) { delete theRest; }//ostatna plocha
 
-	if (arableLand) { delete arableLand; }//orna poda
-	if (hopGarden) { delete hopGarden; }//chmelnica
-	if (vineyard) { delete vineyard; }//vinica
-	if (garden) { delete garden; }//zahrada
-	if (ochard) { delete ochard; }//ovocny sad
-	if (lawn) { delete lawn; }//travnik
+	//if (arableLand) { delete arableLand; }//orna poda
+	//if (hopGarden) { delete hopGarden; }//chmelnica
+	//if (vineyard) { delete vineyard; }//vinica
+	//if (garden) { delete garden; }//zahrada
+	//if (ochard) { delete ochard; }//ovocny sad
+	//if (lawn) { delete lawn; }//travnik
 
-	if (forest) { delete forest; }//les
-	if (water) { delete water; }//voda
-	if (builtupArea) { delete builtupArea; }//zastanena plocha
-	if (theRest) { delete theRest; }//ostatna plocha
+	//if (forest) { delete forest; }//les
+	//if (water) { delete water; }//voda
+	//if (builtupArea) { delete builtupArea; }//zastanena plocha
+	//if (theRest) { delete theRest; }//ostatna plocha
 }
 
-int LandInfo::getTotalAreat(int year)
+int LandInfo::getTotalArea(int year)
 {
 	return getTotalAgriculturalArea(year) + getTotalNonagriculturalArea(year);
 }

@@ -15,7 +15,7 @@ private:
 	int code;
 	District* district;
 	PopulationInfo *population;
-	LandInfo* land;
+	LandInfo* land = nullptr;
 
 public:
 	Town(int code, std::wstring name, District* district);
@@ -24,5 +24,9 @@ public:
 	auto getName() { return name; }
 
 	void setLandInfo(LandInfo* i) { land = i; }
+
+	District& getDistrict() { return *district; }
+
+	LandInfo& getLandInfo() { return *land; }
 };
 

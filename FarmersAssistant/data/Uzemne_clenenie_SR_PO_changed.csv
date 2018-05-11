@@ -1,0 +1,666 @@
+p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
+1;519014;  Abrahámovce;701;Bardejov;700;Prešovský
+2;519022;  Andrejová;701;Bardejov;700;Prešovský
+3;519006;  Bardejov;701;Bardejov;700;Prešovský
+4;519049;  Bartošovce;701;Bardejov;700;Prešovský
+5;519057;  Becherov;701;Bardejov;700;Prešovský
+6;519065;  Beloveža;701;Bardejov;700;Prešovský
+7;519073;  Bogliarka;701;Bardejov;700;Prešovský
+8;519081;  Brezov;701;Bardejov;700;Prešovský
+9;519090;  Brezovka;701;Bardejov;700;Prešovský
+10;519103;  Buclovany;701;Bardejov;700;Prešovský
+11;519111;  Cigeľka;701;Bardejov;700;Prešovský
+12;519138;  Dubinné;701;Bardejov;700;Prešovský
+13;519154;  Frička;701;Bardejov;700;Prešovský
+14;519162;  Fričkovce;701;Bardejov;700;Prešovský
+15;519171;  Gaboltov;701;Bardejov;700;Prešovský
+16;519189;  Gerlachov;701;Bardejov;700;Prešovský
+17;519201;  Hankovce;701;Bardejov;700;Prešovský
+18;519219;  Harhaj;701;Bardejov;700;Prešovský
+19;519227;  Hažlín;701;Bardejov;700;Prešovský
+20;519235;  Hertník;701;Bardejov;700;Prešovský
+21;519243;  Hervartov;701;Bardejov;700;Prešovský
+22;519251;  Hrabovec;701;Bardejov;700;Prešovský
+23;519260;  Hrabské;701;Bardejov;700;Prešovský
+24;519278;  Hutka;701;Bardejov;700;Prešovský
+25;519286;  Chmeľová;701;Bardejov;700;Prešovský
+26;519294;  Janovce;701;Bardejov;700;Prešovský
+27;519308;  Jedlinka;701;Bardejov;700;Prešovský
+28;519324;  Kľušov;701;Bardejov;700;Prešovský
+29;519341;  Kobyly;701;Bardejov;700;Prešovský
+30;519359;  Kochanovce;701;Bardejov;700;Prešovský
+31;519367;  Komárov;701;Bardejov;700;Prešovský
+32;519375;  Koprivnica;701;Bardejov;700;Prešovský
+33;519383;  Kožany;701;Bardejov;700;Prešovský
+34;519405;  Krivé;701;Bardejov;700;Prešovský
+35;519413;  Kríže;701;Bardejov;700;Prešovský
+36;519421;  Kružlov;701;Bardejov;700;Prešovský
+37;519430;  Kučín;701;Bardejov;700;Prešovský
+38;519456;  Kurima;701;Bardejov;700;Prešovský
+39;519464;  Kurov;701;Bardejov;700;Prešovský
+40;519472;  Lascov;701;Bardejov;700;Prešovský
+41;519481;  Lenartov;701;Bardejov;700;Prešovský
+42;519499;  Lipová;701;Bardejov;700;Prešovský
+43;519502;  Livov;701;Bardejov;700;Prešovský
+44;519511;  Livovská Huta;701;Bardejov;700;Prešovský
+45;519529;  Lopúchov;701;Bardejov;700;Prešovský
+46;519545;  Lukavica;701;Bardejov;700;Prešovský
+47;519553;  Lukov;701;Bardejov;700;Prešovský
+48;519570;  Malcov;701;Bardejov;700;Prešovský
+49;519588;  Marhaň;701;Bardejov;700;Prešovský
+50;519600;  Mikulášová;701;Bardejov;700;Prešovský
+51;519618;  Mokroluh;701;Bardejov;700;Prešovský
+52;519626;  Nemcovce;701;Bardejov;700;Prešovský
+53;519634;  Nižná Polianka;701;Bardejov;700;Prešovský
+54;519642;  Nižná Voľa;701;Bardejov;700;Prešovský
+55;519669;  Nižný Tvarožec;701;Bardejov;700;Prešovský
+56;519677;  Oľšavce;701;Bardejov;700;Prešovský
+57;519685;  Ondavka;701;Bardejov;700;Prešovský
+58;519693;  Ortuťová;701;Bardejov;700;Prešovský
+59;519707;  Osikov;701;Bardejov;700;Prešovský
+60;519715;  Petrová;701;Bardejov;700;Prešovský
+61;519723;  Poliakovce;701;Bardejov;700;Prešovský
+62;519731;  Porúbka;701;Bardejov;700;Prešovský
+63;519936;  Raslavice;701;Bardejov;700;Prešovský
+64;519740;  Regetovka;701;Bardejov;700;Prešovský
+65;519758;  Rešov;701;Bardejov;700;Prešovský
+66;519766;  Richvald;701;Bardejov;700;Prešovský
+67;519774;  Rokytov;701;Bardejov;700;Prešovský
+68;519782;  Smilno;701;Bardejov;700;Prešovský
+69;519791;  Snakov;701;Bardejov;700;Prešovský
+70;519804;  Stebnícka Huta;701;Bardejov;700;Prešovský
+71;519812;  Stebník;701;Bardejov;700;Prešovský
+72;519821;  Stuľany;701;Bardejov;700;Prešovský
+73;519839;  Sveržov;701;Bardejov;700;Prešovský
+74;519847;  Šarišské Čierne;701;Bardejov;700;Prešovský
+75;519855;  Šašová;701;Bardejov;700;Prešovský
+76;519863;  Šiba;701;Bardejov;700;Prešovský
+77;519871;  Tarnov;701;Bardejov;700;Prešovský
+78;519880;  Tročany;701;Bardejov;700;Prešovský
+79;518964;  Vaniškovce;701;Bardejov;700;Prešovský
+80;519901;  Varadka;701;Bardejov;700;Prešovský
+81;519910;  Vyšná Polianka;701;Bardejov;700;Prešovský
+82;519928;  Vyšná Voľa;701;Bardejov;700;Prešovský
+83;519944;  Vyšný Kručov;701;Bardejov;700;Prešovský
+84;519952;  Vyšný Tvarožec;701;Bardejov;700;Prešovský
+85;519961;  Zborov;701;Bardejov;700;Prešovský
+86;519979;  Zlaté;701;Bardejov;700;Prešovský
+87;520012;  Adidovce;702;Humenné;700;Prešovský
+88;520021;  Baškovce;702;Humenné;700;Prešovský
+89;520055;  Brekov;702;Humenné;700;Prešovský
+90;520063;  Brestov;702;Humenné;700;Prešovský
+91;520110;  Černina;702;Humenné;700;Prešovský
+92;520152;  Dedačov;702;Humenné;700;Prešovský
+93;559644;  Gruzovce;702;Humenné;700;Prešovský
+94;520195;  Hankovce;702;Humenné;700;Prešovský
+95;559598;  Hažín nad Cirochou;702;Humenné;700;Prešovský
+96;520225;  Hrabovec nad Laborcom;702;Humenné;700;Prešovský
+97;520233;  Hrubov;702;Humenné;700;Prešovský
+98;520241;  Hudcovce;702;Humenné;700;Prešovský
+99;520004;  Humenné;702;Humenné;700;Prešovský
+100;520268;  Chlmec;702;Humenné;700;Prešovský
+101;520276;  Jabloň;702;Humenné;700;Prešovský
+102;520292;  Jankovce;702;Humenné;700;Prešovský
+103;559547;  Jasenov;702;Humenné;700;Prešovský
+104;520331;  Kamenica nad Cirochou;702;Humenné;700;Prešovský
+105;520349;  Kamienka;702;Humenné;700;Prešovský
+106;520357;  Karná;702;Humenné;700;Prešovský
+107;520373;  Kochanovce;702;Humenné;700;Prešovský
+108;528803;  Košarovce;702;Humenné;700;Prešovský
+109;520403;  Koškovce;702;Humenné;700;Prešovský
+110;582140;  Lackovce;702;Humenné;700;Prešovský
+111;520446;  Lieskovec;702;Humenné;700;Prešovský
+112;520454;  Ľubiša;702;Humenné;700;Prešovský
+113;520462;  Lukačovce;702;Humenné;700;Prešovský
+114;559652;  Maškovce;702;Humenné;700;Prešovský
+115;520497;  Modra nad Cirochou;702;Humenné;700;Prešovský
+116;520501;  Myslina;702;Humenné;700;Prešovský
+117;520527;  Nechválova Polianka;702;Humenné;700;Prešovský
+118;520535;  Nižná Jablonka;702;Humenné;700;Prešovský
+119;528897;  Nižná Sitnica;702;Humenné;700;Prešovský
+120;520543;  Nižné Ladičkovce;702;Humenné;700;Prešovský
+121;520560;  Ohradzany;702;Humenné;700;Prešovský
+122;528951;  Pakostov;702;Humenné;700;Prešovský
+123;520624;  Papín;702;Humenné;700;Prešovský
+124;520667;  Porúbka;702;Humenné;700;Prešovský
+125;529010;  Prituľany;702;Humenné;700;Prešovský
+126;520683;  Ptičie;702;Humenné;700;Prešovský
+127;529061;  Rohožník;702;Humenné;700;Prešovský
+128;520250;  Rokytov pri Humennom;702;Humenné;700;Prešovský
+129;520721;  Rovné;702;Humenné;700;Prešovský
+130;529087;  Ruská Kajňa;702;Humenné;700;Prešovský
+131;529095;  Ruská Poruba;702;Humenné;700;Prešovský
+132;520772;  Slovenská Volová;702;Humenné;700;Prešovský
+133;520781;  Slovenské Krivé;702;Humenné;700;Prešovský
+134;559636;  Sopkovce;702;Humenné;700;Prešovský
+135;520896;  Topoľovka;702;Humenné;700;Prešovský
+136;520900;  Turcovce;702;Humenné;700;Prešovský
+137;520926;  Udavské;702;Humenné;700;Prešovský
+138;518638;  Valaškovce (vojenský obvod);702;Humenné;700;Prešovský
+139;520977;  Veľopolie;702;Humenné;700;Prešovský
+140;520985;  Víťazovce;702;Humenné;700;Prešovský
+141;521019;  Vyšná Jablonka;702;Humenné;700;Prešovský
+142;529249;  Vyšná Sitnica;702;Humenné;700;Prešovský
+143;521027;  Vyšné Ladičkovce;702;Humenné;700;Prešovský
+144;521035;  Vyšný Hrušov;702;Humenné;700;Prešovský
+145;529273;  Závada;702;Humenné;700;Prešovský
+146;521043;  Závadka;702;Humenné;700;Prešovský
+147;521086;  Zbudské Dlhé;702;Humenné;700;Prešovský
+148;521116;  Zubné;702;Humenné;700;Prešovský
+149;523399;  Abrahámovce;703;Kežmarok;700;Prešovský
+150;523411;  Bušovce;703;Kežmarok;700;Prešovský
+151;523429;  Červený Kláštor;703;Kežmarok;700;Prešovský
+152;523461;  Havka;703;Kežmarok;700;Prešovský
+153;523470;  Holumnica;703;Kežmarok;700;Prešovský
+154;523500;  Hradisko;703;Kežmarok;700;Prešovský
+155;523526;  Huncovce;703;Kežmarok;700;Prešovský
+156;523534;  Ihľany;703;Kežmarok;700;Prešovský
+157;523569;  Jezersko;703;Kežmarok;700;Prešovský
+158;523577;  Jurské;703;Kežmarok;700;Prešovský
+159;523585;  Kežmarok;703;Kežmarok;700;Prešovský
+160;523607;  Krížová Ves;703;Kežmarok;700;Prešovský
+161;523615;  Lechnica;703;Kežmarok;700;Prešovský
+162;523623;  Lendak;703;Kežmarok;700;Prešovský
+163;523682;  Ľubica;703;Kežmarok;700;Prešovský
+164;523674;  Majere;703;Kežmarok;700;Prešovský
+165;559938;  Malá Franková;703;Kežmarok;700;Prešovský
+166;581241;  Malý Slavkov;703;Kežmarok;700;Prešovský
+167;523712;  Matiašovce;703;Kežmarok;700;Prešovský
+168;523739;  Mlynčeky;703;Kežmarok;700;Prešovský
+169;523771;  Osturňa;703;Kežmarok;700;Prešovský
+170;523780;  Podhorany;703;Kežmarok;700;Prešovský
+171;523798;  Rakúsy;703;Kežmarok;700;Prešovský
+172;523801;  Reľov;703;Kežmarok;700;Prešovský
+173;523810;  Slovenská Ves;703;Kežmarok;700;Prešovský
+174;523828;  Spišská Belá;703;Kežmarok;700;Prešovský
+175;523836;  Spišská Stará Ves;703;Kežmarok;700;Prešovský
+176;523861;  Spišské Hanušovce;703;Kežmarok;700;Prešovský
+177;523887;  Stará Lesná;703;Kežmarok;700;Prešovský
+178;523909;  Stráne pod Tatrami;703;Kežmarok;700;Prešovský
+179;523976;  Toporec;703;Kežmarok;700;Prešovský
+180;523984;  Tvarožná;703;Kežmarok;700;Prešovský
+181;523992;  Veľká Franková;703;Kežmarok;700;Prešovský
+182;524000;  Veľká Lomnica;703;Kežmarok;700;Prešovský
+183;524042;  Vlková;703;Kežmarok;700;Prešovský
+184;524051;  Vlkovce;703;Kežmarok;700;Prešovský
+185;524069;  Vojňany;703;Kežmarok;700;Prešovský
+186;524077;  Vrbov;703;Kežmarok;700;Prešovský
+187;524085;  Výborná;703;Kežmarok;700;Prešovský
+188;524115;  Zálesie;703;Kežmarok;700;Prešovský
+189;524123;  Žakovce;703;Kežmarok;700;Prešovský
+190;526371;  Baldovce;704;Levoča;700;Prešovský
+191;526380;  Beharovce;704;Levoča;700;Prešovský
+192;526401;  Bijacovce;704;Levoča;700;Prešovský
+193;526410;  Brutovce;704;Levoča;700;Prešovský
+194;526428;  Buglovce;704;Levoča;700;Prešovský
+195;526452;  Dlhé Stráže;704;Levoča;700;Prešovský
+196;526461;  Doľany;704;Levoča;700;Prešovský
+197;526479;  Domaňovce;704;Levoča;700;Prešovský
+198;526487;  Dravce;704;Levoča;700;Prešovský
+199;526495;  Dúbrava;704;Levoča;700;Prešovský
+200;526517;  Granč-Petrovce;704;Levoča;700;Prešovský
+201;526525;  Harakovce;704;Levoča;700;Prešovský
+202;543179;  Jablonov;704;Levoča;700;Prešovský
+203;543225;  Klčov;704;Levoča;700;Prešovský
+204;581640;  Korytné;704;Levoča;700;Prešovský
+205;543276;  Kurimany;704;Levoča;700;Prešovský
+206;543292;  Levoča;704;Levoča;700;Prešovský
+207;543314;  Lúčka;704;Levoča;700;Prešovský
+208;543381;  Nemešany;704;Levoča;700;Prešovský
+209;543390;  Nižné Repaše;704;Levoča;700;Prešovský
+210;543420;  Oľšavica;704;Levoča;700;Prešovský
+211;543446;  Ordzovany;704;Levoča;700;Prešovský
+212;543454;  Pavľany;704;Levoča;700;Prešovský
+213;543462;  Poľanovce;704;Levoča;700;Prešovský
+214;543471;  Pongrácovce;704;Levoča;700;Prešovský
+215;543578;  Spišské Podhradie;704;Levoča;700;Prešovský
+216;543608;  Spišský Hrhov;704;Levoča;700;Prešovský
+217;543624;  Spišský Štvrtok;704;Levoča;700;Prešovský
+218;543641;  Studenec;704;Levoča;700;Prešovský
+219;543675;  Torysky;704;Levoča;700;Prešovský
+220;543691;  Uloža;704;Levoča;700;Prešovský
+221;526606;  Vyšné Repaše;704;Levoča;700;Prešovský
+222;526614;  Vyšný Slavkov;704;Levoča;700;Prešovský
+223;520071;  Brestov nad Laborcom;705;Medzilaborce;700;Prešovský
+224;520098;  Čabalovce;705;Medzilaborce;700;Prešovský
+225;520101;  Čabiny;705;Medzilaborce;700;Prešovský
+226;520128;  Čertižné;705;Medzilaborce;700;Prešovský
+227;520187;  Habura;705;Medzilaborce;700;Prešovský
+228;520314;  Kalinov;705;Medzilaborce;700;Prešovský
+229;520411;  Krásny Brod;705;Medzilaborce;700;Prešovský
+230;520471;  Medzilaborce;705;Medzilaborce;700;Prešovský
+231;520519;  Ňagov;705;Medzilaborce;700;Prešovský
+232;520578;  Oľka;705;Medzilaborce;700;Prešovský
+233;520586;  Oľšinkov;705;Medzilaborce;700;Prešovský
+234;520616;  Palota;705;Medzilaborce;700;Prešovský
+235;520691;  Radvaň nad Laborcom;705;Medzilaborce;700;Prešovský
+236;520705;  Repejov;705;Medzilaborce;700;Prešovský
+237;559610;  Rokytovce;705;Medzilaborce;700;Prešovský
+238;520713;  Roškovce;705;Medzilaborce;700;Prešovský
+239;520853;  Sukov;705;Medzilaborce;700;Prešovský
+240;520861;  Svetlice;705;Medzilaborce;700;Prešovský
+241;520951;  Valentovce;705;Medzilaborce;700;Prešovský
+242;520993;  Volica;705;Medzilaborce;700;Prešovský
+243;521001;  Výrava;705;Medzilaborce;700;Prešovský
+244;521060;  Zbojné;705;Medzilaborce;700;Prešovský
+245;521078;  Zbudská Belá;705;Medzilaborce;700;Prešovský
+246;523402;  Batizovce;706;Poprad;700;Prešovský
+247;523437;  Gánovce;706;Poprad;700;Prešovský
+248;523445;  Gerlachov;706;Poprad;700;Prešovský
+249;523496;  Hozelec;706;Poprad;700;Prešovský
+250;523488;  Hôrka;706;Poprad;700;Prešovský
+251;523518;  Hranovnica;706;Poprad;700;Prešovský
+252;523542;  Jánovce;706;Poprad;700;Prešovský
+253;523593;  Kravany;706;Poprad;700;Prešovský
+254;523631;  Liptovská Teplička;706;Poprad;700;Prešovský
+255;523658;  Lučivná;706;Poprad;700;Prešovský
+256;523721;  Mengusovce;706;Poprad;700;Prešovský
+257;523747;  Mlynica;706;Poprad;700;Prešovský
+258;523763;  Nová Lesná;706;Poprad;700;Prešovský
+259;523381;  Poprad;706;Poprad;700;Prešovský
+260;523844;  Spišská Teplica;706;Poprad;700;Prešovský
+261;523852;  Spišské Bystré;706;Poprad;700;Prešovský
+262;523879;  Spišský Štiavnik;706;Poprad;700;Prešovský
+263;523925;  Svit;706;Poprad;700;Prešovský
+264;559890;  Štôla;706;Poprad;700;Prešovský
+265;523933;  Štrba;706;Poprad;700;Prešovský
+266;524107;  Šuňava;706;Poprad;700;Prešovský
+267;523950;  Švábovce;706;Poprad;700;Prešovský
+268;580368;  Tatranská Javorina;706;Poprad;700;Prešovský
+269;524018;  Veľký Slavkov;706;Poprad;700;Prešovský
+270;524026;  Vernár;706;Poprad;700;Prešovský
+271;524034;  Vikartovce;706;Poprad;700;Prešovský
+272;524093;  Vydrník;706;Poprad;700;Prešovský
+273;560103;  Vysoké Tatry;706;Poprad;700;Prešovský
+274;524131;  Ždiar;706;Poprad;700;Prešovský
+275;524158;  Abranovce;707;Prešov;700;Prešovský
+276;524174;  Bajerov;707;Prešov;700;Prešovský
+277;524191;  Bertotovce;707;Prešov;700;Prešovský
+278;524212;  Brestov;707;Prešov;700;Prešovský
+279;524221;  Bretejovce;707;Prešov;700;Prešovský
+280;524255;  Brežany;707;Prešov;700;Prešovský
+281;524263;  Bzenov;707;Prešov;700;Prešovský
+282;524271;  Čelovce;707;Prešov;700;Prešovský
+283;524301;  Červenica;707;Prešov;700;Prešovský
+284;524336;  Demjata;707;Prešov;700;Prešovský
+285;524352;  Drienov;707;Prešov;700;Prešovský
+286;524361;  Drienovská Nová Ves;707;Prešov;700;Prešovský
+287;524387;  Dulova Ves;707;Prešov;700;Prešovský
+288;524395;  Fintice;707;Prešov;700;Prešovský
+289;524409;  Fričovce;707;Prešov;700;Prešovský
+290;524417;  Fulianka;707;Prešov;700;Prešovský
+291;524425;  Geraltov;707;Prešov;700;Prešovský
+292;524433;  Gregorovce;707;Prešov;700;Prešovský
+293;518522;  Haniska;707;Prešov;700;Prešovský
+294;524450;  Hendrichovce;707;Prešov;700;Prešovský
+295;524468;  Hermanovce;707;Prešov;700;Prešovský
+296;524476;  Hrabkov;707;Prešov;700;Prešovský
+297;524506;  Chmeľov;707;Prešov;700;Prešovský
+298;524514;  Chmeľovec;707;Prešov;700;Prešovský
+299;524549;  Chmiňany;707;Prešov;700;Prešovský
+300;524522;  Chminianska Nová Ves;707;Prešov;700;Prešovský
+301;524531;  Chminianske Jakubovany;707;Prešov;700;Prešovský
+302;524581;  Janov;707;Prešov;700;Prešovský
+303;524590;  Janovík;707;Prešov;700;Prešovský
+304;524620;  Kapušany;707;Prešov;700;Prešovský
+305;524638;  Kendice;707;Prešov;700;Prešovský
+306;524646;  Klenov;707;Prešov;700;Prešovský
+307;524654;  Kojatice;707;Prešov;700;Prešovský
+308;524662;  Kokošovce;707;Prešov;700;Prešovský
+309;524697;  Krížovany;707;Prešov;700;Prešovský
+310;524701;  Kvačany;707;Prešov;700;Prešovský
+311;524727;  Lada;707;Prešov;700;Prešovský
+312;524735;  Lažany;707;Prešov;700;Prešovský
+313;524743;  Lemešany;707;Prešov;700;Prešovský
+314;524751;  Lesíček;707;Prešov;700;Prešovský
+315;524760;  Ličartovce;707;Prešov;700;Prešovský
+316;559971;  Lipníky;707;Prešov;700;Prešovský
+317;524786;  Lipovce;707;Prešov;700;Prešovský
+318;518590;  Ľubotice;707;Prešov;700;Prešovský
+319;524794;  Ľubovec;707;Prešov;700;Prešovský
+320;524808;  Lúčina;707;Prešov;700;Prešovský
+321;524832;  Malý Slivník;707;Prešov;700;Prešovský
+322;524841;  Malý Šariš;707;Prešov;700;Prešovský
+323;556823;  Medzany;707;Prešov;700;Prešovský
+324;524867;  Miklušovce;707;Prešov;700;Prešovský
+325;524883;  Mirkovce;707;Prešov;700;Prešovský
+326;524905;  Mošurov;707;Prešov;700;Prešovský
+327;524913;  Nemcovce;707;Prešov;700;Prešovský
+328;524930;  Okružná;707;Prešov;700;Prešovský
+329;524964;  Ondrašovce;707;Prešov;700;Prešovský
+330;524999;  Ovčie;707;Prešov;700;Prešovský
+331;525014;  Petrovany;707;Prešov;700;Prešovský
+332;525022;  Podhorany;707;Prešov;700;Prešovský
+333;525031;  Podhradík;707;Prešov;700;Prešovský
+334;524140;  Prešov;707;Prešov;700;Prešovský
+335;525057;  Proč;707;Prešov;700;Prešovský
+336;525065;  Pušovce;707;Prešov;700;Prešovský
+337;525073;  Radatice;707;Prešov;700;Prešovský
+338;525111;  Rokycany;707;Prešov;700;Prešovský
+339;525138;  Ruská Nová Ves;707;Prešov;700;Prešovský
+340;525154;  Sedlice;707;Prešov;700;Prešovský
+341;525162;  Seniakovce;707;Prešov;700;Prešovský
+342;559989;  Suchá Dolina;707;Prešov;700;Prešovský
+343;525171;  Svinia;707;Prešov;700;Prešovský
+344;525189;  Šarišská Poruba;707;Prešov;700;Prešovský
+345;525197;  Šarišská Trstená;707;Prešov;700;Prešovský
+346;525201;  Šarišské Bohdanovce;707;Prešov;700;Prešovský
+347;525251;  Šindliar;707;Prešov;700;Prešovský
+348;525260;  Široké;707;Prešov;700;Prešovský
+349;525278;  Štefanovce;707;Prešov;700;Prešovský
+350;525286;  Teriakovce;707;Prešov;700;Prešovský
+351;525294;  Terňa;707;Prešov;700;Prešovský
+352;525324;  Trnkov;707;Prešov;700;Prešovský
+353;525332;  Tuhrina;707;Prešov;700;Prešovský
+354;525341;  Tulčík;707;Prešov;700;Prešovský
+355;525383;  Varhaňovce;707;Prešov;700;Prešovský
+356;525391;  Veľký Slivník;707;Prešov;700;Prešovský
+357;525405;  Veľký Šariš;707;Prešov;700;Prešovský
+358;525413;  Víťaz;707;Prešov;700;Prešovský
+359;525430;  Vyšná Šebastová;707;Prešov;700;Prešovský
+360;525448;  Záborské;707;Prešov;700;Prešovský
+361;525456;  Záhradné;707;Prešov;700;Prešovský
+362;525472;  Zlatá Baňa;707;Prešov;700;Prešovský
+363;525499;  Žehňa;707;Prešov;700;Prešovský
+364;525502;  Žipov;707;Prešov;700;Prešovský
+365;525511;  Župčany;707;Prešov;700;Prešovský
+366;524182;  Bajerovce;708;Sabinov;700;Prešovský
+367;524204;  Bodovce;708;Sabinov;700;Prešovský
+368;524239;  Brezovica;708;Sabinov;700;Prešovský
+369;524247;  Brezovička;708;Sabinov;700;Prešovský
+370;524280;  Červená Voda;708;Sabinov;700;Prešovský
+371;524298;  Červenica pri Sabinove;708;Sabinov;700;Prešovský
+372;524310;  Ďačov;708;Sabinov;700;Prešovský
+373;524328;  Daletice;708;Sabinov;700;Prešovský
+374;524344;  Drienica;708;Sabinov;700;Prešovský
+375;524379;  Dubovica;708;Sabinov;700;Prešovský
+376;524441;  Hanigovce;708;Sabinov;700;Prešovský
+377;524492;  Hubošovce;708;Sabinov;700;Prešovský
+378;524557;  Jakovany;708;Sabinov;700;Prešovský
+379;524565;  Jakubova Voľa;708;Sabinov;700;Prešovský
+380;524573;  Jakubovany;708;Sabinov;700;Prešovský
+381;524603;  Jarovnice;708;Sabinov;700;Prešovský
+382;524611;  Kamenica;708;Sabinov;700;Prešovský
+383;524671;  Krásna Lúka;708;Sabinov;700;Prešovský
+384;524689;  Krivany;708;Sabinov;700;Prešovský
+385;524778;  Lipany;708;Sabinov;700;Prešovský
+386;524816;  Lúčka;708;Sabinov;700;Prešovský
+387;524824;  Ľutina;708;Sabinov;700;Prešovský
+388;524875;  Milpoš;708;Sabinov;700;Prešovský
+389;524921;  Nižný Slavkov;708;Sabinov;700;Prešovský
+390;524948;  Olejníkov;708;Sabinov;700;Prešovský
+391;524956;  Oľšov;708;Sabinov;700;Prešovský
+392;524981;  Ostrovany;708;Sabinov;700;Prešovský
+393;525006;  Pečovská Nová Ves;708;Sabinov;700;Prešovský
+394;525049;  Poloma;708;Sabinov;700;Prešovský
+395;525081;  Ratvaj;708;Sabinov;700;Prešovský
+396;525090;  Ražňany;708;Sabinov;700;Prešovský
+397;525103;  Renčišov;708;Sabinov;700;Prešovský
+398;525120;  Rožkovany;708;Sabinov;700;Prešovský
+399;525146;  Sabinov;708;Sabinov;700;Prešovský
+400;525219;  Šarišské Dravce;708;Sabinov;700;Prešovský
+401;525235;  Šarišské Michaľany;708;Sabinov;700;Prešovský
+402;525243;  Šarišské Sokolovce;708;Sabinov;700;Prešovský
+403;525308;  Tichý Potok;708;Sabinov;700;Prešovský
+404;525316;  Torysa;708;Sabinov;700;Prešovský
+405;525359;  Uzovce;708;Sabinov;700;Prešovský
+406;525367;  Uzovské Pekľany;708;Sabinov;700;Prešovský
+407;525375;  Uzovský Šalgov;708;Sabinov;700;Prešovský
+408;525421;  Vysoká;708;Sabinov;700;Prešovský
+409;520039;  Belá nad Cirochou;709;Snina;700;Prešovský
+410;520080;  Brezovec;709;Snina;700;Prešovský
+411;520136;  Čukalovce;709;Snina;700;Prešovský
+412;520161;  Dlhé nad Cirochou;709;Snina;700;Prešovský
+413;520179;  Dúbrava;709;Snina;700;Prešovský
+414;520209;  Hostovice;709;Snina;700;Prešovský
+415;520217;  Hrabová Roztoka;709;Snina;700;Prešovský
+416;520284;  Jalová;709;Snina;700;Prešovský
+417;520322;  Kalná Roztoka;709;Snina;700;Prešovský
+418;520365;  Klenová;709;Snina;700;Prešovský
+419;520381;  Kolbasov;709;Snina;700;Prešovský
+420;520390;  Kolonica;709;Snina;700;Prešovský
+421;520438;  Ladomirov;709;Snina;700;Prešovský
+422;520489;  Michajlov;709;Snina;700;Prešovský
+423;520551;  Nová Sedlica;709;Snina;700;Prešovský
+424;520594;  Osadné;709;Snina;700;Prešovský
+425;520632;  Parihuzovce;709;Snina;700;Prešovský
+426;520641;  Pčoliné;709;Snina;700;Prešovský
+427;520659;  Pichne;709;Snina;700;Prešovský
+428;520675;  Príslop;709;Snina;700;Prešovský
+429;520730;  Runina;709;Snina;700;Prešovský
+430;520748;  Ruská Volová;709;Snina;700;Prešovský
+431;520764;  Ruský Potok;709;Snina;700;Prešovský
+432;520802;  Snina;709;Snina;700;Prešovský
+433;520829;  Stakčín;709;Snina;700;Prešovský
+434;520811;  Stakčínska Roztoka;709;Snina;700;Prešovský
+435;520845;  Strihovce;709;Snina;700;Prešovský
+436;520870;  Šmigovec;709;Snina;700;Prešovský
+437;520888;  Topoľa;709;Snina;700;Prešovský
+438;520918;  Ubľa;709;Snina;700;Prešovský
+439;520934;  Ulič;709;Snina;700;Prešovský
+440;520942;  Uličské Krivé;709;Snina;700;Prešovský
+441;521051;  Zboj;709;Snina;700;Prešovský
+442;521108;  Zemplínske Hámre;709;Snina;700;Prešovský
+443;526673;  Čirč;710;Stará Ľubovňa;700;Prešovský
+444;526681;  Ďurková;710;Stará Ľubovňa;700;Prešovský
+445;526690;  Forbasy;710;Stará Ľubovňa;700;Prešovský
+446;526703;  Hajtovka;710;Stará Ľubovňa;700;Prešovský
+447;526711;  Haligovce;710;Stará Ľubovňa;700;Prešovský
+448;526720;  Hniezdne;710;Stará Ľubovňa;700;Prešovský
+449;526738;  Hraničné;710;Stará Ľubovňa;700;Prešovský
+450;526746;  Hromoš;710;Stará Ľubovňa;700;Prešovský
+451;526754;  Chmeľnica;710;Stará Ľubovňa;700;Prešovský
+452;526762;  Jakubany;710;Stará Ľubovňa;700;Prešovský
+453;526771;  Jarabina;710;Stará Ľubovňa;700;Prešovský
+454;526789;  Kamienka;710;Stará Ľubovňa;700;Prešovský
+455;526797;  Kolačkov;710;Stará Ľubovňa;700;Prešovský
+456;526801;  Kremná;710;Stará Ľubovňa;700;Prešovský
+457;526819;  Kyjov;710;Stará Ľubovňa;700;Prešovský
+458;526827;  Lacková;710;Stará Ľubovňa;700;Prešovský
+459;526835;  Legnava;710;Stará Ľubovňa;700;Prešovský
+460;526843;  Lesnica;710;Stará Ľubovňa;700;Prešovský
+461;526851;  Litmanová;710;Stará Ľubovňa;700;Prešovský
+462;526860;  Lomnička;710;Stará Ľubovňa;700;Prešovský
+463;526878;  Ľubotín;710;Stará Ľubovňa;700;Prešovský
+464;526886;  Malý Lipník;710;Stará Ľubovňa;700;Prešovský
+465;526894;  Matysová;710;Stará Ľubovňa;700;Prešovský
+466;526908;  Mníšek nad Popradom;710;Stará Ľubovňa;700;Prešovský
+467;526916;  Nižné Ružbachy;710;Stará Ľubovňa;700;Prešovský
+468;526924;  Nová Ľubovňa;710;Stará Ľubovňa;700;Prešovský
+469;526932;  Obručné;710;Stará Ľubovňa;700;Prešovský
+470;526941;  Orlov;710;Stará Ľubovňa;700;Prešovský
+471;526959;  Plaveč;710;Stará Ľubovňa;700;Prešovský
+472;526967;  Plavnica;710;Stará Ľubovňa;700;Prešovský
+473;526975;  Podolínec;710;Stará Ľubovňa;700;Prešovský
+474;526983;  Pusté Pole;710;Stará Ľubovňa;700;Prešovský
+475;526991;  Ruská Voľa nad Popradom;710;Stará Ľubovňa;700;Prešovský
+476;526665;  Stará Ľubovňa;710;Stará Ľubovňa;700;Prešovský
+477;527009;  Starina;710;Stará Ľubovňa;700;Prešovský
+478;527017;  Stráňany;710;Stará Ľubovňa;700;Prešovský
+479;527025;  Sulín;710;Stará Ľubovňa;700;Prešovský
+480;527033;  Šambron;710;Stará Ľubovňa;700;Prešovský
+481;527041;  Šarišské Jastrabie;710;Stará Ľubovňa;700;Prešovský
+482;527050;  Údol;710;Stará Ľubovňa;700;Prešovský
+483;527068;  Veľká Lesná;710;Stará Ľubovňa;700;Prešovský
+484;527076;  Veľký Lipník;710;Stará Ľubovňa;700;Prešovský
+485;527084;  Vislanka;710;Stará Ľubovňa;700;Prešovský
+486;527092;  Vyšné Ružbachy;710;Stará Ľubovňa;700;Prešovský
+487;527114;  Baňa;711;Stropkov;700;Prešovský
+488;527157;  Breznica;711;Stropkov;700;Prešovský
+489;527165;  Breznička;711;Stropkov;700;Prešovský
+490;527173;  Brusnica;711;Stropkov;700;Prešovský
+491;527181;  Bukovce;711;Stropkov;700;Prešovský
+492;527190;  Bystrá;711;Stropkov;700;Prešovský
+493;527203;  Bžany;711;Stropkov;700;Prešovský
+494;527262;  Duplín;711;Stropkov;700;Prešovský
+495;527289;  Gribov;711;Stropkov;700;Prešovský
+496;527297;  Havaj;711;Stropkov;700;Prešovský
+497;527335;  Chotča;711;Stropkov;700;Prešovský
+498;527343;  Jakušovce;711;Stropkov;700;Prešovský
+499;527386;  Kolbovce;711;Stropkov;700;Prešovský
+500;527408;  Korunková;711;Stropkov;700;Prešovský
+501;527416;  Kožuchovce;711;Stropkov;700;Prešovský
+502;527467;  Krišľovce;711;Stropkov;700;Prešovský
+503;527793;  Kručov;711;Stropkov;700;Prešovský
+504;527475;  Krušinec;711;Stropkov;700;Prešovský
+505;527513;  Lomné;711;Stropkov;700;Prešovský
+506;527521;  Makovce;711;Stropkov;700;Prešovský
+507;527530;  Malá Poľana;711;Stropkov;700;Prešovský
+508;527572;  Miková;711;Stropkov;700;Prešovský
+509;527581;  Miňovce;711;Stropkov;700;Prešovský
+510;527611;  Mrázovce;711;Stropkov;700;Prešovský
+511;527637;  Nižná Olšava;711;Stropkov;700;Prešovský
+512;527700;  Oľšavka;711;Stropkov;700;Prešovský
+513;527726;  Potoky;711;Stropkov;700;Prešovský
+514;527718;  Potôčky;711;Stropkov;700;Prešovský
+515;527815;  Soľník;711;Stropkov;700;Prešovský
+516;527823;  Staškovce;711;Stropkov;700;Prešovský
+517;527840;  Stropkov;711;Stropkov;700;Prešovský
+518;527866;  Šandal;711;Stropkov;700;Prešovský
+519;527912;  Tisinec;711;Stropkov;700;Prešovský
+520;527921;  Tokajík;711;Stropkov;700;Prešovský
+521;527939;  Turany nad Ondavou;711;Stropkov;700;Prešovský
+522;527971;  Varechovce;711;Stropkov;700;Prešovský
+523;527980;  Veľkrop;711;Stropkov;700;Prešovský
+524;527998;  Vislava;711;Stropkov;700;Prešovský
+525;528005;  Vladiča;711;Stropkov;700;Prešovský
+526;528013;  Vojtovce;711;Stropkov;700;Prešovský
+527;528021;  Vyškovce;711;Stropkov;700;Prešovský
+528;528048;  Vyšná Olšava;711;Stropkov;700;Prešovský
+529;560073;  Vyšný Hrabovec;711;Stropkov;700;Prešovský
+530;527122;  Belejovce;712;Svidník;700;Prešovský
+531;527131;  Beňadikovce;712;Svidník;700;Prešovský
+532;527149;  Bodružal;712;Svidník;700;Prešovský
+533;527211;  Cernina;712;Svidník;700;Prešovský
+534;527220;  Cigla;712;Svidník;700;Prešovský
+535;527238;  Dlhoňa;712;Svidník;700;Prešovský
+536;527246;  Dobroslava;712;Svidník;700;Prešovský
+537;527254;  Dubová;712;Svidník;700;Prešovský
+538;580601;  Dukovce;712;Svidník;700;Prešovský
+539;527271;  Fijaš;712;Svidník;700;Prešovský
+540;519197;  Giraltovce;712;Svidník;700;Prešovský
+541;527301;  Havranec;712;Svidník;700;Prešovský
+542;527319;  Hrabovčík;712;Svidník;700;Prešovský
+543;527327;  Hunkovce;712;Svidník;700;Prešovský
+544;527351;  Jurkova Voľa;712;Svidník;700;Prešovský
+545;519316;  Kalnište;712;Svidník;700;Prešovský
+546;527360;  Kapišová;712;Svidník;700;Prešovský
+547;527378;  Kečkovce;712;Svidník;700;Prešovský
+548;519332;  Kobylnice;712;Svidník;700;Prešovský
+549;527394;  Korejovce;712;Svidník;700;Prešovský
+550;519391;  Kračúnovce;712;Svidník;700;Prešovský
+551;527424;  Krajná Bystrá;712;Svidník;700;Prešovský
+552;527432;  Krajná Poľana;712;Svidník;700;Prešovský
+553;527441;  Krajná Porúbka;712;Svidník;700;Prešovský
+554;527459;  Krajné Čierno;712;Svidník;700;Prešovský
+555;527483;  Kružlová;712;Svidník;700;Prešovský
+556;519448;  Kuková;712;Svidník;700;Prešovský
+557;527491;  Kurimka;712;Svidník;700;Prešovský
+558;527505;  Ladomirová;712;Svidník;700;Prešovský
+559;519537;  Lúčka;712;Svidník;700;Prešovský
+560;519561;  Lužany pri Topli;712;Svidník;700;Prešovský
+561;527548;  Matovce;712;Svidník;700;Prešovský
+562;527556;  Medvedie;712;Svidník;700;Prešovský
+563;527564;  Mestisko;712;Svidník;700;Prešovský
+564;519596;  Mičakovce;712;Svidník;700;Prešovský
+565;527599;  Miroľa;712;Svidník;700;Prešovský
+566;527602;  Mlynárovce;712;Svidník;700;Prešovský
+567;527629;  Nižná Jedľová;712;Svidník;700;Prešovský
+568;527645;  Nižná Pisaná;712;Svidník;700;Prešovský
+569;527653;  Nižný Komárnik;712;Svidník;700;Prešovský
+570;527661;  Nižný Mirošov;712;Svidník;700;Prešovský
+571;527670;  Nižný Orlík;712;Svidník;700;Prešovský
+572;527688;  Nová Polianka;712;Svidník;700;Prešovský
+573;527696;  Okrúhle;712;Svidník;700;Prešovský
+574;527734;  Príkra;712;Svidník;700;Prešovský
+575;527742;  Pstriná;712;Svidník;700;Prešovský
+576;527751;  Radoma;712;Svidník;700;Prešovský
+577;527769;  Rakovčík;712;Svidník;700;Prešovský
+578;527777;  Rovné;712;Svidník;700;Prešovský
+579;527785;  Roztoky;712;Svidník;700;Prešovský
+580;527807;  Soboš;712;Svidník;700;Prešovský
+581;527831;  Stročín;712;Svidník;700;Prešovský
+582;527858;  Svidnička;712;Svidník;700;Prešovský
+583;527106;  Svidník;712;Svidník;700;Prešovský
+584;527874;  Šarbov;712;Svidník;700;Prešovský
+585;527882;  Šarišský Štiavnik;712;Svidník;700;Prešovský
+586;527891;  Šemetkovce;712;Svidník;700;Prešovský
+587;527904;  Štefurov;712;Svidník;700;Prešovský
+588;527947;  Vagrinec;712;Svidník;700;Prešovský
+589;527955;  Valkovce;712;Svidník;700;Prešovský
+590;527963;  Vápeník;712;Svidník;700;Prešovský
+591;528030;  Vyšná Jedľová;712;Svidník;700;Prešovský
+592;528056;  Vyšná Pisaná;712;Svidník;700;Prešovský
+593;528064;  Vyšný Komárnik;712;Svidník;700;Prešovský
+594;528072;  Vyšný Mirošov;712;Svidník;700;Prešovský
+595;528081;  Vyšný Orlík;712;Svidník;700;Prešovský
+596;519987;  Železník;712;Svidník;700;Prešovský
+597;519995;  Želmanovce;712;Svidník;700;Prešovský
+598;544060;  Babie;713;Vranov nad Topľou;700;Prešovský
+599;544078;  Banské;713;Vranov nad Topľou;700;Prešovský
+600;544086;  Benkovce;713;Vranov nad Topľou;700;Prešovský
+601;544094;  Bystré;713;Vranov nad Topľou;700;Prešovský
+602;544108;  Cabov;713;Vranov nad Topľou;700;Prešovský
+603;544116;  Čaklov;713;Vranov nad Topľou;700;Prešovský
+604;544124;  Čičava;713;Vranov nad Topľou;700;Prešovský
+605;544132;  Čierne nad Topľou;713;Vranov nad Topľou;700;Prešovský
+606;544141;  Ďapalovce;713;Vranov nad Topľou;700;Prešovský
+607;544159;  Davidov;713;Vranov nad Topľou;700;Prešovský
+608;544167;  Detrík;713;Vranov nad Topľou;700;Prešovský
+609;544175;  Dlhé Klčovo;713;Vranov nad Topľou;700;Prešovský
+610;544183;  Ďurďoš;713;Vranov nad Topľou;700;Prešovský
+611;544191;  Giglovce;713;Vranov nad Topľou;700;Prešovský
+612;544205;  Girovce;713;Vranov nad Topľou;700;Prešovský
+613;544213;  Hanušovce nad Topľou;713;Vranov nad Topľou;700;Prešovský
+614;581674;  Hencovce;713;Vranov nad Topľou;700;Prešovský
+615;544221;  Hermanovce nad Topľou;713;Vranov nad Topľou;700;Prešovský
+616;544230;  Hlinné;713;Vranov nad Topľou;700;Prešovský
+617;528731;  Holčíkovce;713;Vranov nad Topľou;700;Prešovský
+618;528749;  Jasenovce;713;Vranov nad Topľou;700;Prešovský
+619;528757;  Jastrabie nad Topľou;713;Vranov nad Topľou;700;Prešovský
+620;528765;  Juskova Voľa;713;Vranov nad Topľou;700;Prešovský
+621;528773;  Kamenná Poruba;713;Vranov nad Topľou;700;Prešovský
+622;528781;  Kladzany;713;Vranov nad Topľou;700;Prešovský
+623;528790;  Komárany;713;Vranov nad Topľou;700;Prešovský
+624;528811;  Kučín;713;Vranov nad Topľou;700;Prešovský
+625;528820;  Kvakovce;713;Vranov nad Topľou;700;Prešovský
+626;528838;  Majerovce;713;Vranov nad Topľou;700;Prešovský
+627;528846;  Malá Domaša;713;Vranov nad Topľou;700;Prešovský
+628;528854;  Matiaška;713;Vranov nad Topľou;700;Prešovský
+629;528862;  Medzianky;713;Vranov nad Topľou;700;Prešovský
+630;528871;  Merník;713;Vranov nad Topľou;700;Prešovský
+631;528889;  Michalok;713;Vranov nad Topľou;700;Prešovský
+632;528901;  Nižný Hrabovec;713;Vranov nad Topľou;700;Prešovský
+633;528919;  Nižný Hrušov;713;Vranov nad Topľou;700;Prešovský
+634;528927;  Nižný Kručov;713;Vranov nad Topľou;700;Prešovský
+635;528935;  Nová Kelča;713;Vranov nad Topľou;700;Prešovský
+636;528943;  Ondavské Matiašovce;713;Vranov nad Topľou;700;Prešovský
+637;528960;  Pavlovce;713;Vranov nad Topľou;700;Prešovský
+638;528978;  Petkovce;713;Vranov nad Topľou;700;Prešovský
+639;528986;  Petrovce;713;Vranov nad Topľou;700;Prešovský
+640;528994;  Piskorovce;713;Vranov nad Topľou;700;Prešovský
+641;529001;  Poša;713;Vranov nad Topľou;700;Prešovský
+642;529028;  Prosačov;713;Vranov nad Topľou;700;Prešovský
+643;529036;  Radvanovce;713;Vranov nad Topľou;700;Prešovský
+644;529044;  Rafajovce;713;Vranov nad Topľou;700;Prešovský
+645;529052;  Remeniny;713;Vranov nad Topľou;700;Prešovský
+646;529079;  Rudlov;713;Vranov nad Topľou;700;Prešovský
+647;529109;  Ruská Voľa;713;Vranov nad Topľou;700;Prešovský
+648;529125;  Sačurov;713;Vranov nad Topľou;700;Prešovský
+649;529133;  Sečovská Polianka;713;Vranov nad Topľou;700;Prešovský
+650;529141;  Sedliská;713;Vranov nad Topľou;700;Prešovský
+651;529150;  Skrabské;713;Vranov nad Topľou;700;Prešovský
+652;529168;  Slovenská Kajňa;713;Vranov nad Topľou;700;Prešovský
+653;529176;  Soľ;713;Vranov nad Topľou;700;Prešovský
+654;529184;  Štefanovce;713;Vranov nad Topľou;700;Prešovský
+655;529192;  Tovarné;713;Vranov nad Topľou;700;Prešovský
+656;529206;  Tovarnianska Polianka;713;Vranov nad Topľou;700;Prešovský
+657;529214;  Vavrinec;713;Vranov nad Topľou;700;Prešovský
+658;529222;  Vechec;713;Vranov nad Topľou;700;Prešovský
+659;529231;  Vlača;713;Vranov nad Topľou;700;Prešovský
+660;544051;  Vranov nad Topľou;713;Vranov nad Topľou;700;Prešovský
+661;529117;  Vyšný Kazimír;713;Vranov nad Topľou;700;Prešovský
+662;529257;  Vyšný Žipov;713;Vranov nad Topľou;700;Prešovský
+663;529265;  Zámutov;713;Vranov nad Topľou;700;Prešovský
+664;529281;  Zlatník;713;Vranov nad Topľou;700;Prešovský
+665;529290;  Žalobín;713;Vranov nad Topľou;700;Prešovský

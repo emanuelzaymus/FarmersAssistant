@@ -21,29 +21,29 @@ enum Land
 class LandInfo
 {
 private:
-	//structures::Array<int>* arableLand = nullptr;//orna poda
-	//structures::Array<int>* hopGarden = nullptr;//chmelnica
-	//structures::Array<int>* vineyard = nullptr;//vinica
-	//structures::Array<int>* garden = nullptr;//zahrada
-	//structures::Array<int>* ochard = nullptr;//ovocny sad
-	//structures::Array<int>* lawn = nullptr;//travnik
+	structures::Array<int>* arableLand = nullptr;//orna poda
+	structures::Array<int>* hopGarden = nullptr;//chmelnica
+	structures::Array<int>* vineyard = nullptr;//vinica
+	structures::Array<int>* garden = nullptr;//zahrada
+	structures::Array<int>* ochard = nullptr;//ovocny sad
+	structures::Array<int>* lawn = nullptr;//travnik
 
-	//structures::Array<int>* forest = nullptr;//les
-	//structures::Array<int>* water = nullptr;//voda
-	//structures::Array<int>* builtupArea = nullptr;//zastanena plocha
-	//structures::Array<int>* theRest = nullptr;//ostatna plocha
+	structures::Array<int>* forest = nullptr;//les
+	structures::Array<int>* water = nullptr;//voda
+	structures::Array<int>* builtupArea = nullptr;//zastanena plocha
+	structures::Array<int>* theRest = nullptr;//ostatna plocha
 
-	structures::Array<int>* arableLand;//orna poda
-	structures::Array<int>* hopGarden;//chmelnica
-	structures::Array<int>* vineyard;//vinica
-	structures::Array<int>* garden;//zahrada
-	structures::Array<int>* ochard;//ovocny sad
-	structures::Array<int>* lawn;//travnik
+	//structures::Array<int>* arableLand;//orna poda
+	//structures::Array<int>* hopGarden;//chmelnica
+	//structures::Array<int>* vineyard;//vinica
+	//structures::Array<int>* garden;//zahrada
+	//structures::Array<int>* ochard;//ovocny sad
+	//structures::Array<int>* lawn;//travnik
 
-	structures::Array<int>* forest;//les
-	structures::Array<int>* water;//voda
-	structures::Array<int>* builtupArea;//zastanena plocha
-	structures::Array<int>* theRest;//ostatna plocha
+	//structures::Array<int>* forest;//les
+	//structures::Array<int>* water;//voda
+	//structures::Array<int>* builtupArea;//zastanena plocha
+	//structures::Array<int>* theRest;//ostatna plocha
 
 public:
 	static const int MIN_YEAR = 1996;
@@ -74,7 +74,7 @@ public:
 	int getBuiltupArea(int year) { return builtupArea == nullptr ? 0 : (*builtupArea)[year - MIN_YEAR]; }
 	int getTheRest(int year) { return theRest == nullptr ? 0 : (*theRest)[year - MIN_YEAR]; }
 
-	int getTotalAreat(int year);
+	int getTotalArea(int year);
 	int getTotalAgriculturalArea(int year);
 	int getTotalNonagriculturalArea(int year);
 };

@@ -5,7 +5,7 @@
 
 
 District::District(int code, std::wstring name, Region* region)
-	: code(code), name(name), region(region), towns(new structures::ArrayList<Town*>())
+	: code(code), name(name), region(region)
 {
 	region->addDistrict(this);
 }

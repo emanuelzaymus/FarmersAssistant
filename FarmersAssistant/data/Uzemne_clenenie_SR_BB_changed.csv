@@ -1,0 +1,517 @@
+p.č.;kód obce;názov obce;kód okresu;názov okresu;kód kraja;názov kraja
+1;508454;  Badín;601;Banská Bystrica;600;Banskobystrický
+2;508471;  Baláže;601;Banská Bystrica;600;Banskobystrický
+3;508438;  Banská Bystrica;601;Banská Bystrica;600;Banskobystrický
+4;508675;  Brusno;601;Banská Bystrica;600;Banskobystrický
+5;508519;  Čerín;601;Banská Bystrica;600;Banskobystrický
+6;508543;  Dolná Mičiná;601;Banská Bystrica;600;Banskobystrický
+7;508551;  Dolný Harmanec;601;Banská Bystrica;600;Banskobystrický
+8;508560;  Donovaly;601;Banská Bystrica;600;Banskobystrický
+9;508586;  Dúbravica;601;Banská Bystrica;600;Banskobystrický
+10;508594;  Harmanec;601;Banská Bystrica;600;Banskobystrický
+11;508616;  Hiadeľ;601;Banská Bystrica;600;Banskobystrický
+12;508632;  Horná Mičiná;601;Banská Bystrica;600;Banskobystrický
+13;508641;  Horné Pršany;601;Banská Bystrica;600;Banskobystrický
+14;508659;  Hrochoť;601;Banská Bystrica;600;Banskobystrický
+15;580236;  Hronsek;601;Banská Bystrica;600;Banskobystrický
+16;508713;  Kordíky;601;Banská Bystrica;600;Banskobystrický
+17;508721;  Králiky;601;Banská Bystrica;600;Banskobystrický
+18;557277;  Kynceľová;601;Banská Bystrica;600;Banskobystrický
+19;508748;  Ľubietová;601;Banská Bystrica;600;Banskobystrický
+20;508756;  Lučatín;601;Banská Bystrica;600;Banskobystrický
+21;580244;  Malachov;601;Banská Bystrica;600;Banskobystrický
+22;508764;  Medzibrod;601;Banská Bystrica;600;Banskobystrický
+23;508799;  Moštenica;601;Banská Bystrica;600;Banskobystrický
+24;508802;  Motyčky;601;Banská Bystrica;600;Banskobystrický
+25;508781;  Môlča;601;Banská Bystrica;600;Banskobystrický
+26;557285;  Nemce;601;Banská Bystrica;600;Banskobystrický
+27;508837;  Oravce;601;Banská Bystrica;600;Banskobystrický
+28;508861;  Podkonice;601;Banská Bystrica;600;Banskobystrický
+29;508896;  Pohronský Bukovec;601;Banská Bystrica;600;Banskobystrický
+30;508918;  Poniky;601;Banská Bystrica;600;Banskobystrický
+31;508926;  Povrazník;601;Banská Bystrica;600;Banskobystrický
+32;508942;  Priechod;601;Banská Bystrica;600;Banskobystrický
+33;508969;  Riečka;601;Banská Bystrica;600;Banskobystrický
+34;508977;  Sebedín-Bečov;601;Banská Bystrica;600;Banskobystrický
+35;508985;  Selce;601;Banská Bystrica;600;Banskobystrický
+36;509001;  Slovenská Ľupča;601;Banská Bystrica;600;Banskobystrický
+37;509019;  Staré Hory;601;Banská Bystrica;600;Banskobystrický
+38;509027;  Strelníky;601;Banská Bystrica;600;Banskobystrický
+39;509035;  Špania Dolina;601;Banská Bystrica;600;Banskobystrický
+40;509060;  Tajov;601;Banská Bystrica;600;Banskobystrický
+41;557269;  Turecká;601;Banská Bystrica;600;Banskobystrický
+42;557293;  Vlkanová;601;Banská Bystrica;600;Banskobystrický
+43;516601;  Baďan;602;Banská Štiavnica;600;Banskobystrický
+44;516627;  Banská Belá;602;Banská Štiavnica;600;Banskobystrický
+45;516643;  Banská Štiavnica;602;Banská Štiavnica;600;Banskobystrický
+46;516651;  Banský Studenec;602;Banská Štiavnica;600;Banskobystrický
+47;516678;  Beluj;602;Banská Štiavnica;600;Banskobystrický
+48;516716;  Dekýš;602;Banská Štiavnica;600;Banskobystrický
+49;516856;  Ilija;602;Banská Štiavnica;600;Banskobystrický
+50;516953;  Kozelník;602;Banská Štiavnica;600;Banskobystrický
+51;517071;  Močiar;602;Banská Štiavnica;600;Banskobystrický
+52;517160;  Počúvadlo;602;Banská Štiavnica;600;Banskobystrický
+53;517143;  Podhorie;602;Banská Štiavnica;600;Banskobystrický
+54;517178;  Prenčov;602;Banská Štiavnica;600;Banskobystrický
+55;516597;  Svätý Anton;602;Banská Štiavnica;600;Banskobystrický
+56;517283;  Štiavnické Bane;602;Banská Štiavnica;600;Banskobystrický
+57;517372;  Vysoká;602;Banská Štiavnica;600;Banskobystrický
+58;508446;  Bacúch;603;Brezno;600;Banskobystrický
+59;508462;  Beňuš;603;Brezno;600;Banskobystrický
+60;508489;  Braväcovo;603;Brezno;600;Banskobystrický
+61;508497;  Brezno;603;Brezno;600;Banskobystrický
+62;557251;  Bystrá;603;Brezno;600;Banskobystrický
+63;508527;  Čierny Balog;603;Brezno;600;Banskobystrický
+64;508535;  Dolná Lehota;603;Brezno;600;Banskobystrický
+65;508578;  Drábsko;603;Brezno;600;Banskobystrický
+66;508608;  Heľpa;603;Brezno;600;Banskobystrický
+67;508624;  Horná Lehota;603;Brezno;600;Banskobystrický
+68;508667;  Hronec;603;Brezno;600;Banskobystrický
+69;508691;  Jarabá;603;Brezno;600;Banskobystrický
+70;508705;  Jasenie;603;Brezno;600;Banskobystrický
+71;508730;  Lom nad Rimavicou;603;Brezno;600;Banskobystrický
+72;508772;  Michalová;603;Brezno;600;Banskobystrický
+73;508811;  Mýto pod Ďumbierom;603;Brezno;600;Banskobystrický
+74;508829;  Nemecká;603;Brezno;600;Banskobystrický
+75;508845;  Osrblie;603;Brezno;600;Banskobystrický
+76;508853;  Podbrezová;603;Brezno;600;Banskobystrický
+77;508870;  Pohorelá;603;Brezno;600;Banskobystrický
+78;508888;  Pohronská Polhora;603;Brezno;600;Banskobystrický
+79;508900;  Polomka;603;Brezno;600;Banskobystrický
+80;508934;  Predajná;603;Brezno;600;Banskobystrický
+81;508951;  Ráztoka;603;Brezno;600;Banskobystrický
+82;508993;  Sihla;603;Brezno;600;Banskobystrický
+83;509043;  Šumiac;603;Brezno;600;Banskobystrický
+84;509051;  Telgárt;603;Brezno;600;Banskobystrický
+85;509086;  Valaská;603;Brezno;600;Banskobystrický
+86;509094;  Vaľkovňa;603;Brezno;600;Banskobystrický
+87;509124;  Závadka nad Hronom;603;Brezno;600;Banskobystrický
+88;518263;  Detva;604;Detva;600;Banskobystrický
+89;518271;  Detvianska Huta;604;Detva;600;Banskobystrický
+90;518379;  Dúbravy;604;Detva;600;Banskobystrický
+91;518450;  Horný Tisovník;604;Detva;600;Banskobystrický
+92;518468;  Hriňová;604;Detva;600;Banskobystrický
+93;518492;  Klokoč;604;Detva;600;Banskobystrický
+94;580520;  Korytárky;604;Detva;600;Banskobystrický
+95;518549;  Kriváň;604;Detva;600;Banskobystrický
+96;511510;  Látky;604;Detva;600;Banskobystrický
+97;511731;  Podkriváň;604;Detva;600;Banskobystrický
+98;518794;  Slatinské Lazy;604;Detva;600;Banskobystrický
+99;518816;  Stará Huta;604;Detva;600;Banskobystrický
+100;518824;  Stožok;604;Detva;600;Banskobystrický
+101;518921;  Vígľaš;604;Detva;600;Banskobystrický
+102;518930;  Vígľašská Huta-Kalinka;604;Detva;600;Banskobystrický
+103;518212;  Bzovík;605;Krupina;600;Banskobystrický
+104;518239;  Cerovo;605;Krupina;600;Banskobystrický
+105;518247;  Čabradský Vrbovok;605;Krupina;600;Banskobystrický
+106;518255;  Čekovce;605;Krupina;600;Banskobystrický
+107;518280;  Devičie;605;Krupina;600;Banskobystrický
+108;518301;  Dolné Mladonice;605;Krupina;600;Banskobystrický
+109;518310;  Dolný Badín;605;Krupina;600;Banskobystrický
+110;518336;  Domaníky;605;Krupina;600;Banskobystrický
+111;518344;  Drážovce;605;Krupina;600;Banskobystrický
+112;518352;  Drienovo;605;Krupina;600;Banskobystrický
+113;518387;  Dudince;605;Krupina;600;Banskobystrický
+114;518409;  Hontianske Moravce;605;Krupina;600;Banskobystrický
+115;518417;  Hontianske Nemce;605;Krupina;600;Banskobystrický
+116;518425;  Hontianske Tesáre;605;Krupina;600;Banskobystrický
+117;518433;  Horné Mladonice;605;Krupina;600;Banskobystrický
+118;518441;  Horný Badín;605;Krupina;600;Banskobystrický
+119;518484;  Jalšovík;605;Krupina;600;Banskobystrický
+120;518514;  Kozí Vrbovok;605;Krupina;600;Banskobystrický
+121;518531;  Kráľovce-Krnišov;605;Krupina;600;Banskobystrický
+122;518557;  Krupina;605;Krupina;600;Banskobystrický
+123;518565;  Lackov;605;Krupina;600;Banskobystrický
+124;518573;  Ladzany;605;Krupina;600;Banskobystrický
+125;518603;  Lišov;605;Krupina;600;Banskobystrický
+126;518611;  Litava;605;Krupina;600;Banskobystrický
+127;518646;  Medovarce;605;Krupina;600;Banskobystrický
+128;518701;  Rykynčice;605;Krupina;600;Banskobystrický
+129;518735;  Sebechleby;605;Krupina;600;Banskobystrický
+130;518743;  Selce;605;Krupina;600;Banskobystrický
+131;518751;  Senohrad;605;Krupina;600;Banskobystrický
+132;518832;  Sudince;605;Krupina;600;Banskobystrický
+133;518841;  Súdovce;605;Krupina;600;Banskobystrický
+134;518867;  Terany;605;Krupina;600;Banskobystrický
+135;518883;  Trpín;605;Krupina;600;Banskobystrický
+136;518905;  Uňatín;605;Krupina;600;Banskobystrický
+137;518956;  Zemiansky Vrbovok;605;Krupina;600;Banskobystrický
+138;518999;  Žibritov;605;Krupina;600;Banskobystrický
+139;511226;  Ábelová;606;Lučenec;600;Banskobystrický
+140;511234;  Belina;606;Lučenec;600;Banskobystrický
+141;557315;  Biskupice;606;Lučenec;600;Banskobystrický
+142;511251;  Boľkovce;606;Lučenec;600;Banskobystrický
+143;511277;  Budiná;606;Lučenec;600;Banskobystrický
+144;558273;  Bulhary;606;Lučenec;600;Banskobystrický
+145;511293;  Buzitka;606;Lučenec;600;Banskobystrický
+146;511323;  Čakanovce;606;Lučenec;600;Banskobystrický
+147;511331;  Čamovce;606;Lučenec;600;Banskobystrický
+148;511358;  Divín;606;Lučenec;600;Banskobystrický
+149;511366;  Dobroč;606;Lučenec;600;Banskobystrický
+150;511391;  Fiľakovo;606;Lučenec;600;Banskobystrický
+151;511404;  Fiľakovské Kováče;606;Lučenec;600;Banskobystrický
+152;557331;  Gregorova Vieska;606;Lučenec;600;Banskobystrický
+153;511421;  Halič;606;Lučenec;600;Banskobystrický
+154;511439;  Holiša;606;Lučenec;600;Banskobystrický
+155;511463;  Jelšovec;606;Lučenec;600;Banskobystrický
+156;511480;  Kalonda;606;Lučenec;600;Banskobystrický
+157;511374;  Kotmanová;606;Lučenec;600;Banskobystrický
+158;511528;  Lehôtka;606;Lučenec;600;Banskobystrický
+159;511536;  Lentvora;606;Lučenec;600;Banskobystrický
+160;511544;  Lipovany;606;Lučenec;600;Banskobystrický
+161;511552;  Lovinobaňa;606;Lučenec;600;Banskobystrický
+162;511561;  Ľuboreč;606;Lučenec;600;Banskobystrický
+163;511218;  Lučenec;606;Lučenec;600;Banskobystrický
+164;511579;  Lupoč;606;Lučenec;600;Banskobystrický
+165;511609;  Mašková;606;Lučenec;600;Banskobystrický
+166;580309;  Mikušovce;606;Lučenec;600;Banskobystrický
+167;511625;  Mučín;606;Lučenec;600;Banskobystrický
+168;511641;  Mýtna;606;Lučenec;600;Banskobystrický
+169;511668;  Nitra nad Ipľom;606;Lučenec;600;Banskobystrický
+170;511692;  Panické Dravce;606;Lučenec;600;Banskobystrický
+171;511706;  Píla;606;Lučenec;600;Banskobystrický
+172;511722;  Pleš;606;Lučenec;600;Banskobystrický
+173;511749;  Podrečany;606;Lučenec;600;Banskobystrický
+174;511757;  Polichno;606;Lučenec;600;Banskobystrický
+175;511773;  Praha;606;Lučenec;600;Banskobystrický
+176;511781;  Prša;606;Lučenec;600;Banskobystrický
+177;511790;  Radzovce;606;Lučenec;600;Banskobystrický
+178;511803;  Rapovce;606;Lučenec;600;Banskobystrický
+179;511811;  Ratka;606;Lučenec;600;Banskobystrický
+180;511838;  Ružiná;606;Lučenec;600;Banskobystrický
+181;511846;  Stará Halič;606;Lučenec;600;Banskobystrický
+182;511854;  Šávoľ;606;Lučenec;600;Banskobystrický
+183;511862;  Šiatorská Bukovinka;606;Lučenec;600;Banskobystrický
+184;511871;  Šíd;606;Lučenec;600;Banskobystrický
+185;511897;  Šurice;606;Lučenec;600;Banskobystrický
+186;511901;  Točnica;606;Lučenec;600;Banskobystrický
+187;511919;  Tomášovce;606;Lučenec;600;Banskobystrický
+188;511927;  Trebeľovce;606;Lučenec;600;Banskobystrický
+189;557340;  Trenč;606;Lučenec;600;Banskobystrický
+190;511943;  Tuhár;606;Lučenec;600;Banskobystrický
+191;511994;  Veľká nad Ipľom;606;Lučenec;600;Banskobystrický
+192;512010;  Veľké Dravce;606;Lučenec;600;Banskobystrický
+193;557307;  Vidiná;606;Lučenec;600;Banskobystrický
+194;511269;  Breznička;607;Poltár;600;Banskobystrický
+195;511315;  Cinobaňa;607;Poltár;600;Banskobystrický
+196;511340;  České Brezovo;607;Poltár;600;Banskobystrický
+197;557323;  Ďubákovo;607;Poltár;600;Banskobystrický
+198;511447;  Hradište;607;Poltár;600;Banskobystrický
+199;514900;  Hrnčiarska Ves;607;Poltár;600;Banskobystrický
+200;514918;  Hrnčiarske Zalužany;607;Poltár;600;Banskobystrický
+201;511471;  Kalinovo;607;Poltár;600;Banskobystrický
+202;511498;  Kokava nad Rimavicou;607;Poltár;600;Banskobystrický
+203;511501;  Krná;607;Poltár;600;Banskobystrický
+204;511595;  Málinec;607;Poltár;600;Banskobystrický
+205;511617;  Mládzovo;607;Poltár;600;Banskobystrický
+206;511676;  Nové Hony;606;Lučenec;600;Banskobystrický
+207;511684;  Ozdín;607;Poltár;600;Banskobystrický
+208;511714;  Pinciná;606;Lučenec;600;Banskobystrický
+209;511765;  Poltár;607;Poltár;600;Banskobystrický
+210;511820;  Rovňany;607;Poltár;600;Banskobystrický
+211;515515;  Selce;607;Poltár;600;Banskobystrický
+212;515591;  Sušany;607;Poltár;600;Banskobystrický
+213;511889;  Šoltýska;607;Poltár;600;Banskobystrický
+214;511978;  Uhorské;607;Poltár;600;Banskobystrický
+215;580317;  Utekáč;607;Poltár;600;Banskobystrický
+216;512001;  Veľká Ves;607;Poltár;600;Banskobystrický
+217;582051;  Zlatno;607;Poltár;600;Banskobystrický
+218;514675;  Držkovce;608;Revúca;600;Banskobystrický
+219;514721;  Gemer;608;Revúca;600;Banskobystrický
+220;514756;  Gemerská Ves;608;Revúca;600;Banskobystrický
+221;525677;  Gemerské Teplice;608;Revúca;600;Banskobystrický
+222;525685;  Gemerský Sad;608;Revúca;600;Banskobystrický
+223;514896;  Hrlica;608;Revúca;600;Banskobystrický
+224;525766;  Hucín;608;Revúca;600;Banskobystrický
+225;514977;  Chvalová;608;Revúca;600;Banskobystrický
+226;525774;  Chyžné;608;Revúca;600;Banskobystrický
+227;525791;  Jelšava;608;Revúca;600;Banskobystrický
+228;525812;  Kameňany;608;Revúca;600;Banskobystrický
+229;515574;  Leváre;608;Revúca;600;Banskobystrický
+230;515159;  Levkuška;608;Revúca;600;Banskobystrický
+231;525901;  Licince;608;Revúca;600;Banskobystrický
+232;525928;  Lubeník;608;Revúca;600;Banskobystrický
+233;525944;  Magnezitovce;608;Revúca;600;Banskobystrický
+234;580384;  Mokrá Lúka;608;Revúca;600;Banskobystrický
+235;525987;  Muráň;608;Revúca;600;Banskobystrický
+236;525995;  Muránska Dlhá Lúka;608;Revúca;600;Banskobystrický
+237;526002;  Muránska Huta;608;Revúca;600;Banskobystrický
+238;526011;  Muránska Lehota;608;Revúca;600;Banskobystrický
+239;526029;  Muránska Zdychava;608;Revúca;600;Banskobystrický
+240;526037;  Nandraž;608;Revúca;600;Banskobystrický
+241;515256;  Otročok;608;Revúca;600;Banskobystrický
+242;515302;  Ploské;608;Revúca;600;Banskobystrický
+243;515311;  Polina;608;Revúca;600;Banskobystrický
+244;526100;  Prihradzany;608;Revúca;600;Banskobystrický
+245;526118;  Rákoš;608;Revúca;600;Banskobystrický
+246;515361;  Rašice;608;Revúca;600;Banskobystrický
+247;515370;  Ratková;608;Revúca;600;Banskobystrický
+248;515400;  Ratkovské Bystré;608;Revúca;600;Banskobystrický
+249;526142;  Revúca;608;Revúca;600;Banskobystrický
+250;526151;  Revúcka Lehota;608;Revúca;600;Banskobystrický
+251;515507;  Rybník;608;Revúca;600;Banskobystrický
+252;557820;  Sása;608;Revúca;600;Banskobystrický
+253;526258;  Sirk;608;Revúca;600;Banskobystrický
+254;515523;  Skerešovo;608;Revúca;600;Banskobystrický
+255;526304;  Šivetice;608;Revúca;600;Banskobystrický
+256;515612;  Tornaľa;608;Revúca;600;Banskobystrický
+257;526321;  Turčok;608;Revúca;600;Banskobystrický
+258;515761;  Višňové;608;Revúca;600;Banskobystrický
+259;515833;  Žiar;608;Revúca;600;Banskobystrický
+260;557757;  Abovce;609;Rimavská Sobota;600;Banskobystrický
+261;514489;  Babinec;609;Rimavská Sobota;600;Banskobystrický
+262;514501;  Barca;609;Rimavská Sobota;600;Banskobystrický
+263;514519;  Bátka;609;Rimavská Sobota;600;Banskobystrický
+264;514535;  Belín;609;Rimavská Sobota;600;Banskobystrický
+265;514543;  Blhovce;609;Rimavská Sobota;600;Banskobystrický
+266;514551;  Bottovo;609;Rimavská Sobota;600;Banskobystrický
+267;514586;  Budikovany;609;Rimavská Sobota;600;Banskobystrický
+268;514594;  Cakov;609;Rimavská Sobota;600;Banskobystrický
+269;514608;  Čerenčany;609;Rimavská Sobota;600;Banskobystrický
+270;514616;  Čierny Potok;609;Rimavská Sobota;600;Banskobystrický
+271;514624;  Číž;609;Rimavská Sobota;600;Banskobystrický
+272;514632;  Dolné Zahorany;609;Rimavská Sobota;600;Banskobystrický
+273;514641;  Dražice;609;Rimavská Sobota;600;Banskobystrický
+274;514659;  Drienčany;609;Rimavská Sobota;600;Banskobystrický
+275;514667;  Drňa;609;Rimavská Sobota;600;Banskobystrický
+276;514683;  Dubno;609;Rimavská Sobota;600;Banskobystrický
+277;514691;  Dubovec;609;Rimavská Sobota;600;Banskobystrický
+278;557919;  Dulovo;609;Rimavská Sobota;600;Banskobystrický
+279;514713;  Figa;609;Rimavská Sobota;600;Banskobystrický
+280;514730;  Gemerček;609;Rimavská Sobota;600;Banskobystrický
+281;514764;  Gemerské Dechtáre;609;Rimavská Sobota;600;Banskobystrický
+282;557889;  Gemerské Michalovce;609;Rimavská Sobota;600;Banskobystrický
+283;514781;  Gemerský Jablonec;609;Rimavská Sobota;600;Banskobystrický
+284;514799;  Gortva;609;Rimavská Sobota;600;Banskobystrický
+285;514811;  Hajnáčka;609;Rimavská Sobota;600;Banskobystrický
+286;514829;  Hnúšťa;609;Rimavská Sobota;600;Banskobystrický
+287;514837;  Hodejov;609;Rimavská Sobota;600;Banskobystrický
+288;514845;  Hodejovec;609;Rimavská Sobota;600;Banskobystrický
+289;514853;  Horné Zahorany;609;Rimavská Sobota;600;Banskobystrický
+290;514861;  Hostice;609;Rimavská Sobota;600;Banskobystrický
+291;514870;  Hostišovce;609;Rimavská Sobota;600;Banskobystrický
+292;514888;  Hrachovo;609;Rimavská Sobota;600;Banskobystrický
+293;514926;  Hrušovo;609;Rimavská Sobota;600;Banskobystrický
+294;514934;  Hubovo;609;Rimavská Sobota;600;Banskobystrický
+295;514942;  Husiná;609;Rimavská Sobota;600;Banskobystrický
+296;514951;  Chanava;609;Rimavská Sobota;600;Banskobystrický
+297;514969;  Chrámec;609;Rimavská Sobota;600;Banskobystrický
+298;514985;  Ivanice;609;Rimavská Sobota;600;Banskobystrický
+299;514993;  Janice;609;Rimavská Sobota;600;Banskobystrický
+300;515001;  Jesenské;609;Rimavská Sobota;600;Banskobystrický
+301;515019;  Jestice;609;Rimavská Sobota;600;Banskobystrický
+302;515027;  Kaloša;609;Rimavská Sobota;600;Banskobystrický
+303;515035;  Kesovce;609;Rimavská Sobota;600;Banskobystrický
+304;515043;  Klenovec;609;Rimavská Sobota;600;Banskobystrický
+305;515051;  Kociha;609;Rimavská Sobota;600;Banskobystrický
+306;515060;  Konrádovce;609;Rimavská Sobota;600;Banskobystrický
+307;515078;  Kráľ;609;Rimavská Sobota;600;Banskobystrický
+308;515086;  Kraskovo;609;Rimavská Sobota;600;Banskobystrický
+309;515094;  Krokava;609;Rimavská Sobota;600;Banskobystrický
+310;515108;  Kružno;609;Rimavská Sobota;600;Banskobystrický
+311;515116;  Kyjatice;609;Rimavská Sobota;600;Banskobystrický
+312;515124;  Lehota nad Rimavicou;609;Rimavská Sobota;600;Banskobystrický
+313;515132;  Lenartovce;609;Rimavská Sobota;600;Banskobystrický
+314;515141;  Lenka;609;Rimavská Sobota;600;Banskobystrický
+315;515167;  Lipovec;609;Rimavská Sobota;600;Banskobystrický
+316;515175;  Lukovištia;609;Rimavská Sobota;600;Banskobystrický
+317;515183;  Martinová;609;Rimavská Sobota;600;Banskobystrický
+318;515205;  Neporadza;609;Rimavská Sobota;600;Banskobystrický
+319;557790;  Nižný Skálnik;609;Rimavská Sobota;600;Banskobystrický
+320;515230;  Nová Bašta;609;Rimavská Sobota;600;Banskobystrický
+321;515248;  Orávka;609;Rimavská Sobota;600;Banskobystrický
+322;515264;  Ožďany;609;Rimavská Sobota;600;Banskobystrický
+323;515272;  Padarovce;609;Rimavská Sobota;600;Banskobystrický
+324;515281;  Pavlovce;609;Rimavská Sobota;600;Banskobystrický
+325;515299;  Petrovce;609;Rimavská Sobota;600;Banskobystrický
+326;515337;  Poproč;609;Rimavská Sobota;600;Banskobystrický
+327;515345;  Potok;609;Rimavská Sobota;600;Banskobystrický
+328;515353;  Radnovce;609;Rimavská Sobota;600;Banskobystrický
+329;557854;  Rakytník;609;Rimavská Sobota;600;Banskobystrický
+330;515388;  Ratkovská Lehota;609;Rimavská Sobota;600;Banskobystrický
+331;515396;  Ratkovská Suchá;609;Rimavská Sobota;600;Banskobystrický
+332;557765;  Riečka;609;Rimavská Sobota;600;Banskobystrický
+333;515426;  Rimavská Baňa;609;Rimavská Sobota;600;Banskobystrický
+334;515442;  Rimavská Seč;609;Rimavská Sobota;600;Banskobystrický
+335;514462;  Rimavská Sobota;609;Rimavská Sobota;600;Banskobystrický
+336;515451;  Rimavské Brezovo;609;Rimavská Sobota;600;Banskobystrický
+337;515469;  Rimavské Janovce;609;Rimavská Sobota;600;Banskobystrický
+338;557811;  Rimavské Zalužany;609;Rimavská Sobota;600;Banskobystrický
+339;515485;  Rovné;609;Rimavská Sobota;600;Banskobystrický
+340;515493;  Rumince;609;Rimavská Sobota;600;Banskobystrický
+341;515531;  Slizké;609;Rimavská Sobota;600;Banskobystrický
+342;515540;  Stará Bašta;609;Rimavská Sobota;600;Banskobystrický
+343;515566;  Stránska;609;Rimavská Sobota;600;Banskobystrický
+344;515582;  Studená;609;Rimavská Sobota;600;Banskobystrický
+345;515604;  Sútor;609;Rimavská Sobota;600;Banskobystrický
+346;515621;  Šimonovce;609;Rimavská Sobota;600;Banskobystrický
+347;515639;  Širkovce;609;Rimavská Sobota;600;Banskobystrický
+348;515647;  Španie Pole;609;Rimavská Sobota;600;Banskobystrický
+349;515655;  Štrkovec;609;Rimavská Sobota;600;Banskobystrický
+350;515663;  Tachty;609;Rimavská Sobota;600;Banskobystrický
+351;515671;  Teplý Vrch;609;Rimavská Sobota;600;Banskobystrický
+352;515680;  Tisovec;609;Rimavská Sobota;600;Banskobystrický
+353;515698;  Tomášovce;609;Rimavská Sobota;600;Banskobystrický
+354;515701;  Uzovská Panica;609;Rimavská Sobota;600;Banskobystrický
+355;515795;  Valice;609;Rimavská Sobota;600;Banskobystrický
+356;515710;  Včelince;609;Rimavská Sobota;600;Banskobystrický
+357;515728;  Večelkov;609;Rimavská Sobota;600;Banskobystrický
+358;515736;  Veľké Teriakovce;609;Rimavská Sobota;600;Banskobystrický
+359;515744;  Veľký Blh;609;Rimavská Sobota;600;Banskobystrický
+360;515752;  Vieska nad Blhom;609;Rimavská Sobota;600;Banskobystrický
+361;515779;  Vlkyňa;609;Rimavská Sobota;600;Banskobystrický
+362;557901;  Vyšné Valice;609;Rimavská Sobota;600;Banskobystrický
+363;515809;  Vyšný Skálnik;609;Rimavská Sobota;600;Banskobystrický
+364;515817;  Zádor;609;Rimavská Sobota;600;Banskobystrický
+365;557927;  Zacharovce;609;Rimavská Sobota;600;Banskobystrický
+366;515841;  Žíp;609;Rimavská Sobota;600;Banskobystrický
+367;515868;  Balog nad Ipľom;610;Veľký Krtíš;600;Banskobystrický
+368;515876;  Bátorová;610;Veľký Krtíš;600;Banskobystrický
+369;515884;  Brusník;610;Veľký Krtíš;600;Banskobystrický
+370;515892;  Bušince;610;Veľký Krtíš;600;Banskobystrický
+371;515906;  Čebovce;610;Veľký Krtíš;600;Banskobystrický
+372;515914;  Čeláre;610;Veľký Krtíš;600;Banskobystrický
+373;515922;  Čelovce;610;Veľký Krtíš;600;Banskobystrický
+374;515931;  Červeňany;610;Veľký Krtíš;600;Banskobystrický
+375;515949;  Dačov Lom;610;Veľký Krtíš;600;Banskobystrický
+376;515957;  Dolinka;610;Veľký Krtíš;600;Banskobystrický
+377;515965;  Dolná Strehová;610;Veľký Krtíš;600;Banskobystrický
+378;515973;  Dolné Plachtince;610;Veľký Krtíš;600;Banskobystrický
+379;515981;  Dolné Strháre;610;Veľký Krtíš;600;Banskobystrický
+380;515990;  Ďurkovce;610;Veľký Krtíš;600;Banskobystrický
+381;516007;  Glabušovce;610;Veľký Krtíš;600;Banskobystrický
+382;516015;  Horná Strehová;610;Veľký Krtíš;600;Banskobystrický
+383;516023;  Horné Plachtince;610;Veľký Krtíš;600;Banskobystrický
+384;516031;  Horné Strháre;610;Veľký Krtíš;600;Banskobystrický
+385;516040;  Hrušov;610;Veľký Krtíš;600;Banskobystrický
+386;516058;  Chrastince;610;Veľký Krtíš;600;Banskobystrický
+387;516066;  Chrťany;610;Veľký Krtíš;600;Banskobystrický
+388;516074;  Ipeľské Predmostie;610;Veľký Krtíš;600;Banskobystrický
+389;516082;  Kamenné Kosihy;610;Veľký Krtíš;600;Banskobystrický
+390;516091;  Kiarov;610;Veľký Krtíš;600;Banskobystrický
+391;516104;  Kleňany;610;Veľký Krtíš;600;Banskobystrický
+392;516112;  Koláre;610;Veľký Krtíš;600;Banskobystrický
+393;516121;  Kosihovce;610;Veľký Krtíš;600;Banskobystrický
+394;516139;  Kosihy nad Ipľom;610;Veľký Krtíš;600;Banskobystrický
+395;516147;  Kováčovce;610;Veľký Krtíš;600;Banskobystrický
+396;516155;  Lesenice;610;Veľký Krtíš;600;Banskobystrický
+397;516163;  Ľuboriečka;610;Veľký Krtíš;600;Banskobystrický
+398;516171;  Malá Čalomija;610;Veľký Krtíš;600;Banskobystrický
+399;558206;  Malé Straciny;610;Veľký Krtíš;600;Banskobystrický
+400;516198;  Malé Zlievce;610;Veľký Krtíš;600;Banskobystrický
+401;558192;  Malý Krtíš;610;Veľký Krtíš;600;Banskobystrický
+402;516210;  Modrý Kameň;610;Veľký Krtíš;600;Banskobystrický
+403;516228;  Muľa;610;Veľký Krtíš;600;Banskobystrický
+404;516236;  Nenince;610;Veľký Krtíš;600;Banskobystrický
+405;516244;  Nová Ves;610;Veľký Krtíš;600;Banskobystrický
+406;516252;  Obeckov;610;Veľký Krtíš;600;Banskobystrický
+407;516261;  Olováry;610;Veľký Krtíš;600;Banskobystrický
+408;516279;  Opatovská Nová Ves;610;Veľký Krtíš;600;Banskobystrický
+409;516287;  Opava;610;Veľký Krtíš;600;Banskobystrický
+410;516295;  Pôtor;610;Veľký Krtíš;600;Banskobystrický
+411;516309;  Pravica;610;Veľký Krtíš;600;Banskobystrický
+412;516317;  Príbelce;610;Veľký Krtíš;600;Banskobystrický
+413;516333;  Sečianky;610;Veľký Krtíš;600;Banskobystrický
+414;516341;  Seľany;610;Veľký Krtíš;600;Banskobystrický
+415;516368;  Senné;610;Veľký Krtíš;600;Banskobystrický
+416;516376;  Sklabiná;610;Veľký Krtíš;600;Banskobystrický
+417;516384;  Slovenské Ďarmoty;610;Veľký Krtíš;600;Banskobystrický
+418;516392;  Slovenské Kľačany;610;Veľký Krtíš;600;Banskobystrický
+419;516406;  Stredné Plachtince;610;Veľký Krtíš;600;Banskobystrický
+420;516414;  Sucháň;610;Veľký Krtíš;600;Banskobystrický
+421;516422;  Suché Brezovo;610;Veľký Krtíš;600;Banskobystrický
+422;516431;  Širákov;610;Veľký Krtíš;600;Banskobystrický
+423;516449;  Šuľa;610;Veľký Krtíš;600;Banskobystrický
+424;516457;  Trebušovce;610;Veľký Krtíš;600;Banskobystrický
+425;516465;  Veľká Čalomija;610;Veľký Krtíš;600;Banskobystrický
+426;516473;  Veľká Ves nad Ipľom;610;Veľký Krtíš;600;Banskobystrický
+427;558214;  Veľké Straciny;610;Veľký Krtíš;600;Banskobystrický
+428;516490;  Veľké Zlievce;610;Veľký Krtíš;600;Banskobystrický
+429;515850;  Veľký Krtíš;610;Veľký Krtíš;600;Banskobystrický
+430;516503;  Veľký Lom;610;Veľký Krtíš;600;Banskobystrický
+431;516511;  Vieska;610;Veľký Krtíš;600;Banskobystrický
+432;516520;  Vinica;610;Veľký Krtíš;600;Banskobystrický
+433;516538;  Vrbovka;610;Veľký Krtíš;600;Banskobystrický
+434;516546;  Záhorce;610;Veľký Krtíš;600;Banskobystrický
+435;516554;  Závada;610;Veľký Krtíš;600;Banskobystrický
+436;516562;  Zombor;610;Veľký Krtíš;600;Banskobystrický
+437;516571;  Želovce;610;Veľký Krtíš;600;Banskobystrický
+438;518166;  Babiná;611;Zvolen;600;Banskobystrický
+439;518174;  Bacúrov;611;Zvolen;600;Banskobystrický
+440;518191;  Breziny;611;Zvolen;600;Banskobystrický
+441;518204;  Budča;611;Zvolen;600;Banskobystrický
+442;518221;  Bzovská Lehôtka;611;Zvolen;600;Banskobystrický
+443;518298;  Dobrá Niva;611;Zvolen;600;Banskobystrický
+444;518361;  Dubové;611;Zvolen;600;Banskobystrický
+445;518476;  Hronská Breznica;611;Zvolen;600;Banskobystrický
+446;518506;  Kováčová;611;Zvolen;600;Banskobystrický
+447;518581;  Lešť (vojenský obvod);611;Zvolen;600;Banskobystrický
+448;558133;  Lieskovec;611;Zvolen;600;Banskobystrický
+449;558087;  Lukavica;611;Zvolen;600;Banskobystrický
+450;518654;  Michalková;611;Zvolen;600;Banskobystrický
+451;518662;  Očová;611;Zvolen;600;Banskobystrický
+452;518671;  Ostrá Lúka;611;Zvolen;600;Banskobystrický
+453;518689;  Pliešovce;611;Zvolen;600;Banskobystrický
+454;518697;  Podzámčok;611;Zvolen;600;Banskobystrický
+455;518727;  Sása;611;Zvolen;600;Banskobystrický
+456;518760;  Sielnica;611;Zvolen;600;Banskobystrický
+457;518808;  Sliač;611;Zvolen;600;Banskobystrický
+458;518875;  Tŕnie;611;Zvolen;600;Banskobystrický
+459;518891;  Turová;611;Zvolen;600;Banskobystrický
+460;581585;  Veľká Lúka;611;Zvolen;600;Banskobystrický
+461;518158;  Zvolen;611;Zvolen;600;Banskobystrický
+462;518972;  Zvolenská Slatina;611;Zvolen;600;Banskobystrický
+463;518981;  Železná Breznica;611;Zvolen;600;Banskobystrický
+464;581607;  Brehy;612;Žarnovica;600;Banskobystrický
+465;516759;  Hodruša-Hámre;612;Žarnovica;600;Banskobystrický
+466;516805;  Horné Hámre;612;Žarnovica;600;Banskobystrický
+467;516813;  Hrabičov;612;Žarnovica;600;Banskobystrický
+468;516830;  Hronský Beňadik;612;Žarnovica;600;Banskobystrický
+469;516902;  Kľak;612;Žarnovica;600;Banskobystrický
+470;517062;  Malá Lehota;612;Žarnovica;600;Banskobystrický
+471;517097;  Nová Baňa;612;Žarnovica;600;Banskobystrický
+472;580546;  Orovnica;612;Žarnovica;600;Banskobystrický
+473;517119;  Ostrý Grúň;612;Žarnovica;600;Banskobystrický
+474;517127;  Píla;612;Žarnovica;600;Banskobystrický
+475;517232;  Rudno nad Hronom;612;Žarnovica;600;Banskobystrický
+476;517291;  Tekovská Breznica;612;Žarnovica;600;Banskobystrický
+477;517330;  Veľká Lehota;612;Žarnovica;600;Banskobystrický
+478;517348;  Veľké Pole;612;Žarnovica;600;Banskobystrický
+479;517356;  Voznica;612;Žarnovica;600;Banskobystrický
+480;517381;  Žarnovica;612;Žarnovica;600;Banskobystrický
+481;517399;  Župkov;612;Žarnovica;600;Banskobystrický
+482;516660;  Bartošova Lehôtka;613;Žiar nad Hronom;600;Banskobystrický
+483;516708;  Bzenica;613;Žiar nad Hronom;600;Banskobystrický
+484;516724;  Dolná Trnávka;613;Žiar nad Hronom;600;Banskobystrický
+485;516732;  Dolná Ves;613;Žiar nad Hronom;600;Banskobystrický
+486;516741;  Dolná Ždaňa;613;Žiar nad Hronom;600;Banskobystrický
+487;516767;  Hliník nad Hronom;613;Žiar nad Hronom;600;Banskobystrický
+488;581747;  Horná Ves;613;Žiar nad Hronom;600;Banskobystrický
+489;516791;  Horná Ždaňa;613;Žiar nad Hronom;600;Banskobystrický
+490;516821;  Hronská Dúbrava;613;Žiar nad Hronom;600;Banskobystrický
+491;516848;  Ihráč;613;Žiar nad Hronom;600;Banskobystrický
+492;516872;  Janova Lehota;613;Žiar nad Hronom;600;Banskobystrický
+493;516881;  Jastrabá;613;Žiar nad Hronom;600;Banskobystrický
+494;516937;  Kopernica;613;Žiar nad Hronom;600;Banskobystrický
+495;516945;  Kosorín;613;Žiar nad Hronom;600;Banskobystrický
+496;516961;  Krahule;613;Žiar nad Hronom;600;Banskobystrický
+497;516970;  Kremnica;613;Žiar nad Hronom;600;Banskobystrický
+498;516988;  Kremnické Bane;613;Žiar nad Hronom;600;Banskobystrický
+499;516996;  Kunešov;613;Žiar nad Hronom;600;Banskobystrický
+500;599328;  Ladomerská Vieska;613;Žiar nad Hronom;600;Banskobystrický
+501;517011;  Lehôtka pod Brehmi;613;Žiar nad Hronom;600;Banskobystrický
+502;517020;  Lovča;613;Žiar nad Hronom;600;Banskobystrický
+503;517038;  Lovčica-Trubín;613;Žiar nad Hronom;600;Banskobystrický
+504;517046;  Lúčky;613;Žiar nad Hronom;600;Banskobystrický
+505;599336;  Lutila;613;Žiar nad Hronom;600;Banskobystrický
+506;517089;  Nevoľné;613;Žiar nad Hronom;600;Banskobystrický
+507;517135;  Pitelová;613;Žiar nad Hronom;600;Banskobystrický
+508;517186;  Prestavlky;613;Žiar nad Hronom;600;Banskobystrický
+509;517194;  Prochot;613;Žiar nad Hronom;600;Banskobystrický
+510;517216;  Repište;613;Žiar nad Hronom;600;Banskobystrický
+511;517241;  Sklené Teplice;613;Žiar nad Hronom;600;Banskobystrický
+512;517259;  Slaská;613;Žiar nad Hronom;600;Banskobystrický
+513;517267;  Stará Kremnička;613;Žiar nad Hronom;600;Banskobystrický
+514;517313;  Trnavá Hora;613;Žiar nad Hronom;600;Banskobystrický
+515;517364;  Vyhne;613;Žiar nad Hronom;600;Banskobystrický
+516;516589;  Žiar nad Hronom;613;Žiar nad Hronom;600;Banskobystrický

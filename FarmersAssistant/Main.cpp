@@ -29,6 +29,7 @@
 #include "structures\table\sorting\select_sort.h"
 #include "structures\table\sorting\shell_sort.h"
 #include "structures\table\sorting\shuffle.h"
+#include "structures\array\array.h"
 
 #include "structures\table\sorted_sequence_table_string.h"
 
@@ -36,6 +37,9 @@
 #include <stdexcept>
 
 #include "Manager.h"
+
+#include "LandInfo.h"
+
 
 #include <sstream>
 #include <fstream>
@@ -73,6 +77,20 @@ int main() {
 	Manager *manager = new Manager();
 
 	manager->loadInfo();
+
+	auto a = manager->getTown(L"Žilina");
+
+	auto b = manager->getTownsByArea(2015);
+
+
+	delete manager;
+
+	/*LandInfo* l = new LandInfo();
+	structures::Array<int>* arr= new structures::Array<int>(22);
+	(*arr)[0] = 1;
+	l->setArableLand(arr);
+	delete l;
+*/
 
 	/*
 		structures::Treap<int, char> bst;
@@ -278,7 +296,6 @@ int main() {
 			ddd.insert(7, 'd');
 	*/
 
-	delete manager;
 
 	return 0;
 }

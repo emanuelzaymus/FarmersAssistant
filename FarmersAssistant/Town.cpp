@@ -13,7 +13,7 @@ Town::Town(int code, std::wstring name, District* district)
 Town::~Town()
 {
 	//delete population;
-	if (land)
+	if (land != nullptr)
 	{
 		delete land;
 	}

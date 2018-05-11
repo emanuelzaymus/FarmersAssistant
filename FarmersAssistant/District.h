@@ -4,6 +4,7 @@
 
 #include "structures\heap_monitor.h"
 #include "structures\list\array_list.h"
+#include "structures\list\linked_list.h"
 
 #include "PopulationInfo.h"
 class Region;
@@ -15,15 +16,20 @@ private:
 	std::wstring name;
 	int code;
 	Region* region;
-	structures::List<Town*>* towns;
+	structures::LinkedList<Town*>* towns = new structures::LinkedList<Town*>();
 	PopulationInfo *population;
+	int townsCount = 0;
 
 public:
 	District(int code, std::wstring name, Region* region);
 	~District();
 
-	void addTown(Town* t) { towns->add(t); }
+	void addTown(Town* t) { towns->add(t); townsCount++; }
 
-	auto getTowns() { return towns; }
+	structures::LinkedList<Town*>& getTowns() { return *towns; }
+
+	std::wstring getName() { return name; }
+
+	int getNumberOfTowns() { return townsCount; }
 };
 

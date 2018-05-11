@@ -12,16 +12,23 @@
 
 #include "structures\heap_monitor.h"
 #include "structures\array\array.h"
+#include "structures\list\linked_list.h"
+#include "structures\table\sorted_sequence_table_string.h"
 
 #include "Town.h"
 #include "District.h"
 #include "PopulationInfo.h"
 #include "LandInfo.h"
 
-std::wstring FileHandler::trimComma(std::wstring wstr)
+std::wstring FileHandler::trimComma(std::wstring wstr, std::wstring& district)
 {
-	int end = wstr.find(L',');
-	wstr = wstr.substr(0, end);
+	int comma = wstr.find(L',');
+
+	if (comma > 0)
+	{
+		district = wstr.substr(comma + 8);
+		wstr = wstr.substr(0, comma);
+	}
 
 	return wstr;
 }
@@ -33,6 +40,17 @@ FileHandler::FileHandler()
 
 FileHandler::~FileHandler()
 {
+	//while (!li->isEmpty())
+	//{
+	//	delete li->removeAt(li->size() - 1);
+	//}
+	delete li;
+
+	//while (!arrs->isEmpty())
+	//{
+	//	delete arrs->removeAt(arrs->size() - 1);
+	//}
+	delete arrs;
 }
 
 void FileHandler::read(std::string path)
@@ -189,8 +207,7 @@ void FileHandler::readPopulationUTF8(std::string path)
 	wifstrm.close();
 }
 
-
-void FileHandler::readLandUTF8(std::string path, Region& region, int fromLine)
+void FileHandler::readLandUTF8(std::string path, structures::List<Region*> &regions)
 {
 	std::wifstream wifstrm(path);
 	wifstrm.imbue(std::locale(std::locale::empty(), ::new std::codecvt_utf8<wchar_t>));
@@ -200,172 +217,99 @@ void FileHandler::readLandUTF8(std::string path, Region& region, int fromLine)
 
 	std::wstring wstr;
 	std::wstring name;
+	std::wstring district;
 	std::wstring area;
-
-	auto towns = region.getSortedTowns();
 
 	LandInfo* landInfo = nullptr;
 	structures::Array<int>* arr;
 
-	for (size_t i = 0; i < fromLine - 1; i++) { std::getline(wifstrm, wstr); }//first line with descreptions + 14 lines
-
+	for (size_t i = 0; i < 14; i++) { std::getline(wifstrm, wstr); }//first line with descreptions + 14 lines
 	std::getline(wifstrm, name, L';');//name
 
-	int i = 0;
 	while (wifstrm.good())
 	{
-		if (i++ >= towns.size())
-			break;
-
-		name = trimComma(name);
-		std::wcout << '*' << name << "*|";
-
-		Town *t;
-		try
+		for each (auto region in regions)
 		{
-			t = towns[name];
-		}
-		catch (const std::exception& e)
-		{
-			std::cout << e.what() << std::endl;
-			std::getline(wifstrm, wstr);
-			std::getline(wifstrm, name, L';');//name
-			return;
-		}
-		std::cout << std::endl;
+			structures::SortedSequenceTableString<std::wstring, structures::LinkedList<Town*>> townTable = region->getSortedTowns();
+			std::wcout << region->getName() << std::endl;
 
-		landInfo = new LandInfo();
-		for (size_t i = 0; i < 2; i++) { std::getline(wifstrm, wstr, L'\n'); } //Total Area, Total Agricultural Area
-		std::getline(wifstrm, wstr, L';'); //empty space
+			for (size_t i = 0; i < region->getNumberOfTowns(); i++)
+			{
+				name = trimComma(name, district);
+				//std::wcout << '*' << name << "*|";
 
-		do
-		{
-			std::getline(wifstrm, area, L';'); //name of area
+				Town* town = nullptr;
+				try
+				{
+					structures::LinkedList<Town*> townList = townTable[name];
+					if (townList.size() == 1)
+						town = townList[0];
+					else
+						for each (Town* t in townList)
+							if (t->getDistrict().getName().compare(district) == 0)
+								town = t;
+				}
+				catch (const std::exception& e)
+				{
+					std::wcout << "-->" << name << "<--|";
+					std::cout << e.what() << std::endl;
+					std::getline(wifstrm, wstr);
+					std::getline(wifstrm, name, L';');//name
+					return;
+				}
+				//std::cout << std::endl;
 
-			if (area.compare(L"Nepo¾nohospodárska pôda - spolu") == 0) {
-				std::getline(wifstrm, wstr, L'\n');
+				landInfo = new LandInfo();
+				for (size_t i = 0; i < 2; i++) { std::getline(wifstrm, wstr, L'\n'); } //Total Area, Total Agricultural Area
 				std::getline(wifstrm, wstr, L';'); //empty space
-				continue;
+
+				do
+				{
+					std::getline(wifstrm, area, L';'); //name of area
+
+					if (area.compare(L"Nepo¾nohospodárska pôda - spolu") == 0) {
+						std::getline(wifstrm, wstr, L'\n');
+						std::getline(wifstrm, wstr, L';'); //empty space
+						continue;
+					}
+
+					arr = new structures::Array<int>(LandInfo::MAX_YEAR - LandInfo::MIN_YEAR + 1);
+					for (size_t j = 0; j < LandInfo::MAX_YEAR - LandInfo::MIN_YEAR + 1; j++)
+					{
+						if (j < LandInfo::MAX_YEAR - LandInfo::MIN_YEAR)
+							std::getline(wifstrm, wstr, L';');
+						else
+							std::getline(wifstrm, wstr, L'\n');
+
+						(*arr)[j] = std::stoi(wstr);
+						//std::wcout << (*arr)[j] << '|';
+					}
+					//std::cout << std::endl;
+
+					if (area.compare(L"Po¾nohospodárska pôda  - orná pôda (v m2)") == 0) { landInfo->setArableLand(arr); }
+					else if (area.compare(L"Po¾nohospodárska pôda  - chme¾nica (v m2)") == 0) { landInfo->setHopGarden(arr); }
+					else if (area.compare(L"Po¾nohospodárska pôda  - vinica (v m2)") == 0) { landInfo->setVineyard(arr); }
+					else if (area.compare(L"Po¾nohospodárska pôda  -  záhrada") == 0) { landInfo->setGarden(arr); }
+					else if (area.compare(L"Po¾nohospodárska pôda  -  ovocný sad (v m2)") == 0) { landInfo->setOchard(arr); }
+					else if (area.compare(L"Po¾nohospodárska pôda  -  trvalý trávny porast (v m2)") == 0) { landInfo->setLawn(arr); }
+
+					else if (area.compare(L"Nepo¾nohospodárska pôda - lesný pozemok (v m2)") == 0) { landInfo->setForest(arr); }
+					else if (area.compare(L"Nepo¾nohospodárska pôda - vodná plocha (v m2)") == 0) { landInfo->setWater(arr); }
+					else if (area.compare(L"Nepo¾nohospodárska pôda - zastavaná plocha a nádvorie (v m2)") == 0) { landInfo->setBuiltupArea(arr); }
+					else if (area.compare(L"Nepo¾nohospodárska pôda - ostatná plocha (v m2)") == 0) { landInfo->setTheRest(arr); }
+					else { std::wcout << "error|"; }
+					std::getline(wifstrm, name, L';');
+
+				} while (name.compare(L"") == 0);
+
+				town->setLandInfo(landInfo);
+				//delete landInfo;//put landInfo into town you find TODO
 			}
+		}
 
-			arr = new structures::Array<int>(LandInfo::MAX_YEAR - LandInfo::MIN_YEAR + 1);
-			for (size_t j = 0; j < LandInfo::MAX_YEAR - LandInfo::MIN_YEAR + 1; j++)
-			{
-				if (j < LandInfo::MAX_YEAR - LandInfo::MIN_YEAR)
-					std::getline(wifstrm, wstr, L';');
-				else
-					std::getline(wifstrm, wstr, L'\n');
-
-				(*arr)[j] = std::stoi(wstr);
-				//std::wcout << (*arr)[j] << '|';
-			}
-			//std::cout << std::endl;
-
-			if (area.compare(L"Po¾nohospodárska pôda  - orná pôda (v m2)") == 0) { landInfo->setArableLand(arr); }
-			else if (area.compare(L"Po¾nohospodárska pôda  - chme¾nica (v m2)") == 0) { landInfo->setHopGarden(arr); }
-			else if (area.compare(L"Po¾nohospodárska pôda  - vinica (v m2)") == 0) { landInfo->setVineyard(arr); }
-			else if (area.compare(L"Po¾nohospodárska pôda  -  záhrada") == 0) { landInfo->setGarden(arr); }
-			else if (area.compare(L"Po¾nohospodárska pôda  -  ovocný sad (v m2)") == 0) { landInfo->setOchard(arr); }
-			else if (area.compare(L"Po¾nohospodárska pôda  -  trvalý trávny porast (v m2)") == 0) { landInfo->setLawn(arr); }
-
-			else if (area.compare(L"Nepo¾nohospodárska pôda - lesný pozemok (v m2)") == 0) { landInfo->setForest(arr); }
-			else if (area.compare(L"Nepo¾nohospodárska pôda - vodná plocha (v m2)") == 0) { landInfo->setWater(arr); }
-			else if (area.compare(L"Nepo¾nohospodárska pôda - zastavaná plocha a nádvorie (v m2)") == 0) { landInfo->setBuiltupArea(arr); }
-			else if (area.compare(L"Nepo¾nohospodárska pôda - ostatná plocha (v m2)") == 0) { landInfo->setTheRest(arr); }
-			else { std::wcout << "error|"; }
-			std::getline(wifstrm, name, L';');
-
-		} while (name.compare(L"") == 0);
-
-		t->setLandInfo(landInfo);
-		//delete landInfo;//put landInfo into town you find TODO
-
-
+		wifstrm.close();
+		std::cout << "---------------" << std::endl;
+		return;
 	}
-	wifstrm.close();
 	//delete landInfo;//put landInfo into town you find TODO
-	std::cout << "---------------" << std::endl;
 }
-
-
-
-/*
-void FileHandler::readLandUTF8(std::string path, Region& region, int fromLine)
-{
-	std::wifstream wifstrm(path);
-	wifstrm.imbue(std::locale(std::locale::empty(), ::new std::codecvt_utf8<wchar_t>));
-
-	if (!wifstrm.is_open())
-		throw std::exception("Cannot open file.");
-
-	std::wstring wstr;
-	std::wstring name;
-	std::wstring area;
-
-	LandInfo* landInfo = nullptr;
-	structures::Array<int>* array;
-
-	std::getline(wifstrm, wstr);
-	std::getline(wifstrm, name, L';');
-
-	int i = 0;
-	while (wifstrm.good())
-	{
-		if (i++ >= 50)
-			break;
-
-		if (name.compare(L"") != 0)
-		{
-			std::wcout << "*****" << name << "*****" << '|';
-			if (landInfo != nullptr)
-			{
-				delete landInfo;//put landInfo into town you find TODO
-				landInfo = nullptr;
-			}
-			landInfo = new LandInfo();
-
-			for (size_t i = 0; i < 2; i++) { std::getline(wifstrm, wstr, L'\n'); } //Total Area, Total Agricultural Area
-			std::getline(wifstrm, wstr, L';'); //empty space
-		}
-
-		std::getline(wifstrm, area, L';'); //name of area
-
-		if (area.compare(L"Nepo¾nohospodárska pôda - spolu") == 0) {
-			std::getline(wifstrm, wstr, L'\n');
-			std::getline(wifstrm, wstr, L';'); //empty space
-			continue;
-		}
-
-		array = new structures::Array<int>(LandInfo::MAX_YEAR - LandInfo::MIN_YEAR + 1);
-		for (size_t j = 0; j < LandInfo::MAX_YEAR - LandInfo::MIN_YEAR + 1; j++)
-		{
-			if (j < LandInfo::MAX_YEAR - LandInfo::MIN_YEAR)
-				std::getline(wifstrm, wstr, L';');
-			else
-				std::getline(wifstrm, wstr, L'\n');
-
-			(*array)[j] = std::stoi(wstr);
-			std::wcout << (*array)[j] << '|';
-		}
-		std::cout << std::endl;
-
-		if (area.compare(L"Po¾nohospodárska pôda  - orná pôda (v m2)") == 0) { landInfo->setArableLand(array); }
-		else if (area.compare(L"Po¾nohospodárska pôda  - chme¾nica (v m2)") == 0) { landInfo->setHopGarden(array); }
-		else if (area.compare(L"Po¾nohospodárska pôda  - vinica (v m2)") == 0) { landInfo->setVineyard(array); }
-		else if (area.compare(L"Po¾nohospodárska pôda  -  záhrada") == 0) { landInfo->setGarden(array); }
-		else if (area.compare(L"Po¾nohospodárska pôda  -  ovocný sad (v m2)") == 0) { landInfo->setOchard(array); }
-		else if (area.compare(L"Po¾nohospodárska pôda  -  trvalý trávny porast (v m2)") == 0) { landInfo->setLawn(array); }
-
-		else if (area.compare(L"Nepo¾nohospodárska pôda - lesný pozemok (v m2)") == 0) { landInfo->setForest(array); }
-		else if (area.compare(L"Nepo¾nohospodárska pôda - vodná plocha (v m2)") == 0) { landInfo->setWater(array); }
-		else if (area.compare(L"Nepo¾nohospodárska pôda - zastavaná plocha a nádvorie (v m2)") == 0) { landInfo->setBuiltupArea(array); }
-		else if (area.compare(L"Nepo¾nohospodárska pôda - ostatná plocha (v m2)") == 0) { landInfo->setTheRest(array); }
-		else { std::wcout << "error|"; }
-		std::getline(wifstrm, name, L';');
-
-	}
-	wifstrm.close();
-	//delete landInfo;//put landInfo into town you find TODO
-
-}
-*/
