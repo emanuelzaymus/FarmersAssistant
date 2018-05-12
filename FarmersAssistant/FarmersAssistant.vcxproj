@@ -148,6 +148,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CLI.cpp" />
     <ClCompile Include="District.cpp" />
     <ClCompile Include="FileHandler.cpp" />
     <ClCompile Include="LandInfo.cpp" />
@@ -168,6 +169,7 @@
     <ClCompile Include="Town.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CLI.h" />
     <ClInclude Include="District.h" />
     <ClInclude Include="FileHandler.h" />
     <ClInclude Include="LandInfo.h" />

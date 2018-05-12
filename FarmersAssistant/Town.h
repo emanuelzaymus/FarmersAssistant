@@ -27,6 +27,6 @@ public:
 
 	District& getDistrict() { return *district; }
 
-	LandInfo& getLandInfo() { return *land; }
+	LandInfo* getLandInfo() { return land; }
 };
 

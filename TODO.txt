@@ -1,3 +1,2 @@
-rewriting District and Region when I put something into Town
-LandInfo ... try to change to enum
-everything into structres
+when division -> inf
+loading wstrings with diacritics
