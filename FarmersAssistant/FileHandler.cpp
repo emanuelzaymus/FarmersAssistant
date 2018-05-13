@@ -23,13 +23,11 @@
 std::wstring FileHandler::trimComma(std::wstring wstr, std::wstring& district)
 {
 	int comma = wstr.find(L',');
-
 	if (comma > 0)
 	{
 		district = wstr.substr(comma + 8);
 		wstr = wstr.substr(0, comma);
 	}
-
 	return wstr;
 }
 
@@ -37,39 +35,8 @@ FileHandler::FileHandler()
 {
 }
 
-
 FileHandler::~FileHandler()
 {
-	//while (!li->isEmpty())
-	//{
-	//	delete li->removeAt(li->size() - 1);
-	//}
-	delete li;
-
-	//while (!arrs->isEmpty())
-	//{
-	//	delete arrs->removeAt(arrs->size() - 1);
-	//}
-	delete arrs;
-}
-
-void FileHandler::read(std::string path)
-{
-	std::ifstream inFile(path);
-
-	if (!inFile.is_open())
-	{
-		std::cout << "File is not open" << std::endl;
-		return;
-	}
-
-	std::string s;
-	std::getline(inFile, s);
-	while (inFile.good())
-	{
-		std::getline(inFile, s, ';');
-		std::cout << s << '|';
-	}
 }
 
 Region* FileHandler::readRegionUTF8(std::string path)
@@ -146,10 +113,8 @@ Region* FileHandler::readRegionUTF8(std::string path)
 		}
 		town = new Town(townCode, townName, district);
 		//std::wcout << std::endl;
-
 	}
 	wifstrm.close();
-
 	return region;
 }
 
@@ -202,7 +167,7 @@ void FileHandler::readPopulationUTF8(std::string path)
 			info->addCountIn5Years(j, men, women);
 		}
 		std::cout << std::endl;
-		delete info;// find appropriate town and put info into it !!! TODO
+		delete info;
 	}
 	wifstrm.close();
 }
@@ -303,7 +268,6 @@ void FileHandler::readLandUTF8(std::string path, structures::List<Region*> &regi
 				} while (name.compare(L"") == 0);
 
 				town->setLandInfo(landInfo);
-				//delete landInfo;//put landInfo into town you find TODO
 			}
 		}
 
@@ -311,7 +275,6 @@ void FileHandler::readLandUTF8(std::string path, structures::List<Region*> &regi
 		std::cout << "---------------" << std::endl;
 		return;
 	}
-	//delete landInfo;//put landInfo into town you find TODO
 }
 
 std::wstring FileHandler::removeDiacritic(std::wstring wstr)

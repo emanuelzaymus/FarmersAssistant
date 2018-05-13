@@ -2,6 +2,7 @@
 
 #include "structures\heap_monitor.h"
 #include "structures\list\array_list.h"
+#include "structures\list\linked_list.h"
 #include "structures\table\sorted_sequence_table_string.h"
 #include "structures\table\unsorted_sequence_table.h"
 #include "structures\table\sorted_sequence_table.h"
@@ -27,7 +28,7 @@ class Manager
 {
 private:
 	FileHandler* fh;
-	structures::List<Region*>* regions = new structures::ArrayList<Region*>();
+	structures::List<Region*>* regions = new structures::LinkedList<Region*>();
 
 	structures::Table<std::wstring, structures::LinkedList<Town*>>* alphabeticalTowns = new structures::SortedSequenceTableString<std::wstring, structures::LinkedList<Town*>>();
 

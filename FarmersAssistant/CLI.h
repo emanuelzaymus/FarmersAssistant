@@ -15,6 +15,7 @@ enum Year
 
 class CLI
 {
+private:
 	Manager* manager;
 	const int numberOfLines = 60;
 
@@ -34,8 +35,6 @@ class CLI
 	int readYear(Year y = Year::NONE);
 	Order readOrder();
 	Extreme readExtreme();
-
-	std::wstring read();
 
 public:
 	CLI();

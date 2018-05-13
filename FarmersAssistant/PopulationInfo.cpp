@@ -21,7 +21,6 @@ PopulationInfo::~PopulationInfo()
 void PopulationInfo::addCountIn5Years(int firstYearDiv5, int men, int women)
 {
 	(*population)[firstYearDiv5] = new PopulationInfo::CountIn5Years(men, women);
-	totalBoth += men + women;
 	totalMen += men;
 	totalWomen += women;
 }

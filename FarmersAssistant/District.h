@@ -6,7 +6,6 @@
 #include "structures\list\array_list.h"
 #include "structures\list\linked_list.h"
 
-#include "PopulationInfo.h"
 class Region;
 #include "Town.h"
 
@@ -17,17 +16,15 @@ private:
 	int code;
 	Region* region;
 	structures::LinkedList<Town*>* towns = new structures::LinkedList<Town*>();
-	PopulationInfo *population;
-	int townsCount = 0;
 
 public:
 	District(int code, std::wstring name, Region* region);
 	~District();
 
-	void addTown(Town* t) { towns->add(t); townsCount++; }
+	void addTown(Town* t) { towns->add(t); }
 	structures::LinkedList<Town*>& getTowns() { return *towns; }
 	std::wstring getName() { return name; }
-	int getNumberOfTowns() { return townsCount; }
+	int getNumberOfTowns() { return towns->size(); }
 	Region* getRegion() { return region; }
 
 	int getArableLand(int year);

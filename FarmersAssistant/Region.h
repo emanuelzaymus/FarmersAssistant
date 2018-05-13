@@ -9,7 +9,6 @@
 #include "structures\table\sorted_sequence_table.h"
 #include "structures\table\sorted_sequence_table_string.h"
 
-#include "PopulationInfo.h"
 #include "District.h"
 #include "Town.h"
 
@@ -18,8 +17,7 @@ class Region //Kraj
 private:
 	std::wstring name;
 	int code;
-	structures::ArrayList<District*>* districts = new structures::ArrayList<District*>();
-	PopulationInfo *population;
+	structures::LinkedList<District*>* districts = new structures::LinkedList<District*>();
 
 public:
 	Region(int code, std::wstring name);
@@ -31,7 +29,7 @@ public:
 	auto getName() { return name; }
 	int getCode() { return code; }
 
-	structures::ArrayList<District*>& getDistricts() { return *districts; }
+	structures::LinkedList<District*>& getDistricts() { return *districts; }
 
 	int getNumberOfTowns();
 };

@@ -8,7 +8,6 @@
 #include <string>
 
 
-
 int CLI::printMenu()
 {
 	std::cout << " 1 - 1.  Town by Name" << std::endl;
@@ -155,7 +154,7 @@ void CLI::districtByArableLandRatio()
 
 	for each (auto d in districts)
 	{
-		std::wcout << d->getArableLand(year) / (double)d->getTotalArea(year)
+		std::wcout << ((double)d->getOchard(year) == 0 ? 0 : d->getArableLand(year) / (double)d->getOchard(year))
 			<< " - " << d->getName() << "  (Region: " << d->getRegion()->getName() << ")" << std::endl;
 	}
 	std::cin.ignore();
@@ -303,14 +302,6 @@ Extreme CLI::readExtreme()
 	}
 }
 
-std::wstring CLI::read()
-{
-	char input[100];
-	std::cin.getline(input, sizeof(input));
-
-	return std::wstring();
-}
-
 CLI::CLI()
 {
 	manager = new Manager();
@@ -320,12 +311,10 @@ CLI::CLI()
 	system("cls");
 }
 
-
 CLI::~CLI()
 {
 	delete manager;
 }
-
 
 void CLI::run()
 {

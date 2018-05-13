@@ -39,7 +39,6 @@ structures::SortedSequenceTableString<std::wstring, structures::LinkedList<Town*
 			}
 		}
 	}
-
 	return table;
 }
 
@@ -50,6 +49,5 @@ int Region::getNumberOfTowns()
 	{
 		count += d->getNumberOfTowns();
 	}
-
 	return count;
 }

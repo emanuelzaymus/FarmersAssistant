@@ -20,7 +20,6 @@ public:
 
 private:
 	structures::Array<CountIn5Years*>* population = new structures::Array<CountIn5Years*>(POPUL_GROUPS);
-	int totalBoth;
 	int totalMen;
 	int totalWomen;
 
