@@ -1,5 +1,7 @@
 #pragma once
 
+#include "structures\heap_monitor.h"
+
 #include "Manager.h"
 
 enum Year
@@ -32,6 +34,8 @@ class CLI
 	int readYear(Year y = Year::NONE);
 	Order readOrder();
 	Extreme readExtreme();
+
+	std::wstring read();
 
 public:
 	CLI();

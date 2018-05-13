@@ -3,20 +3,6 @@
 #include "structures\heap_monitor.h"
 #include "structures\array\array.h"
 
-enum Land
-{
-	ArableLand,
-	HopGarden,
-	Vineyard,
-	Garden,
-	Ochard,
-	Lawn,
-
-	Forest,
-	Wather,
-	BuiltupArea,
-	TheRest
-};
 
 class LandInfo
 {
@@ -32,18 +18,6 @@ private:
 	structures::Array<int>* water = nullptr;//voda
 	structures::Array<int>* builtupArea = nullptr;//zastanena plocha
 	structures::Array<int>* theRest = nullptr;//ostatna plocha
-
-	//structures::Array<int>* arableLand;//orna poda
-	//structures::Array<int>* hopGarden;//chmelnica
-	//structures::Array<int>* vineyard;//vinica
-	//structures::Array<int>* garden;//zahrada
-	//structures::Array<int>* ochard;//ovocny sad
-	//structures::Array<int>* lawn;//travnik
-
-	//structures::Array<int>* forest;//les
-	//structures::Array<int>* water;//voda
-	//structures::Array<int>* builtupArea;//zastanena plocha
-	//structures::Array<int>* theRest;//ostatna plocha
 
 public:
 	static const int MIN_YEAR = 1996;

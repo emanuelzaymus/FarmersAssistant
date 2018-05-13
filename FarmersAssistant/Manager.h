@@ -41,7 +41,7 @@ public:
 
 	void loadInfo();
 
-	structures::LinkedList<Town*> getTown(std::wstring name);
+	structures::LinkedList<Town*> getTown(std::wstring noDiacriticName);
 
 	structures::SortedSequenceTable<int, structures::LinkedList<Town*>> getTownsByArea(int year, Order order);
 

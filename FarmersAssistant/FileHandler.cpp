@@ -313,3 +313,53 @@ void FileHandler::readLandUTF8(std::string path, structures::List<Region*> &regi
 	}
 	//delete landInfo;//put landInfo into town you find TODO
 }
+
+std::wstring FileHandler::removeDiacritic(std::wstring wstr)
+{
+	for (size_t i = 0; i < wstr.length(); i++)
+	{
+		switch (wstr.at(i))
+		{
+		case L'á': wstr[i] = L'a'; break;
+		case L'ä': wstr[i] = L'a'; break;
+		case L'è': wstr[i] = L'c'; break;
+		case L'ï': wstr[i] = L'd'; break;
+		case L'é': wstr[i] = L'e'; break;
+		case L'í': wstr[i] = L'i'; break;
+		case L'å': wstr[i] = L'l'; break;
+		case L'¾': wstr[i] = L'l'; break;
+		case L'ò': wstr[i] = L'n'; break;
+		case L'ó': wstr[i] = L'o'; break;
+		case L'ô': wstr[i] = L'o'; break;
+		case L'à': wstr[i] = L'r'; break;
+		case L'š': wstr[i] = L's'; break;
+		case L'': wstr[i] = L't'; break;
+		case L'ú': wstr[i] = L'u'; break;
+		case L'ý': wstr[i] = L'y'; break;
+		case L'ž': wstr[i] = L'z'; break;
+
+		case L'Á': wstr[i] = L'A'; break;
+		case L'Ä': wstr[i] = L'A'; break;
+		case L'È': wstr[i] = L'C'; break;
+		case L'Ï': wstr[i] = L'D'; break;
+		case L'É': wstr[i] = L'E'; break;
+		case L'Í': wstr[i] = L'I'; break;
+		case L'Å': wstr[i] = L'L'; break;
+		case L'¼': wstr[i] = L'L'; break;
+		case L'Ò': wstr[i] = L'N'; break;
+		case L'Ó': wstr[i] = L'O'; break;
+		case L'Ô': wstr[i] = L'O'; break;
+		case L'À': wstr[i] = L'R'; break;
+		case L'Š': wstr[i] = L'S'; break;
+		case L'': wstr[i] = L'T'; break;
+		case L'Ú': wstr[i] = L'U'; break;
+		case L'Ý': wstr[i] = L'Y'; break;
+		case L'Ž': wstr[i] = L'Z'; break;
+
+		case L' ': wstr[i] = L'_'; break;
+
+		default: break;
+		}
+	}
+	return wstr;
+}

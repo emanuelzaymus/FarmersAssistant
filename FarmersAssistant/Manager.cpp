@@ -18,15 +18,15 @@ void Manager::setAttributes()
 			for each (Town*	 t in towns)
 			{
 				allTowns->add(t);
-
-				if (!alphabeticalTowns->containsKey(t->getName()))
+				std::wstring noDiacriticName = FileHandler::removeDiacritic(t->getName());
+				if (!alphabeticalTowns->containsKey(noDiacriticName))
 				{
 					structures::LinkedList<Town*> list;
 					list.add(t);
-					alphabeticalTowns->insert(t->getName(), list);
+					alphabeticalTowns->insert(noDiacriticName, list);
 				}
 				else {
-					((*alphabeticalTowns)[t->getName()]).add(t);
+					((*alphabeticalTowns)[noDiacriticName]).add(t);
 				}
 			}
 		}
@@ -72,11 +72,11 @@ void Manager::loadInfo()
 
 }
 
-structures::LinkedList<Town*> Manager::getTown(std::wstring name)
+structures::LinkedList<Town*> Manager::getTown(std::wstring noDiacriticName)
 {
 	try
 	{
-		return (*alphabeticalTowns)[name];
+		return (*alphabeticalTowns)[noDiacriticName];
 	}
 	catch (const std::exception&)
 	{
@@ -155,7 +155,7 @@ structures::SortedSequenceTable<double, structures::LinkedList<Town*>> Manager::
 structures::LinkedList<District*> Manager::districtByOchard(int year, Extreme extrem)
 {
 	structures::LinkedList<District*> ret;
-	int ochardArea = 0;
+	int ochardArea = 10000000;
 	for each (Region* r in *regions)
 	{
 		for each (District* d in r->getDistricts())
@@ -191,7 +191,7 @@ structures::LinkedList<District*> Manager::districtByOchard(int year, Extreme ex
 structures::LinkedList<District*> Manager::districtByArableOchardRatio(int year, Extreme extrem)
 {
 	structures::LinkedList<District*> ret;
-	double arableOchardRatio = 0;
+	double arableOchardRatio = 10000000;
 	for each (Region* r in *regions)
 	{
 		for each (District* d in r->getDistricts())
@@ -227,7 +227,7 @@ structures::LinkedList<District*> Manager::districtByArableOchardRatio(int year,
 structures::LinkedList<District*> Manager::districtByForestRatio(int year, Extreme extrem)
 {
 	structures::LinkedList<District*> ret;
-	double forestRatio = 0;
+	double forestRatio = 10000000;
 	for each (Region* r in *regions)
 	{
 		for each (District* d in r->getDistricts())

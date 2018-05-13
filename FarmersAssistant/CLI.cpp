@@ -1,9 +1,13 @@
 #include "CLI.h"
 
+#include "structures\heap_monitor.h"
+
 #include "Manager.h"
 
 #include <iostream>
 #include <string>
+
+
 
 int CLI::printMenu()
 {
@@ -28,13 +32,13 @@ int CLI::printMenu()
 
 void CLI::townByName()
 {
-	std::wstring choice = L"Fi¾akovské Kováèe";//todo load choice !!!!!
-	//std::wcin >> choice;
-	//std::getline(std::wcin, choice);
+	std::wcout << "Name of town without diaritic " << L"(e.g.: Malý Lapáš -> Maly_Lapas): ";
+	std::wstring town;
+	std::wcin >> town;
 
 	int firstYear = readYear(Year::FROM);
 	int secondYear = readYear(Year::TO);
-	auto towns = manager->getTown(choice);
+	auto towns = manager->getTown(town);
 	std::cout << std::endl;
 
 	for each (auto t in towns)
@@ -73,7 +77,7 @@ void CLI::townByTotalArea()
 			std::wcout << i + 1 << ". " << order * ti->getKey() << " - " << t->getName()
 				<< "  (Dist: " << t->getDistrict().getName() << ", Reg: " << t->getDistrict().getRegion()->getName() << ")" << std::endl;
 		}
-		if (i++ > numberOfLines)
+		if (++i >= numberOfLines)
 			break;
 	}
 	std::cin.ignore();
@@ -96,7 +100,7 @@ void CLI::townByBuiltupAreaIncrease()
 			std::wcout << i + 1 << ". " << order * ti->getKey() << " - " << t->getName()
 				<< "  (Dist: " << t->getDistrict().getName() << ", Reg: " << t->getDistrict().getRegion()->getName() << ")" << std::endl;
 		}
-		if (i++ > numberOfLines)
+		if (++i >= numberOfLines)
 			break;
 	}
 	std::cin.ignore();
@@ -119,7 +123,7 @@ void CLI::townsByArableLandRatioDifference()
 			std::wcout << i + 1 << ". " << order * ti->getKey() << " - " << t->getName()
 				<< "  (Dist: " << t->getDistrict().getName() << ", Reg: " << t->getDistrict().getRegion()->getName() << ")" << std::endl;
 		}
-		if (i++ > numberOfLines)
+		if (++i >= numberOfLines)
 			break;
 	}
 	std::cin.ignore();
@@ -190,7 +194,7 @@ void CLI::districtByOchardRatioDifference()
 			std::wcout << i + 1 << ". " << order * ti->getKey()
 				<< " - " << d->getName() << "  (Region: " << d->getRegion()->getName() << ")" << std::endl;
 		}
-		if (i++ > numberOfLines)
+		if (++i >= numberOfLines)
 			break;
 	}
 	std::cin.ignore();
@@ -213,7 +217,7 @@ void CLI::districtByArableLandRatioDifference()
 			std::wcout << i + 1 << ". " << order * ti->getKey()
 				<< " - " << d->getName() << "  (Region: " << d->getRegion()->getName() << ")" << std::endl;
 		}
-		if (i++ > numberOfLines)
+		if (++i >= numberOfLines)
 			break;
 	}
 	std::cin.ignore();
@@ -236,7 +240,7 @@ void CLI::districtByForestRatioDifference()
 			std::wcout << i + 1 << ". " << order * ti->getKey()
 				<< " - " << d->getName() << "  (Region: " << d->getRegion()->getName() << ")" << std::endl;
 		}
-		if (i++ > numberOfLines)
+		if (++i >= numberOfLines)
 			break;
 	}
 	std::cin.ignore();
@@ -297,6 +301,14 @@ Extreme CLI::readExtreme()
 	else {
 		return Extreme::MAX;
 	}
+}
+
+std::wstring CLI::read()
+{
+	char input[100];
+	std::cin.getline(input, sizeof(input));
+
+	return std::wstring();
 }
 
 CLI::CLI()

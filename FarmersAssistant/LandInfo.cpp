@@ -5,17 +5,6 @@
 
 LandInfo::LandInfo()
 {
-	//arableLand = new structures::Array<int>(MAX_YEAR - MIN_YEAR + 1);
-	//hopGarden = new structures::Array<int>(MAX_YEAR - MIN_YEAR + 1);
-	//vineyard = new structures::Array<int>(MAX_YEAR - MIN_YEAR + 1);
-	//garden = new structures::Array<int>(MAX_YEAR - MIN_YEAR + 1);
-	//ochard = new structures::Array<int>(MAX_YEAR - MIN_YEAR + 1);
-	//lawn = new structures::Array<int>(MAX_YEAR - MIN_YEAR + 1);
-
-	//forest = new structures::Array<int>(MAX_YEAR - MIN_YEAR + 1);
-	//water = new structures::Array<int>(MAX_YEAR - MIN_YEAR + 1);
-	//builtupArea = new structures::Array<int>(MAX_YEAR - MIN_YEAR + 1);
-	//theRest = new structures::Array<int>(MAX_YEAR - MIN_YEAR + 1);
 }
 
 

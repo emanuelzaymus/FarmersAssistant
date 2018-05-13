@@ -27,5 +27,7 @@ public:
 	void readPopulationUTF8(std::string path);
 	void readLandUTF8(std::string path, structures::List<Region*> &regions);
 
+	static std::wstring removeDiacritic(std::wstring wstr);
+
 };
 
